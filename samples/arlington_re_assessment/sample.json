@@ -1,0 +1,1002 @@
+[
+  {
+    "assessmentKey": 1,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1982-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 11800,
+    "totalValueAmt": 11800
+  },
+  {
+    "assessmentKey": 2,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1983-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 11300,
+    "totalValueAmt": 11300
+  },
+  {
+    "assessmentKey": 3,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1984-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 11800,
+    "totalValueAmt": 11800
+  },
+  {
+    "assessmentKey": 4,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1985-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 13100,
+    "totalValueAmt": 13100
+  },
+  {
+    "assessmentKey": 5,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1986-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 13100,
+    "totalValueAmt": 13100
+  },
+  {
+    "assessmentKey": 6,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1987-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 14000,
+    "totalValueAmt": 14000
+  },
+  {
+    "assessmentKey": 7,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1988-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 16400,
+    "totalValueAmt": 16400
+  },
+  {
+    "assessmentKey": 8,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1990-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 9,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1991-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 10,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1992-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 11,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1993-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 12,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1994-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 13,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1995-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 14,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1996-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 15,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1997-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 16,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1998-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 25600,
+    "totalValueAmt": 25600
+  },
+  {
+    "assessmentKey": 17,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1999-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 29000,
+    "totalValueAmt": 29000
+  },
+  {
+    "assessmentKey": 18,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2000-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 30100,
+    "totalValueAmt": 30100
+  },
+  {
+    "assessmentKey": 19,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2001-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 35000,
+    "totalValueAmt": 35000
+  },
+  {
+    "assessmentKey": 20,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2002-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 50000,
+    "totalValueAmt": 50000
+  },
+  {
+    "assessmentKey": 21,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2003-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 62500,
+    "totalValueAmt": 62500
+  },
+  {
+    "assessmentKey": 22,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2004-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 72500,
+    "totalValueAmt": 72500
+  },
+  {
+    "assessmentKey": 23,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2005-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 93800,
+    "totalValueAmt": 93800
+  },
+  {
+    "assessmentKey": 24,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2006-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 25,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2007-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 26,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2008-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 27,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2009-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 28,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2010-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 29,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2011-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 30,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2012-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 31,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2013-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 116300,
+    "totalValueAmt": 116300
+  },
+  {
+    "assessmentKey": 32,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2014-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 123800,
+    "totalValueAmt": 123800
+  },
+  {
+    "assessmentKey": 33,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2015-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 136300,
+    "totalValueAmt": 136300
+  },
+  {
+    "assessmentKey": 34,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2016-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 142500,
+    "totalValueAmt": 142500
+  },
+  {
+    "assessmentKey": 35,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2017-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 153800,
+    "totalValueAmt": 153800
+  },
+  {
+    "assessmentKey": 36,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2018-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 160000,
+    "totalValueAmt": 160000
+  },
+  {
+    "assessmentKey": 37,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2019-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 150500,
+    "totalValueAmt": 150500
+  },
+  {
+    "assessmentKey": 38,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2020-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 156400,
+    "totalValueAmt": 156400
+  },
+  {
+    "assessmentKey": 39,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2021-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 165100,
+    "totalValueAmt": 165100
+  },
+  {
+    "assessmentKey": 40,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2022-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 171400,
+    "totalValueAmt": 171400
+  },
+  {
+    "assessmentKey": 41,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2023-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 182700,
+    "totalValueAmt": 182700
+  },
+  {
+    "assessmentKey": 42,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2024-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 186400,
+    "totalValueAmt": 186400
+  },
+  {
+    "assessmentKey": 43,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2025-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 197700,
+    "totalValueAmt": 197700
+  },
+  {
+    "assessmentKey": 44,
+    "provalLrsnId": 132,
+    "realEstatePropertyCode": "01001001",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2026-01-01T00:00:00.000Z",
+    "improvementValueAmt": 0,
+    "landValueAmt": 197700,
+    "totalValueAmt": 197700
+  },
+  {
+    "assessmentKey": 81,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1982-01-01T00:00:00.000Z",
+    "improvementValueAmt": 59100,
+    "landValueAmt": 47400,
+    "totalValueAmt": 106500
+  },
+  {
+    "assessmentKey": 82,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1983-01-01T00:00:00.000Z",
+    "improvementValueAmt": 58300,
+    "landValueAmt": 45900,
+    "totalValueAmt": 104200
+  },
+  {
+    "assessmentKey": 83,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1984-01-01T00:00:00.000Z",
+    "improvementValueAmt": 61200,
+    "landValueAmt": 48200,
+    "totalValueAmt": 109400
+  },
+  {
+    "assessmentKey": 84,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1985-01-01T00:00:00.000Z",
+    "improvementValueAmt": 62600,
+    "landValueAmt": 53300,
+    "totalValueAmt": 115900
+  },
+  {
+    "assessmentKey": 85,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1986-01-01T00:00:00.000Z",
+    "improvementValueAmt": 66400,
+    "landValueAmt": 53300,
+    "totalValueAmt": 119700
+  },
+  {
+    "assessmentKey": 86,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1987-01-01T00:00:00.000Z",
+    "improvementValueAmt": 71000,
+    "landValueAmt": 57100,
+    "totalValueAmt": 128100
+  },
+  {
+    "assessmentKey": 87,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1988-01-01T00:00:00.000Z",
+    "improvementValueAmt": 84300,
+    "landValueAmt": 66900,
+    "totalValueAmt": 151200
+  },
+  {
+    "assessmentKey": 88,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1990-01-01T00:00:00.000Z",
+    "improvementValueAmt": 106100,
+    "landValueAmt": 104300,
+    "totalValueAmt": 210400
+  },
+  {
+    "assessmentKey": 89,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1991-01-01T00:00:00.000Z",
+    "improvementValueAmt": 104300,
+    "landValueAmt": 104300,
+    "totalValueAmt": 208600
+  },
+  {
+    "assessmentKey": 90,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1992-01-01T00:00:00.000Z",
+    "improvementValueAmt": 95500,
+    "landValueAmt": 104300,
+    "totalValueAmt": 199800
+  },
+  {
+    "assessmentKey": 91,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1993-01-01T00:00:00.000Z",
+    "improvementValueAmt": 88400,
+    "landValueAmt": 104300,
+    "totalValueAmt": 192700
+  },
+  {
+    "assessmentKey": 92,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1994-01-01T00:00:00.000Z",
+    "improvementValueAmt": 88400,
+    "landValueAmt": 104300,
+    "totalValueAmt": 192700
+  },
+  {
+    "assessmentKey": 93,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1995-01-01T00:00:00.000Z",
+    "improvementValueAmt": 94600,
+    "landValueAmt": 104300,
+    "totalValueAmt": 198900
+  },
+  {
+    "assessmentKey": 94,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1996-01-01T00:00:00.000Z",
+    "improvementValueAmt": 94600,
+    "landValueAmt": 104300,
+    "totalValueAmt": 198900
+  },
+  {
+    "assessmentKey": 95,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1997-01-01T00:00:00.000Z",
+    "improvementValueAmt": 99900,
+    "landValueAmt": 104300,
+    "totalValueAmt": 204200
+  },
+  {
+    "assessmentKey": 96,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1998-01-01T00:00:00.000Z",
+    "improvementValueAmt": 94600,
+    "landValueAmt": 104300,
+    "totalValueAmt": 198900
+  },
+  {
+    "assessmentKey": 97,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1999-01-01T00:00:00.000Z",
+    "improvementValueAmt": 94600,
+    "landValueAmt": 118200,
+    "totalValueAmt": 212800
+  },
+  {
+    "assessmentKey": 98,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2000-01-01T00:00:00.000Z",
+    "improvementValueAmt": 97200,
+    "landValueAmt": 122900,
+    "totalValueAmt": 220100
+  },
+  {
+    "assessmentKey": 99,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2001-01-01T00:00:00.000Z",
+    "improvementValueAmt": 95000,
+    "landValueAmt": 155400,
+    "totalValueAmt": 250400
+  },
+  {
+    "assessmentKey": 100,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2002-01-01T00:00:00.000Z",
+    "improvementValueAmt": 95000,
+    "landValueAmt": 222000,
+    "totalValueAmt": 317000
+  },
+  {
+    "assessmentKey": 101,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2003-01-01T00:00:00.000Z",
+    "improvementValueAmt": 97900,
+    "landValueAmt": 277500,
+    "totalValueAmt": 375400
+  },
+  {
+    "assessmentKey": 102,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2004-01-01T00:00:00.000Z",
+    "improvementValueAmt": 96000,
+    "landValueAmt": 316100,
+    "totalValueAmt": 412100
+  },
+  {
+    "assessmentKey": 103,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2005-01-01T00:00:00.000Z",
+    "improvementValueAmt": 99600,
+    "landValueAmt": 408800,
+    "totalValueAmt": 508400
+  },
+  {
+    "assessmentKey": 104,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2006-01-01T00:00:00.000Z",
+    "improvementValueAmt": 102200,
+    "landValueAmt": 506900,
+    "totalValueAmt": 609100
+  },
+  {
+    "assessmentKey": 105,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2007-01-01T00:00:00.000Z",
+    "improvementValueAmt": 110300,
+    "landValueAmt": 506900,
+    "totalValueAmt": 617200
+  },
+  {
+    "assessmentKey": 106,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2008-01-01T00:00:00.000Z",
+    "improvementValueAmt": 110300,
+    "landValueAmt": 506900,
+    "totalValueAmt": 617200
+  },
+  {
+    "assessmentKey": 107,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2009-01-01T00:00:00.000Z",
+    "improvementValueAmt": 106900,
+    "landValueAmt": 506900,
+    "totalValueAmt": 613800
+  },
+  {
+    "assessmentKey": 108,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2010-01-01T00:00:00.000Z",
+    "improvementValueAmt": 106900,
+    "landValueAmt": 506900,
+    "totalValueAmt": 613800
+  },
+  {
+    "assessmentKey": 109,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2011-01-01T00:00:00.000Z",
+    "improvementValueAmt": 106900,
+    "landValueAmt": 506900,
+    "totalValueAmt": 613800
+  },
+  {
+    "assessmentKey": 110,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2012-01-01T00:00:00.000Z",
+    "improvementValueAmt": 577100,
+    "landValueAmt": 506900,
+    "totalValueAmt": 1084000
+  },
+  {
+    "assessmentKey": 111,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "09- New Construction",
+    "assessmentDate": "2012-07-01T00:00:00.000Z",
+    "improvementValueAmt": 288500,
+    "landValueAmt": 0,
+    "totalValueAmt": 288500
+  },
+  {
+    "assessmentKey": 112,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2013-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1245100,
+    "landValueAmt": 506900,
+    "totalValueAmt": 1752000
+  },
+  {
+    "assessmentKey": 113,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2014-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1125000,
+    "landValueAmt": 539600,
+    "totalValueAmt": 1664600
+  },
+  {
+    "assessmentKey": 114,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2015-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1091900,
+    "landValueAmt": 594100,
+    "totalValueAmt": 1686000
+  },
+  {
+    "assessmentKey": 115,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2016-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1071100,
+    "landValueAmt": 621300,
+    "totalValueAmt": 1692400
+  },
+  {
+    "assessmentKey": 116,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2017-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1132700,
+    "landValueAmt": 670400,
+    "totalValueAmt": 1803100
+  },
+  {
+    "assessmentKey": 117,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2018-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1074900,
+    "landValueAmt": 697600,
+    "totalValueAmt": 1772500
+  },
+  {
+    "assessmentKey": 118,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2019-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1151000,
+    "landValueAmt": 790900,
+    "totalValueAmt": 1941900
+  },
+  {
+    "assessmentKey": 119,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2020-01-01T00:00:00.000Z",
+    "improvementValueAmt": 989300,
+    "landValueAmt": 749100,
+    "totalValueAmt": 1738400
+  },
+  {
+    "assessmentKey": 120,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2021-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1000400,
+    "landValueAmt": 784100,
+    "totalValueAmt": 1784500
+  },
+  {
+    "assessmentKey": 121,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2022-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1044300,
+    "landValueAmt": 833900,
+    "totalValueAmt": 1878200
+  },
+  {
+    "assessmentKey": 122,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2023-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1075600,
+    "landValueAmt": 878900,
+    "totalValueAmt": 1954500
+  },
+  {
+    "assessmentKey": 123,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2024-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1148200,
+    "landValueAmt": 893900,
+    "totalValueAmt": 2042100
+  },
+  {
+    "assessmentKey": 124,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2025-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1288500,
+    "landValueAmt": 938900,
+    "totalValueAmt": 2227400
+  },
+  {
+    "assessmentKey": 125,
+    "provalLrsnId": 134,
+    "realEstatePropertyCode": "01001007",
+    "assessmentChangeReasonTypeDsc": "01- Annual",
+    "assessmentDate": "2026-01-01T00:00:00.000Z",
+    "improvementValueAmt": 1371100,
+    "landValueAmt": 938900,
+    "totalValueAmt": 2310000
+  },
+  {
+    "assessmentKey": 258,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1982-01-01T00:00:00.000Z",
+    "improvementValueAmt": 59000,
+    "landValueAmt": 46400,
+    "totalValueAmt": 105400
+  },
+  {
+    "assessmentKey": 259,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1983-01-01T00:00:00.000Z",
+    "improvementValueAmt": 58200,
+    "landValueAmt": 45000,
+    "totalValueAmt": 103200
+  },
+  {
+    "assessmentKey": 260,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1984-01-01T00:00:00.000Z",
+    "improvementValueAmt": 61800,
+    "landValueAmt": 47300,
+    "totalValueAmt": 109100
+  },
+  {
+    "assessmentKey": 261,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1985-01-01T00:00:00.000Z",
+    "improvementValueAmt": 62500,
+    "landValueAmt": 52300,
+    "totalValueAmt": 114800
+  },
+  {
+    "assessmentKey": 262,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1986-01-01T00:00:00.000Z",
+    "improvementValueAmt": 65400,
+    "landValueAmt": 52300,
+    "totalValueAmt": 117700
+  },
+  {
+    "assessmentKey": 263,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1987-01-01T00:00:00.000Z",
+    "improvementValueAmt": 71000,
+    "landValueAmt": 55900,
+    "totalValueAmt": 126900
+  },
+  {
+    "assessmentKey": 264,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1988-01-01T00:00:00.000Z",
+    "improvementValueAmt": 84300,
+    "landValueAmt": 65600,
+    "totalValueAmt": 149900
+  },
+  {
+    "assessmentKey": 265,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1990-01-01T00:00:00.000Z",
+    "improvementValueAmt": 107300,
+    "landValueAmt": 102300,
+    "totalValueAmt": 209600
+  },
+  {
+    "assessmentKey": 266,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1991-01-01T00:00:00.000Z",
+    "improvementValueAmt": 105500,
+    "landValueAmt": 102200,
+    "totalValueAmt": 207700
+  },
+  {
+    "assessmentKey": 267,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1992-01-01T00:00:00.000Z",
+    "improvementValueAmt": 96500,
+    "landValueAmt": 102200,
+    "totalValueAmt": 198700
+  },
+  {
+    "assessmentKey": 268,
+    "provalLrsnId": 138,
+    "realEstatePropertyCode": "01001011",
+    "assessmentChangeReasonTypeDsc": null,
+    "assessmentDate": "1993-01-01T00:00:00.000Z",
+    "improvementValueAmt": 89400,
+    "landValueAmt": 102200,
+    "totalValueAmt": 191600
+  }
+]

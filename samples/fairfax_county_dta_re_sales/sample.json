@@ -1,0 +1,1002 @@
+[
+  {
+    "OBJECTID": 1,
+    "PARID": "0062 09  0010",
+    "TAXYR": 2027,
+    "SALEDT": 1042693200000,
+    "PRICE": 440000,
+    "BOOK": null,
+    "PAGE": null,
+    "SALEVAL_DESC": null
+  },
+  {
+    "OBJECTID": 2,
+    "PARID": "0064 17  0030A",
+    "TAXYR": 2027,
+    "SALEDT": 1049173200000,
+    "PRICE": 889150,
+    "BOOK": null,
+    "PAGE": null,
+    "SALEVAL_DESC": null
+  },
+  {
+    "OBJECTID": 3,
+    "PARID": "0062 01  0019",
+    "TAXYR": 2027,
+    "SALEDT": 436770000000,
+    "PRICE": 165000,
+    "BOOK": "05856",
+    "PAGE": "1580",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 4,
+    "PARID": "0062 01  0020",
+    "TAXYR": 2027,
+    "SALEDT": 1038978000000,
+    "PRICE": 500000,
+    "BOOK": "13692",
+    "PAGE": "2054",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 5,
+    "PARID": "0062 01  0021",
+    "TAXYR": 2027,
+    "SALEDT": 533365200000,
+    "PRICE": 339300,
+    "BOOK": "06558",
+    "PAGE": "1172",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 6,
+    "PARID": "0062 01  0022A",
+    "TAXYR": 2027,
+    "SALEDT": 1057809600000,
+    "PRICE": 495000,
+    "BOOK": "14734",
+    "PAGE": "1366",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 7,
+    "PARID": "0062 01  0022B",
+    "TAXYR": 2027,
+    "SALEDT": 1071205200000,
+    "PRICE": 470000,
+    "BOOK": "15491",
+    "PAGE": "0362",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 8,
+    "PARID": "0062 01  0026",
+    "TAXYR": 2027,
+    "SALEDT": 70693200000,
+    "PRICE": 50000,
+    "BOOK": "03593",
+    "PAGE": "0409",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 9,
+    "PARID": "0062 01  0028A",
+    "TAXYR": 2027,
+    "SALEDT": 773035200000,
+    "PRICE": 301000,
+    "BOOK": "09175",
+    "PAGE": "1965",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 10,
+    "PARID": "0062 01  0028B",
+    "TAXYR": 2027,
+    "SALEDT": 535266000000,
+    "PRICE": 92000,
+    "BOOK": "06579",
+    "PAGE": "1086",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 11,
+    "PARID": "0062 01  0030",
+    "TAXYR": 2027,
+    "SALEDT": 961128000000,
+    "PRICE": 1115000,
+    "BOOK": "11389",
+    "PAGE": "1160",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 12,
+    "PARID": "0062 02  0001",
+    "TAXYR": 2027,
+    "SALEDT": 898488000000,
+    "PRICE": 685000,
+    "BOOK": "10445",
+    "PAGE": "0705",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 13,
+    "PARID": "0062 02  0001A",
+    "TAXYR": 2027,
+    "SALEDT": 867211200000,
+    "PRICE": 0,
+    "BOOK": "10035",
+    "PAGE": "0963",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 14,
+    "PARID": "0062 02  0003",
+    "TAXYR": 2027,
+    "SALEDT": 555048000000,
+    "PRICE": 545000,
+    "BOOK": "06811",
+    "PAGE": "1565",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 15,
+    "PARID": "0062 02  0018",
+    "TAXYR": 2027,
+    "SALEDT": 878187600000,
+    "PRICE": 265000,
+    "BOOK": "10159",
+    "PAGE": "0343",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 16,
+    "PARID": "0062 02  0020",
+    "TAXYR": 2027,
+    "SALEDT": 1004418000000,
+    "PRICE": 0,
+    "BOOK": "12338",
+    "PAGE": "1426",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 17,
+    "PARID": "0062 02  0021",
+    "TAXYR": 2027,
+    "SALEDT": 519278400000,
+    "PRICE": 0,
+    "BOOK": "06402",
+    "PAGE": "0300",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 18,
+    "PARID": "0062 02  0022",
+    "TAXYR": 2027,
+    "SALEDT": 519278400000,
+    "PRICE": 0,
+    "BOOK": "06402",
+    "PAGE": "0300",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 19,
+    "PARID": "0062 02  0023A1",
+    "TAXYR": 2027,
+    "SALEDT": -87678000000,
+    "PRICE": 10000,
+    "BOOK": "02875",
+    "PAGE": "0003",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 20,
+    "PARID": "0062 02  0023B1",
+    "TAXYR": 2027,
+    "SALEDT": 878792400000,
+    "PRICE": 470000,
+    "BOOK": "10167",
+    "PAGE": "0811",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 21,
+    "PARID": "0062 02  0026",
+    "TAXYR": 2027,
+    "SALEDT": 504162000000,
+    "PRICE": 60000,
+    "BOOK": "06287",
+    "PAGE": "0901",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 22,
+    "PARID": "0062 02  0027",
+    "TAXYR": 2027,
+    "SALEDT": 430545600000,
+    "PRICE": 210000,
+    "BOOK": "05821",
+    "PAGE": "0647",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 23,
+    "PARID": "0062 03  0001",
+    "TAXYR": 2027,
+    "SALEDT": 901684800000,
+    "PRICE": 443000,
+    "BOOK": "10499",
+    "PAGE": "1728",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 24,
+    "PARID": "0062 03  0002",
+    "TAXYR": 2027,
+    "SALEDT": 1051675200000,
+    "PRICE": 0,
+    "BOOK": "14366",
+    "PAGE": "0796",
+    "SALEVAL_DESC": "No consideration"
+  },
+  {
+    "OBJECTID": 25,
+    "PARID": "0062 03  0003",
+    "TAXYR": 2027,
+    "SALEDT": 991368000000,
+    "PRICE": 620000,
+    "BOOK": "11959",
+    "PAGE": "1646",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 26,
+    "PARID": "0062 03  0004",
+    "TAXYR": 2027,
+    "SALEDT": 521092800000,
+    "PRICE": 221000,
+    "BOOK": "06420",
+    "PAGE": "0417",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 27,
+    "PARID": "0062 03  0005",
+    "TAXYR": 2027,
+    "SALEDT": 1050465600000,
+    "PRICE": 0,
+    "BOOK": "14279",
+    "PAGE": "1719",
+    "SALEVAL_DESC": "No consideration"
+  },
+  {
+    "OBJECTID": 28,
+    "PARID": "0062 03  0006A",
+    "TAXYR": 2027,
+    "SALEDT": 510296400000,
+    "PRICE": 220000,
+    "BOOK": "06328",
+    "PAGE": "1732",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 29,
+    "PARID": "0062 03  0007A",
+    "TAXYR": 2027,
+    "SALEDT": 982299600000,
+    "PRICE": 0,
+    "BOOK": "11717",
+    "PAGE": "0456",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 30,
+    "PARID": "0062 04  0001",
+    "TAXYR": 2027,
+    "SALEDT": 535093200000,
+    "PRICE": 275000,
+    "BOOK": "06576",
+    "PAGE": "0859",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 31,
+    "PARID": "0062 04  0001A",
+    "TAXYR": 2027,
+    "SALEDT": 685944000000,
+    "PRICE": 485000,
+    "BOOK": "07910",
+    "PAGE": "1101",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 32,
+    "PARID": "0062 04  0002",
+    "TAXYR": 2027,
+    "SALEDT": 130482000000,
+    "PRICE": 23500,
+    "BOOK": "03989",
+    "PAGE": "0017",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 33,
+    "PARID": "0062 04  0004",
+    "TAXYR": 2027,
+    "SALEDT": 214027200000,
+    "PRICE": 29000,
+    "BOOK": "04492",
+    "PAGE": "0200",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 34,
+    "PARID": "0062 04  0005",
+    "TAXYR": 2027,
+    "SALEDT": 960868800000,
+    "PRICE": 589000,
+    "BOOK": "11385",
+    "PAGE": "1048",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 35,
+    "PARID": "0062 04  0006A",
+    "TAXYR": 2027,
+    "SALEDT": 899265600000,
+    "PRICE": 550000,
+    "BOOK": "10461",
+    "PAGE": "1102",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 36,
+    "PARID": "0062 05  0001",
+    "TAXYR": 2027,
+    "SALEDT": 40449600000,
+    "PRICE": 13350,
+    "BOOK": "03420",
+    "PAGE": "0482",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 37,
+    "PARID": "0062 05  0002",
+    "TAXYR": 2027,
+    "SALEDT": 910069200000,
+    "PRICE": 420000,
+    "BOOK": "10640",
+    "PAGE": "1994",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 38,
+    "PARID": "0062 05  0003",
+    "TAXYR": 2027,
+    "SALEDT": 704088000000,
+    "PRICE": 0,
+    "BOOK": "08102",
+    "PAGE": "0541",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 39,
+    "PARID": "0062 05  0004",
+    "TAXYR": 2027,
+    "SALEDT": 1060660800000,
+    "PRICE": 999000,
+    "BOOK": "14942",
+    "PAGE": "1230",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 40,
+    "PARID": "0062 05  0005",
+    "TAXYR": 2027,
+    "SALEDT": 1017982800000,
+    "PRICE": 0,
+    "BOOK": "12829",
+    "PAGE": "2016",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 41,
+    "PARID": "0062 05  0006",
+    "TAXYR": 2027,
+    "SALEDT": 834033600000,
+    "PRICE": 380000,
+    "BOOK": "09722",
+    "PAGE": "0173",
+    "SALEVAL_DESC": "Duress (liquidation, forced sale, etc.)"
+  },
+  {
+    "OBJECTID": 42,
+    "PARID": "0062 05  0007",
+    "TAXYR": 2027,
+    "SALEDT": 1058328000000,
+    "PRICE": 1749000,
+    "BOOK": "14769",
+    "PAGE": "1352",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 43,
+    "PARID": "0062 05  0008",
+    "TAXYR": 2027,
+    "SALEDT": 679636800000,
+    "PRICE": 0,
+    "BOOK": "07856",
+    "PAGE": "0415",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 44,
+    "PARID": "0062 05  0009",
+    "TAXYR": 2027,
+    "SALEDT": 605509200000,
+    "PRICE": 430000,
+    "BOOK": "07281",
+    "PAGE": "1288",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 45,
+    "PARID": "0064 01  0060B",
+    "TAXYR": 2027,
+    "SALEDT": 1042002000000,
+    "PRICE": 5954672,
+    "BOOK": "13839",
+    "PAGE": "0176",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 46,
+    "PARID": "0064 01  0063",
+    "TAXYR": 2027,
+    "SALEDT": 262929600000,
+    "PRICE": 60000,
+    "BOOK": "04861",
+    "PAGE": "0482",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 47,
+    "PARID": "0064 01  0064",
+    "TAXYR": 2027,
+    "SALEDT": 631342800000,
+    "PRICE": 0,
+    "BOOK": "07503",
+    "PAGE": "0704",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 48,
+    "PARID": "0064 01  0068",
+    "TAXYR": 2027,
+    "SALEDT": 998280000000,
+    "PRICE": 100000,
+    "BOOK": "12160",
+    "PAGE": "1043",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 49,
+    "PARID": "0064 01  0069A",
+    "TAXYR": 2027,
+    "SALEDT": 795243600000,
+    "PRICE": 0,
+    "BOOK": "09369",
+    "PAGE": "0746",
+    "SALEVAL_DESC": "Transfer of doubtful title"
+  },
+  {
+    "OBJECTID": 50,
+    "PARID": "0064 01  0069B",
+    "TAXYR": 2027,
+    "SALEDT": 795243600000,
+    "PRICE": 0,
+    "BOOK": "09369",
+    "PAGE": "0744",
+    "SALEVAL_DESC": "Transfer of doubtful title"
+  },
+  {
+    "OBJECTID": 51,
+    "PARID": "0064 01  0071",
+    "TAXYR": 2027,
+    "SALEDT": 997156800000,
+    "PRICE": 0,
+    "BOOK": "12136",
+    "PAGE": "1245",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 52,
+    "PARID": "0064 01  0072",
+    "TAXYR": 2027,
+    "SALEDT": 933134400000,
+    "PRICE": 0,
+    "BOOK": "11026",
+    "PAGE": "0306",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 53,
+    "PARID": "0064 01  0073",
+    "TAXYR": 2027,
+    "SALEDT": 295156800000,
+    "PRICE": 73000,
+    "BOOK": "05172",
+    "PAGE": "0021",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 54,
+    "PARID": "0064 01  0079",
+    "TAXYR": 2027,
+    "SALEDT": 954993600000,
+    "PRICE": 1756500,
+    "BOOK": "11306",
+    "PAGE": "0602",
+    "SALEVAL_DESC": "Price includes more than value of R.E"
+  },
+  {
+    "OBJECTID": 55,
+    "PARID": "0064 01  0080",
+    "TAXYR": 2027,
+    "SALEDT": 982731600000,
+    "PRICE": 0,
+    "BOOK": "11721",
+    "PAGE": "1752",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 56,
+    "PARID": "0064 01  0081",
+    "TAXYR": 2027,
+    "SALEDT": 982731600000,
+    "PRICE": 0,
+    "BOOK": "11721",
+    "PAGE": "1757",
+    "SALEVAL_DESC": "Duress (liquidation, forced sale, etc.)"
+  },
+  {
+    "OBJECTID": 57,
+    "PARID": "0064 01  0082",
+    "TAXYR": 2027,
+    "SALEDT": 417934800000,
+    "PRICE": 0,
+    "BOOK": "05751",
+    "PAGE": "1020",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 58,
+    "PARID": "0064 02      A",
+    "TAXYR": 2027,
+    "SALEDT": 975474000000,
+    "PRICE": 0,
+    "BOOK": "11616",
+    "PAGE": "0001",
+    "SALEVAL_DESC": "Valid and verified multi-parcel sale"
+  },
+  {
+    "OBJECTID": 59,
+    "PARID": "0064 02      B",
+    "TAXYR": 2027,
+    "SALEDT": 972882000000,
+    "PRICE": 982996,
+    "BOOK": "11577",
+    "PAGE": "0399",
+    "SALEVAL_DESC": "Valid and verified multi-parcel sale"
+  },
+  {
+    "OBJECTID": 60,
+    "PARID": "0064 02  0002A",
+    "TAXYR": 2027,
+    "SALEDT": 443854800000,
+    "PRICE": 58000,
+    "BOOK": "05891",
+    "PAGE": "0258",
+    "SALEVAL_DESC": "Land sale but land improved after sale"
+  },
+  {
+    "OBJECTID": 61,
+    "PARID": "0064 02  0006A",
+    "TAXYR": 2027,
+    "SALEDT": 940219200000,
+    "PRICE": 230000,
+    "BOOK": "11121",
+    "PAGE": "1366",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 62,
+    "PARID": "0064 02  0006B",
+    "TAXYR": 2027,
+    "SALEDT": 937368000000,
+    "PRICE": 383150,
+    "BOOK": "11087",
+    "PAGE": "1104",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 63,
+    "PARID": "0064 02  0007",
+    "TAXYR": 2027,
+    "SALEDT": -37742400000,
+    "PRICE": 15500,
+    "BOOK": "03098",
+    "PAGE": "0201",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 64,
+    "PARID": "0064 02  0008",
+    "TAXYR": 2027,
+    "SALEDT": 935380800000,
+    "PRICE": 0,
+    "BOOK": "11057",
+    "PAGE": "0082",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 65,
+    "PARID": "0064 02  0009A",
+    "TAXYR": 2027,
+    "SALEDT": 1028779200000,
+    "PRICE": 1117000,
+    "BOOK": "13195",
+    "PAGE": "0610",
+    "SALEVAL_DESC": "Sale of finished bldg. imp assmt < 100%"
+  },
+  {
+    "OBJECTID": 66,
+    "PARID": "0064 02  0009B",
+    "TAXYR": 2027,
+    "SALEDT": 962337600000,
+    "PRICE": 245000,
+    "BOOK": "11413",
+    "PAGE": "1441",
+    "SALEVAL_DESC": "Transfer of convenience"
+  },
+  {
+    "OBJECTID": 67,
+    "PARID": "0064 02  0010A",
+    "TAXYR": 2027,
+    "SALEDT": 706939200000,
+    "PRICE": 454000,
+    "BOOK": "08137",
+    "PAGE": "1835",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 68,
+    "PARID": "0064 02  0010B",
+    "TAXYR": 2027,
+    "SALEDT": 637304400000,
+    "PRICE": 480000,
+    "BOOK": "07546",
+    "PAGE": "0785",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 69,
+    "PARID": "0064 02  0011",
+    "TAXYR": 2027,
+    "SALEDT": 590990400000,
+    "PRICE": 0,
+    "BOOK": "04812",
+    "PAGE": "0575",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 70,
+    "PARID": "0064 02  0015",
+    "TAXYR": 2027,
+    "SALEDT": 150350400000,
+    "PRICE": 30000,
+    "BOOK": "04114",
+    "PAGE": "0653",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 71,
+    "PARID": "0064 02  0016A",
+    "TAXYR": 2027,
+    "SALEDT": 991281600000,
+    "PRICE": 1641357,
+    "BOOK": "11948",
+    "PAGE": "1253",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 72,
+    "PARID": "0064 02  0016B",
+    "TAXYR": 2027,
+    "SALEDT": 510210000000,
+    "PRICE": 350000,
+    "BOOK": "06327",
+    "PAGE": "0875",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 73,
+    "PARID": "0064 02  0017A",
+    "TAXYR": 2027,
+    "SALEDT": 972882000000,
+    "PRICE": 982996,
+    "BOOK": "11577",
+    "PAGE": "0399",
+    "SALEVAL_DESC": "Valid and verified multi-parcel sale"
+  },
+  {
+    "OBJECTID": 74,
+    "PARID": "0064 02  0017B",
+    "TAXYR": 2027,
+    "SALEDT": 972273600000,
+    "PRICE": 0,
+    "BOOK": "11567",
+    "PAGE": "0281",
+    "SALEVAL_DESC": "Valid and verified multi-parcel sale"
+  },
+  {
+    "OBJECTID": 75,
+    "PARID": "0064 02  0017C",
+    "TAXYR": 2027,
+    "SALEDT": 975474000000,
+    "PRICE": 0,
+    "BOOK": "11616",
+    "PAGE": "0001",
+    "SALEVAL_DESC": "Valid and verified multi-parcel sale"
+  },
+  {
+    "OBJECTID": 76,
+    "PARID": "0064 02  0018",
+    "TAXYR": 2027,
+    "SALEDT": -45950400000,
+    "PRICE": 13500,
+    "BOOK": "03057",
+    "PAGE": "0298",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 77,
+    "PARID": "0064 02  0019",
+    "TAXYR": 2027,
+    "SALEDT": 1046494800000,
+    "PRICE": 0,
+    "BOOK": "14055",
+    "PAGE": "0173",
+    "SALEVAL_DESC": "No consideration"
+  },
+  {
+    "OBJECTID": 78,
+    "PARID": "0064 03  0007",
+    "TAXYR": 2027,
+    "SALEDT": -38952000000,
+    "PRICE": 25000,
+    "BOOK": "03092",
+    "PAGE": "0685",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 79,
+    "PARID": "0064 03  0011",
+    "TAXYR": 2027,
+    "SALEDT": 1020139200000,
+    "PRICE": 385000,
+    "BOOK": "12898",
+    "PAGE": "2123",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 80,
+    "PARID": "0064 03  0012",
+    "TAXYR": 2027,
+    "SALEDT": 973573200000,
+    "PRICE": 643013,
+    "BOOK": "11591",
+    "PAGE": "0740",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 81,
+    "PARID": "0064 03  0013",
+    "TAXYR": 2027,
+    "SALEDT": -94762800000,
+    "PRICE": 22000,
+    "BOOK": "02742",
+    "PAGE": "0633",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 82,
+    "PARID": "0034 06020077",
+    "TAXYR": 2027,
+    "SALEDT": 604731600000,
+    "PRICE": 385000,
+    "BOOK": "07275",
+    "PAGE": "0288",
+    "SALEVAL_DESC": "Duress (liquidation, forced sale, etc.)"
+  },
+  {
+    "OBJECTID": 83,
+    "PARID": "0034 06020078",
+    "TAXYR": 2027,
+    "SALEDT": 755154000000,
+    "PRICE": 975000,
+    "BOOK": "08891",
+    "PAGE": "1600",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 84,
+    "PARID": "0034 06020079",
+    "TAXYR": 2027,
+    "SALEDT": 572763600000,
+    "PRICE": 200000,
+    "BOOK": "06964",
+    "PAGE": "0339",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 85,
+    "PARID": "0034 06020081",
+    "TAXYR": 2027,
+    "SALEDT": 835761600000,
+    "PRICE": 0,
+    "BOOK": "09739",
+    "PAGE": "0702",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 86,
+    "PARID": "0034 07  0001",
+    "TAXYR": 2027,
+    "SALEDT": 913006800000,
+    "PRICE": 670000,
+    "BOOK": "10692",
+    "PAGE": "0333",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 87,
+    "PARID": "0034 07  0002",
+    "TAXYR": 2027,
+    "SALEDT": 927172800000,
+    "PRICE": 750000,
+    "BOOK": "10925",
+    "PAGE": "0805",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 88,
+    "PARID": "0034 07  0003",
+    "TAXYR": 2027,
+    "SALEDT": 630133200000,
+    "PRICE": 794667,
+    "BOOK": "07494",
+    "PAGE": "1760",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 89,
+    "PARID": "0034 07  0004",
+    "TAXYR": 2027,
+    "SALEDT": 1017291600000,
+    "PRICE": 1045000,
+    "BOOK": "12803",
+    "PAGE": "1268",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 90,
+    "PARID": "0034 08      B",
+    "TAXYR": 2027,
+    "SALEDT": 994737600000,
+    "PRICE": 0,
+    "BOOK": "12065P",
+    "PAGE": "1698",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 91,
+    "PARID": "0034 08  0001",
+    "TAXYR": 2027,
+    "SALEDT": 1018584000000,
+    "PRICE": 169485,
+    "BOOK": "12848",
+    "PAGE": "0067",
+    "SALEVAL_DESC": "Non-representative price based on comps"
+  },
+  {
+    "OBJECTID": 92,
+    "PARID": "0034 08  0002",
+    "TAXYR": 2027,
+    "SALEDT": 1017637200000,
+    "PRICE": 149757,
+    "BOOK": "12811",
+    "PAGE": "0829",
+    "SALEVAL_DESC": "Non-representative price based on comps"
+  },
+  {
+    "OBJECTID": 93,
+    "PARID": "0043 01  0001A1",
+    "TAXYR": 2027,
+    "SALEDT": 1051156800000,
+    "PRICE": 1750000,
+    "BOOK": "14321",
+    "PAGE": "1169",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 94,
+    "PARID": "0043 01  0001A3",
+    "TAXYR": 2027,
+    "SALEDT": 1058500800000,
+    "PRICE": 900000,
+    "BOOK": "14785",
+    "PAGE": "0164",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 95,
+    "PARID": "0043 01  0001B",
+    "TAXYR": 2027,
+    "SALEDT": 1031284800000,
+    "PRICE": 0,
+    "BOOK": "13301",
+    "PAGE": "1853",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 96,
+    "PARID": "0043 01  0002",
+    "TAXYR": 2027,
+    "SALEDT": 59288400000,
+    "PRICE": 100000,
+    "BOOK": "03537",
+    "PAGE": "0677",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 97,
+    "PARID": "0043 01  0003",
+    "TAXYR": 2027,
+    "SALEDT": 74836800000,
+    "PRICE": 273396,
+    "BOOK": "03616",
+    "PAGE": "0078",
+    "SALEVAL_DESC": "Valid and verified sale"
+  },
+  {
+    "OBJECTID": 98,
+    "PARID": "0043 01  0005",
+    "TAXYR": 2027,
+    "SALEDT": 919400400000,
+    "PRICE": 0,
+    "BOOK": "10794",
+    "PAGE": "1096",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 99,
+    "PARID": "0043 01  0006",
+    "TAXYR": 2027,
+    "SALEDT": 919400400000,
+    "PRICE": 0,
+    "BOOK": "10794",
+    "PAGE": "1097",
+    "SALEVAL_DESC": "Pending verification"
+  },
+  {
+    "OBJECTID": 100,
+    "PARID": "0043 01  0007",
+    "TAXYR": 2027,
+    "SALEDT": 919400400000,
+    "PRICE": 0,
+    "BOOK": "10794",
+    "PAGE": "1097",
+    "SALEVAL_DESC": "Pending verification"
+  }
+]

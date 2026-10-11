@@ -1,0 +1,20 @@
+{
+  "source_id": "fairfax_county_dta_re_dwelling_addition",
+  "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Dwelling_Addition_Data/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:33:01+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 1513963,
+  "sha256": "5cbd20d1fa57ed968b93e64f04b8c93f87a225fa3194204b6833c00953f0ef41",
+  "fields": {
+    "AREA": "integer",
+    "OBJECTID": "integer",
+    "PARID": "string",
+    "TAXYR": "integer",
+    "LLINE": "integer",
+    "PCTCOMP": "null",
+    "LOWER_DESC": "string",
+    "FIRST_DESC": "string",
+    "SECOND_DESC": "string",
+    "THIRD_DESC": "string"
+  }
+}

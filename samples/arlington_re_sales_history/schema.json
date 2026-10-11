@@ -1,0 +1,25 @@
+{
+  "source_id": "arlington_re_sales_history",
+  "endpoint_url": "https://datahub-v2.arlingtonva.us/api/RealEstate/SalesHistory",
+  "retrieved_at": "2026-10-11T21:30:40+00:00",
+  "sample_rows": 100,
+  "reported_row_count": null,
+  "sha256": "e1890e65d8bf683d5a23d8a708ea8d3c93862e8ec0f9f84888a414a3bb4b5094",
+  "fields": {
+    "salesHistoryKey": "integer",
+    "propertyKey": "integer",
+    "realEstatePropertyCode": "string",
+    "provalLrsnId": "integer",
+    "neighborhoodNbr": "integer",
+    "propertyStreetNbrNameText": "string",
+    "salesTypeCode": "string",
+    "salesTypeDsc": "string",
+    "deedBookNbr": "string",
+    "deedPageNbr": "string",
+    "granteeName": "string",
+    "saleAmt": "integer",
+    "saleDate": "string",
+    "landRecordDocumentNbr": "string",
+    "maskOwnerAddressInd": "boolean"
+  }
+}

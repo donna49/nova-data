@@ -1,0 +1,33 @@
+{
+  "source_id": "fairfax_county_dta_re_dwelling",
+  "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Dwelling_Data/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:33:00+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 340692,
+  "sha256": "3b5d7b948cb17863e7ae130e41b893f78234de5de36bb0f0ab0f103ebfb6ea12",
+  "fields": {
+    "OBJECTID": "integer",
+    "PARID": "string",
+    "STYLE_DESC": "string",
+    "YRBLT": "integer",
+    "EFFYR": "integer",
+    "YRREMOD": "integer",
+    "RMBED": "integer",
+    "FIXBATH": "integer",
+    "FIXHALF": "integer",
+    "RECROMAREA": "integer",
+    "WBFP_PF": "integer",
+    "BSMTCAR": "integer",
+    "USER6": "string",
+    "USER10": "string",
+    "GRADE_DESC": "string",
+    "SFLA": "integer",
+    "BSMT_DESC": "string",
+    "CDU_DESC": "string",
+    "EXTWALL_DESC": "string",
+    "HEAT_DESC": "string",
+    "USER13_DESC": "string",
+    "USER7_DESC": "string",
+    "USER9_DESC": "string"
+  }
+}

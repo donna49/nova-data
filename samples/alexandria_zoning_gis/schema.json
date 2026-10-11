@@ -1,0 +1,16 @@
+{
+  "source_id": "alexandria_zoning_gis",
+  "endpoint_url": "https://services2.arcgis.com/ChYV69FhfjwkvRmy/arcgis/rest/services/Zoning/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:30:37+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 509,
+  "sha256": "35234d99c27186c6a83ab695d75c999932a000ae04835f2595e8da220cc58fa8",
+  "fields": {
+    "FID": "integer",
+    "ORDINANCE": "string",
+    "ZONING": "string",
+    "AMENDMENT": "string",
+    "Shape__Area": "number",
+    "Shape__Length": "number"
+  }
+}

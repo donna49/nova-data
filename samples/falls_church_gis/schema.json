@@ -1,0 +1,32 @@
+{
+  "source_id": "falls_church_gis",
+  "endpoint_url": "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Parcels/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:30:52+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 3889,
+  "sha256": "4260f05cba1126c9dd770faad86725ac63d93677ce6384bbbfa54ed39ac790bd",
+  "fields": {
+    "OBJECTID": "integer",
+    "RPC_master": "string",
+    "RPC": "string",
+    "PIN": "string",
+    "SplitJuris": "string",
+    "RPC1": "string",
+    "RPC2": "string",
+    "RPC3": "string",
+    "EffectiveDate": "null",
+    "EffectiveDoc": "null",
+    "ExpireDate": "null",
+    "ExpireDoc": "null",
+    "Subdivision": "string",
+    "GlobalID": "string",
+    "created_user": "string",
+    "created_date": "integer",
+    "last_edited_user": "string",
+    "last_edited_date": "integer",
+    "Shape__Area": "number",
+    "Shape__Length": "number",
+    "acres_calc": "number",
+    "RPPZone": "integer"
+  }
+}

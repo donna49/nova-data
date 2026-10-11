@@ -1,0 +1,30 @@
+{
+  "source_id": "fairfax_city_gis_open_data_hub",
+  "endpoint_url": "https://services2.arcgis.com/DANcyjLcCCpGk8Ri/arcgis/rest/services/Parcels/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:31:04+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 9742,
+  "sha256": "92b0a54fb82479d7da6a37912a872e49bc192eed86db1dc4cc43c7ef3988dc77",
+  "fields": {
+    "FID": "integer",
+    "PIN": "string",
+    "CPIN": "string",
+    "SBDV": "string",
+    "PROPERTY_T": "integer",
+    "ZONE1": "string",
+    "ZONE2": "string",
+    "SPLITZONED": "string",
+    "PROFFER": "string",
+    "ELU": "string",
+    "SECONDARY": "string",
+    "FLU1": "string",
+    "FLU2": "string",
+    "SPLITUSE": "string",
+    "OVERLAY": "string",
+    "INFLOOD": "string",
+    "INRPA": "string",
+    "DOCULINK": "string",
+    "Shape__Area": "number",
+    "Shape__Length": "number"
+  }
+}

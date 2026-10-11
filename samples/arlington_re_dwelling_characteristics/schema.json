@@ -1,0 +1,28 @@
+{
+  "source_id": "arlington_re_dwelling_characteristics",
+  "endpoint_url": "https://datahub-v2.arlingtonva.us/api/RealEstate/ImprovementDwelling",
+  "retrieved_at": "2026-10-11T21:30:40+00:00",
+  "sample_rows": 100,
+  "reported_row_count": null,
+  "sha256": "b019eb9f9a9d7d7e128c84c9028e4cca9f2d60ce75146ca95261f378de64d389",
+  "fields": {
+    "dwellingKey": "integer",
+    "propertyKey": "integer",
+    "realEstatePropertyCode": "string",
+    "provalLrsnId": "integer",
+    "extensionNbr": "string",
+    "basementFinishedRecRoomSquareFeetQty": "integer",
+    "basementRecRoomTypeDsc": "string",
+    "coolingTypeDsc": "string",
+    "dwellingTypeDsc": "string",
+    "heatingTypeDsc": "string",
+    "convertedExtraLivingUnitCnt": "integer",
+    "designedExtraLivingUnitCnt": "integer",
+    "dwellingYearBuiltDate": "integer",
+    "extraFixtureCnt": "integer",
+    "storiesQuantityDsc": "string",
+    "finishedStorageAreaSquareFeetQty": "null",
+    "storageAreaSquareFeetQty": "null",
+    "fireplaceCnt": "integer"
+  }
+}

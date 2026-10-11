@@ -1,0 +1,802 @@
+[
+  {
+    "OBJECTID": 7243977,
+    "EVENT_ID": 2000006,
+    "RPCMSTR": "03001009",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 30023.8,
+    "SHAPE.STLength()": 1033.643435477539
+  },
+  {
+    "OBJECTID": 7243978,
+    "EVENT_ID": 2000008,
+    "RPCMSTR": "03001010",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 34828.9568,
+    "SHAPE.STLength()": 888.9766013109372
+  },
+  {
+    "OBJECTID": 7243979,
+    "EVENT_ID": 2000014,
+    "RPCMSTR": "03002004",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 20260.3959375,
+    "SHAPE.STLength()": 603.921848594033
+  },
+  {
+    "OBJECTID": 7243980,
+    "EVENT_ID": 2000016,
+    "RPCMSTR": "03002005",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 20011.03,
+    "SHAPE.STLength()": 604.934448261591
+  },
+  {
+    "OBJECTID": 7243981,
+    "EVENT_ID": 2000023,
+    "RPCMSTR": "03003031",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 8319.125,
+    "SHAPE.STLength()": 415.2919387185256
+  },
+  {
+    "OBJECTID": 7243982,
+    "EVENT_ID": 2000018,
+    "RPCMSTR": "03002006",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 20092.095,
+    "SHAPE.STLength()": 605.1965545757221
+  },
+  {
+    "OBJECTID": 7243983,
+    "EVENT_ID": 2000013,
+    "RPCMSTR": "03001012",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 74596.5,
+    "SHAPE.STLength()": 1402.1223720832922
+  },
+  {
+    "OBJECTID": 7243984,
+    "EVENT_ID": 2000017,
+    "RPCMSTR": "03001035",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 45344,
+    "SHAPE.STLength()": 1303.8688844361861
+  },
+  {
+    "OBJECTID": 7243985,
+    "EVENT_ID": 2000019,
+    "RPCMSTR": "03001036",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 70456,
+    "SHAPE.STLength()": 1341.2450781050763
+  },
+  {
+    "OBJECTID": 7243986,
+    "EVENT_ID": 2000020,
+    "RPCMSTR": "03001PCA",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 121139.5,
+    "SHAPE.STLength()": 1521.3475982760312
+  },
+  {
+    "OBJECTID": 7243987,
+    "EVENT_ID": 2000021,
+    "RPCMSTR": "03001024",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 99820.14,
+    "SHAPE.STLength()": 1365.0894261393032
+  },
+  {
+    "OBJECTID": 7243988,
+    "EVENT_ID": 2000041,
+    "RPCMSTR": "03003135",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 8249.94,
+    "SHAPE.STLength()": 365.58593342516406
+  },
+  {
+    "OBJECTID": 7243989,
+    "EVENT_ID": 2000045,
+    "RPCMSTR": "03003136",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9696.64,
+    "SHAPE.STLength()": 396.98869553041385
+  },
+  {
+    "OBJECTID": 7243990,
+    "EVENT_ID": 2000050,
+    "RPCMSTR": "03003137",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 14041.28755,
+    "SHAPE.STLength()": 482.49910432299004
+  },
+  {
+    "OBJECTID": 7243991,
+    "EVENT_ID": 2000057,
+    "RPCMSTR": "03003114",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 4496.6,
+    "SHAPE.STLength()": 355.489502770907
+  },
+  {
+    "OBJECTID": 7243992,
+    "EVENT_ID": 2000069,
+    "RPCMSTR": "03003128",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13469,
+    "SHAPE.STLength()": 475.44619183434014
+  },
+  {
+    "OBJECTID": 7243993,
+    "EVENT_ID": 2000101,
+    "RPCMSTR": "03003103",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10432.0723,
+    "SHAPE.STLength()": 416.381804665467
+  },
+  {
+    "OBJECTID": 7243994,
+    "EVENT_ID": 2000028,
+    "RPCMSTR": "03003155",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13081.09485,
+    "SHAPE.STLength()": 477.5160654526426
+  },
+  {
+    "OBJECTID": 7243995,
+    "EVENT_ID": 2000039,
+    "RPCMSTR": "03003132",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12329.06525,
+    "SHAPE.STLength()": 479.58585855034596
+  },
+  {
+    "OBJECTID": 7243996,
+    "EVENT_ID": 2000046,
+    "RPCMSTR": "03003131",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 14340.3183,
+    "SHAPE.STLength()": 493.51003273467256
+  },
+  {
+    "OBJECTID": 7243997,
+    "EVENT_ID": 2000052,
+    "RPCMSTR": "03003130",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 15078.99,
+    "SHAPE.STLength()": 512.0666562092323
+  },
+  {
+    "OBJECTID": 7243998,
+    "EVENT_ID": 2000058,
+    "RPCMSTR": "03003138",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 14859.20665,
+    "SHAPE.STLength()": 495.92386405443193
+  },
+  {
+    "OBJECTID": 7243999,
+    "EVENT_ID": 2000059,
+    "RPCMSTR": "03003129",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 14734.4177,
+    "SHAPE.STLength()": 503.20474475576543
+  },
+  {
+    "OBJECTID": 7244000,
+    "EVENT_ID": 2000063,
+    "RPCMSTR": "03003113",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 14138.75495,
+    "SHAPE.STLength()": 481.9959807380958
+  },
+  {
+    "OBJECTID": 7244001,
+    "EVENT_ID": 2000067,
+    "RPCMSTR": "03003139",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11409.79,
+    "SHAPE.STLength()": 440.68187128500387
+  },
+  {
+    "OBJECTID": 7244002,
+    "EVENT_ID": 2000074,
+    "RPCMSTR": "03003112",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12527.27695,
+    "SHAPE.STLength()": 451.3247121472287
+  },
+  {
+    "OBJECTID": 7244003,
+    "EVENT_ID": 2000075,
+    "RPCMSTR": "03003115",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 1680,
+    "SHAPE.STLength()": 208.99387382040163
+  },
+  {
+    "OBJECTID": 7244004,
+    "EVENT_ID": 2000077,
+    "RPCMSTR": "03003116",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10560,
+    "SHAPE.STLength()": 405.3595747000959
+  },
+  {
+    "OBJECTID": 7244005,
+    "EVENT_ID": 2000079,
+    "RPCMSTR": "03003140",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13056.00445,
+    "SHAPE.STLength()": 446.8258396993461
+  },
+  {
+    "OBJECTID": 7244006,
+    "EVENT_ID": 2000080,
+    "RPCMSTR": "03003127",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11506.7461,
+    "SHAPE.STLength()": 432.8033983828367
+  },
+  {
+    "OBJECTID": 7244007,
+    "EVENT_ID": 2000084,
+    "RPCMSTR": "03003102",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9902.3869,
+    "SHAPE.STLength()": 391.26341277573795
+  },
+  {
+    "OBJECTID": 7244008,
+    "EVENT_ID": 2000086,
+    "RPCMSTR": "03003111",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 3784.39105,
+    "SHAPE.STLength()": 317.4930473705982
+  },
+  {
+    "OBJECTID": 7244009,
+    "EVENT_ID": 2000092,
+    "RPCMSTR": "03003125",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13312.41995,
+    "SHAPE.STLength()": 466.3342921854321
+  },
+  {
+    "OBJECTID": 7244010,
+    "EVENT_ID": 2000095,
+    "RPCMSTR": "03003141",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 17931.1024,
+    "SHAPE.STLength()": 530.1852474749516
+  },
+  {
+    "OBJECTID": 7244011,
+    "EVENT_ID": 2000099,
+    "RPCMSTR": "03003101",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12982.935,
+    "SHAPE.STLength()": 445.45329987409974
+  },
+  {
+    "OBJECTID": 7244012,
+    "EVENT_ID": 2000105,
+    "RPCMSTR": "03003126",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13584.18205,
+    "SHAPE.STLength()": 459.9209632070687
+  },
+  {
+    "OBJECTID": 7244013,
+    "EVENT_ID": 2000106,
+    "RPCMSTR": "03003104",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13380.1661,
+    "SHAPE.STLength()": 455.3778833151344
+  },
+  {
+    "OBJECTID": 7244014,
+    "EVENT_ID": 2000109,
+    "RPCMSTR": "03003160",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 33440.2587,
+    "SHAPE.STLength()": 768.1110252374654
+  },
+  {
+    "OBJECTID": 7244015,
+    "EVENT_ID": 2000110,
+    "RPCMSTR": "03003106",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13557.3431,
+    "SHAPE.STLength()": 458.59544739789175
+  },
+  {
+    "OBJECTID": 7244016,
+    "EVENT_ID": 2000111,
+    "RPCMSTR": "03003105",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11553.2965,
+    "SHAPE.STLength()": 435.68102028711013
+  },
+  {
+    "OBJECTID": 7244017,
+    "EVENT_ID": 2000113,
+    "RPCMSTR": "03003100",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11705.23775,
+    "SHAPE.STLength()": 434.56431014389904
+  },
+  {
+    "OBJECTID": 7244018,
+    "EVENT_ID": 2000112,
+    "RPCMSTR": "03003077",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 8511.2571,
+    "SHAPE.STLength()": 433.4566203640954
+  },
+  {
+    "OBJECTID": 7244019,
+    "EVENT_ID": 2000087,
+    "RPCMSTR": "03003109",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11007.15325,
+    "SHAPE.STLength()": 422.88613470413753
+  },
+  {
+    "OBJECTID": 7244020,
+    "EVENT_ID": 2000089,
+    "RPCMSTR": "03003108",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9958.5579,
+    "SHAPE.STLength()": 387.3636366059274
+  },
+  {
+    "OBJECTID": 7244021,
+    "EVENT_ID": 2000027,
+    "RPCMSTR": "03003034",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 14416.8365,
+    "SHAPE.STLength()": 522.1383229698384
+  },
+  {
+    "OBJECTID": 7244022,
+    "EVENT_ID": 2000030,
+    "RPCMSTR": "03003038",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9744,
+    "SHAPE.STLength()": 409.7007598539747
+  },
+  {
+    "OBJECTID": 7244023,
+    "EVENT_ID": 2000032,
+    "RPCMSTR": "03003033",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11469,
+    "SHAPE.STLength()": 436.0280973165911
+  },
+  {
+    "OBJECTID": 7244024,
+    "EVENT_ID": 2000040,
+    "RPCMSTR": "03003032",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 2866,
+    "SHAPE.STLength()": 294.8265665933956
+  },
+  {
+    "OBJECTID": 7244025,
+    "EVENT_ID": 2000051,
+    "RPCMSTR": "03004009",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9820.9,
+    "SHAPE.STLength()": 406.6110764634496
+  },
+  {
+    "OBJECTID": 7244026,
+    "EVENT_ID": 2000053,
+    "RPCMSTR": "03004013",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11034.46245,
+    "SHAPE.STLength()": 434.5628520837978
+  },
+  {
+    "OBJECTID": 7244027,
+    "EVENT_ID": 2000055,
+    "RPCMSTR": "03003027",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10501,
+    "SHAPE.STLength()": 418.53616507122393
+  },
+  {
+    "OBJECTID": 7244028,
+    "EVENT_ID": 2000056,
+    "RPCMSTR": "03004008",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9988.5,
+    "SHAPE.STLength()": 409.707446803965
+  },
+  {
+    "OBJECTID": 7244029,
+    "EVENT_ID": 2000062,
+    "RPCMSTR": "03003026",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10765,
+    "SHAPE.STLength()": 422.7355410395264
+  },
+  {
+    "OBJECTID": 7244030,
+    "EVENT_ID": 2000070,
+    "RPCMSTR": "03004006",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10747,
+    "SHAPE.STLength()": 432.1269420197517
+  },
+  {
+    "OBJECTID": 7244031,
+    "EVENT_ID": 2000072,
+    "RPCMSTR": "03003025",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10626.01125,
+    "SHAPE.STLength()": 420.52464744135176
+  },
+  {
+    "OBJECTID": 7244032,
+    "EVENT_ID": 2000073,
+    "RPCMSTR": "03003048",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12228.96,
+    "SHAPE.STLength()": 501.6854018572252
+  },
+  {
+    "OBJECTID": 7244033,
+    "EVENT_ID": 2000078,
+    "RPCMSTR": "03004005",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11407.1385,
+    "SHAPE.STLength()": 448.09715200055115
+  },
+  {
+    "OBJECTID": 7244034,
+    "EVENT_ID": 2000083,
+    "RPCMSTR": "03004017",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11948.09985,
+    "SHAPE.STLength()": 452.63105122183623
+  },
+  {
+    "OBJECTID": 7244035,
+    "EVENT_ID": 2000085,
+    "RPCMSTR": "03003163",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9192.38,
+    "SHAPE.STLength()": 443.20869504799214
+  },
+  {
+    "OBJECTID": 7244036,
+    "EVENT_ID": 2000093,
+    "RPCMSTR": "03004003",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13627.5668,
+    "SHAPE.STLength()": 491.08371435883987
+  },
+  {
+    "OBJECTID": 7244037,
+    "EVENT_ID": 2000034,
+    "RPCMSTR": "03003039",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12986.2865,
+    "SHAPE.STLength()": 498.93904769692847
+  },
+  {
+    "OBJECTID": 7244038,
+    "EVENT_ID": 2000038,
+    "RPCMSTR": "03004011",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11201.2562,
+    "SHAPE.STLength()": 404.66505682180684
+  },
+  {
+    "OBJECTID": 7244039,
+    "EVENT_ID": 2000043,
+    "RPCMSTR": "03004012",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11146.3026,
+    "SHAPE.STLength()": 418.0438313304931
+  },
+  {
+    "OBJECTID": 7244040,
+    "EVENT_ID": 2000044,
+    "RPCMSTR": "03004010",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10312.9901,
+    "SHAPE.STLength()": 405.20828869474497
+  },
+  {
+    "OBJECTID": 7244041,
+    "EVENT_ID": 2000049,
+    "RPCMSTR": "03003028",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11243,
+    "SHAPE.STLength()": 430.8601268198635
+  },
+  {
+    "OBJECTID": 7244042,
+    "EVENT_ID": 2000060,
+    "RPCMSTR": "03004014",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11275.84005,
+    "SHAPE.STLength()": 439.0286285286634
+  },
+  {
+    "OBJECTID": 7244043,
+    "EVENT_ID": 2000061,
+    "RPCMSTR": "03004007",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10127.57,
+    "SHAPE.STLength()": 416.8546773472832
+  },
+  {
+    "OBJECTID": 7244044,
+    "EVENT_ID": 2000064,
+    "RPCMSTR": "03004015",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12299.9033,
+    "SHAPE.STLength()": 467.3845268859355
+  },
+  {
+    "OBJECTID": 7244045,
+    "EVENT_ID": 2000068,
+    "RPCMSTR": "03003165",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 19899.63505,
+    "SHAPE.STLength()": 701.2034147104473
+  },
+  {
+    "OBJECTID": 7244046,
+    "EVENT_ID": 2000071,
+    "RPCMSTR": "03003046",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 29400.44,
+    "SHAPE.STLength()": 901.7613256653862
+  },
+  {
+    "OBJECTID": 7244047,
+    "EVENT_ID": 2000076,
+    "RPCMSTR": "03004016",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11969.18115,
+    "SHAPE.STLength()": 470.00804132726245
+  },
+  {
+    "OBJECTID": 7244048,
+    "EVENT_ID": 2000081,
+    "RPCMSTR": "03003024",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11067.49245,
+    "SHAPE.STLength()": 431.42294018326874
+  },
+  {
+    "OBJECTID": 7244049,
+    "EVENT_ID": 2000082,
+    "RPCMSTR": "03003124",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11869.2,
+    "SHAPE.STLength()": 427.8017142208337
+  },
+  {
+    "OBJECTID": 7244050,
+    "EVENT_ID": 2000088,
+    "RPCMSTR": "03004004",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11703.098,
+    "SHAPE.STLength()": 453.82195314500956
+  },
+  {
+    "OBJECTID": 7244051,
+    "EVENT_ID": 2000090,
+    "RPCMSTR": "03003021",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11946.6667625,
+    "SHAPE.STLength()": 454.9068700593104
+  },
+  {
+    "OBJECTID": 7244052,
+    "EVENT_ID": 2000102,
+    "RPCMSTR": "03003153",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 31837.50455,
+    "SHAPE.STLength()": 777.042741729774
+  },
+  {
+    "OBJECTID": 7244053,
+    "EVENT_ID": 2000103,
+    "RPCMSTR": "03004002",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13776.9395125,
+    "SHAPE.STLength()": 502.69174207246346
+  },
+  {
+    "OBJECTID": 7244054,
+    "EVENT_ID": 2000104,
+    "RPCMSTR": "03004021",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 11305.495,
+    "SHAPE.STLength()": 414.45114617847486
+  },
+  {
+    "OBJECTID": 7244055,
+    "EVENT_ID": 4000121,
+    "RPCMSTR": "03004023",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 284.595,
+    "SHAPE.STLength()": 83.40845947419601
+  },
+  {
+    "OBJECTID": 7244056,
+    "EVENT_ID": 2000091,
+    "RPCMSTR": "03004022",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 9702.47,
+    "SHAPE.STLength()": 441.07540726495705
+  },
+  {
+    "OBJECTID": 7244057,
+    "EVENT_ID": 2000107,
+    "RPCMSTR": "03003053",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 30569.9552,
+    "SHAPE.STLength()": 759.1160997208175
+  },
+  {
+    "OBJECTID": 7244058,
+    "EVENT_ID": 4001193,
+    "RPCMSTR": "03003075",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 19828.4053,
+    "SHAPE.STLength()": 678.2244749759407
+  },
+  {
+    "OBJECTID": 7244059,
+    "EVENT_ID": 2000100,
+    "RPCMSTR": "03003020",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12963.8947,
+    "SHAPE.STLength()": 468.34107780493474
+  },
+  {
+    "OBJECTID": 7244060,
+    "EVENT_ID": 2000048,
+    "RPCMSTR": "03003086",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 92423.81265,
+    "SHAPE.STLength()": 1628.1562644568166
+  },
+  {
+    "OBJECTID": 7244061,
+    "EVENT_ID": 2000097,
+    "RPCMSTR": "03003152",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 14482.18545,
+    "SHAPE.STLength()": 594.9100542410213
+  },
+  {
+    "OBJECTID": 7244062,
+    "EVENT_ID": 2000033,
+    "RPCMSTR": "03003154",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 19468.69485,
+    "SHAPE.STLength()": 589.5526720015658
+  },
+  {
+    "OBJECTID": 7244063,
+    "EVENT_ID": 2000042,
+    "RPCMSTR": "03003029",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 13263.4784625,
+    "SHAPE.STLength()": 457.62650951546624
+  },
+  {
+    "OBJECTID": 7244064,
+    "EVENT_ID": 2000065,
+    "RPCMSTR": "03003164",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 27452.9532,
+    "SHAPE.STLength()": 795.9363033129044
+  },
+  {
+    "OBJECTID": 7244065,
+    "EVENT_ID": 2000094,
+    "RPCMSTR": "03003052",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 43061.38695,
+    "SHAPE.STLength()": 1016.9029242679776
+  },
+  {
+    "OBJECTID": 7244066,
+    "EVENT_ID": 4001194,
+    "RPCMSTR": "03003076",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 21508.7168,
+    "SHAPE.STLength()": 741.228815393921
+  },
+  {
+    "OBJECTID": 7244067,
+    "EVENT_ID": 4001196,
+    "RPCMSTR": "03003175",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 31420.1948,
+    "SHAPE.STLength()": 942.8973352244072
+  },
+  {
+    "OBJECTID": 7244068,
+    "EVENT_ID": 4001197,
+    "RPCMSTR": "03003174",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 21543.63835,
+    "SHAPE.STLength()": 654.6316641993337
+  },
+  {
+    "OBJECTID": 7244069,
+    "EVENT_ID": 4001198,
+    "RPCMSTR": "03003173",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 19892.51265,
+    "SHAPE.STLength()": 613.9656527807998
+  },
+  {
+    "OBJECTID": 7244070,
+    "EVENT_ID": 4001199,
+    "RPCMSTR": "03003117",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 20018.2252,
+    "SHAPE.STLength()": 610.466677570354
+  },
+  {
+    "OBJECTID": 7244071,
+    "EVENT_ID": 2000197,
+    "RPCMSTR": "03068004",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 4511.485,
+    "SHAPE.STLength()": 290.5442159606186
+  },
+  {
+    "OBJECTID": 7244072,
+    "EVENT_ID": 2000206,
+    "RPCMSTR": "03068003",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 2619.76,
+    "SHAPE.STLength()": 267.2841905607721
+  },
+  {
+    "OBJECTID": 7244073,
+    "EVENT_ID": 2000213,
+    "RPCMSTR": "03068002",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 10272.87,
+    "SHAPE.STLength()": 405.53912397400256
+  },
+  {
+    "OBJECTID": 7244074,
+    "EVENT_ID": 2000227,
+    "RPCMSTR": "03069005",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 1637.575,
+    "SHAPE.STLength()": 269.0881725495053
+  },
+  {
+    "OBJECTID": 7244075,
+    "EVENT_ID": 2000232,
+    "RPCMSTR": "03069006",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 12089.895,
+    "SHAPE.STLength()": 444.1072177813519
+  },
+  {
+    "OBJECTID": 7244076,
+    "EVENT_ID": 2000248,
+    "RPCMSTR": "03069004",
+    "GeoSyncDate": 1791418812000,
+    "SHAPE.STArea()": 3156.605,
+    "SHAPE.STLength()": 266.0532240177006
+  }
+]

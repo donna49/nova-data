@@ -1,0 +1,15 @@
+{
+  "source_id": "arlington_bid_boundaries",
+  "endpoint_url": "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_Business_Improvement_Districts/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:30:45+00:00",
+  "sample_rows": 3,
+  "reported_row_count": 3,
+  "sha256": "ac5ea581008d570db96a33fffe19b5eec05134bf4a0c5c341594ff916699e65d",
+  "fields": {
+    "OBJECTID": "integer",
+    "BID_name": "string",
+    "GeoSyncDate": "integer",
+    "Shape__Area": "number",
+    "Shape__Length": "number"
+  }
+}

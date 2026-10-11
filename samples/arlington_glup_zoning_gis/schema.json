@@ -1,0 +1,20 @@
+{
+  "source_id": "arlington_glup_zoning_gis",
+  "endpoint_url": "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_Zoning_Polygons/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:30:51+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 618,
+  "sha256": "9beaf1321c6f9132903793643829395f39e9c42581e00dd8557f2fb9fc3da153",
+  "fields": {
+    "OBJECTID": "integer",
+    "REA_ZONECODE": "string",
+    "ZN_DESIG": "string",
+    "LABEL": "string",
+    "SYMBOL": "integer",
+    "REA_ZN_DESIG_6": "string",
+    "GZDC": "string",
+    "GeoSyncDate": "integer",
+    "Shape__Area": "number",
+    "Shape__Length": "number"
+  }
+}

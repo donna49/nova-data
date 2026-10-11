@@ -11,17 +11,17 @@
   access_type: api
   cost: free
   format: "JSON API (OData-style $top paging), plus a pipe/text bulk file"
-  landing_url: "https://catalog.data.gov/dataset/property"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/RealEstate/Property"
   parcel_key: "RPC (RealEstatePropertyCode)"
   update_frequency: unknown
   history_start: unknown
   terms: "Free to share and adapt, but users must display the notice 'Arlington County Data API was used for this purpose, but it is not endorsed or certified by Arlington County.'"
-  notes: "Contains address, property use and legal description. The bulk file is download.data.arlingtonva.us/RealEstate/PropertyRedacted.txt, and owner fields may be redacted in it. The portal is data.arlingtonva.us and documentation is at docs.data.arlingtonva.us."
+  notes: "The API returns owner fields (firstOwnerName, secondOwnerName, owner mailing address, maskOwnerAddressInd), plus legal description, lot size, zoning list, year built, GFA, units, landRecordDocumentNbr and lat/long. The bulk text file is PropertyRedacted.txt, which may mask owners. Documentation: docs.data.arlingtonva.us. Catalog copies on Data.gov now return 404."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property"
     - "https://us-cities.survey.okfn.org/entry/arlingtonva/property-assessment.html"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_re_property_address
   jurisdiction: arlington
@@ -31,8 +31,8 @@
   access_type: api
   cost: free
   format: "JSON API"
-  landing_url: "https://catalog.data.gov/dataset/property-address"
-  endpoint_url: null
+  landing_url: "https://data.arlingtonva.us"
+  endpoint_url: "https://datahub-v2.arlingtonva.us/api/RealEstate/PropertyAddress"
   parcel_key: RPC
   update_frequency: unknown
   history_start: unknown
@@ -40,7 +40,7 @@
   notes: "One or more addresses per RPC. The exact API path was not found; it is probably under api/RealEstate/."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-address"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_re_assessment
   jurisdiction: arlington
@@ -50,7 +50,7 @@
   access_type: api
   cost: free
   format: "JSON API, plus a text bulk file"
-  landing_url: "https://catalog.data.gov/dataset/assessment"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/RealEstate/Assessment"
   parcel_key: RPC
   update_frequency: "Annual assessment cycle"
@@ -59,7 +59,7 @@
   notes: "Historical land, improvement and total assessed values for all properties. The closest match to D.C.'s CAMA value files."
   evidence_urls:
     - "https://catalog.data.gov/dataset/assessment"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_re_sales_history
   jurisdiction: arlington
@@ -69,16 +69,16 @@
   access_type: api
   cost: free
   format: "JSON API, plus a text bulk file"
-  landing_url: "https://catalog.data.gov/dataset/property-sale-history"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/RealEstate/SalesHistory"
   parcel_key: RPC
   update_frequency: unknown
   history_start: unknown
   terms: "Arlington public use notice"
-  notes: "The bulk file is download.data.arlingtonva.us/RealEstate/SalesHistory.txt. The property-search pages show deed book/page or a document ID, so the API probably includes them too (not confirmed). Equivalent to D.C. CAMA sales."
+  notes: "Fields include deedBookNbr, deedPageNbr, landRecordDocumentNbr, granteeName, saleAmt, saleDate, salesTypeDsc. Deed references confirmed."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-sale-history"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_re_dwelling_characteristics
   jurisdiction: arlington
@@ -88,17 +88,17 @@
   access_type: api
   cost: free
   format: "JSON API, plus text bulk files"
-  landing_url: "https://catalog.data.gov/dataset/residential-dwellings-general"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/RealEstate/ImprovementDwelling"
   parcel_key: RPC
   update_frequency: unknown
   history_start: unknown
   terms: "Arlington public use notice"
-  notes: "Four sibling tables under api/RealEstate/: ImprovementDwelling, ImprovementInterior, ImprovementExterior and ImprovementPorch. Residential only; no commercial-building table was found."
+  notes: "Four sibling tables under api/RealEstate/: ImprovementDwelling, ImprovementInterior, ImprovementExterior and ImprovementPorch (all return 200). Residential only; no commercial-building table exists (ImprovementCommercial returns 404)."
   evidence_urls:
     - "https://catalog.data.gov/dataset/residential-dwellings-general"
     - "https://catalog.data.gov/dataset/residential-dwellings-interior"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_re_valuation_permits
   jurisdiction: arlington
@@ -108,7 +108,7 @@
   access_type: api
   cost: free
   format: "JSON API, plus a text bulk file"
-  landing_url: "https://catalog.data.gov/dataset/valuation-related-building-permits"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/RealEstate/Permit"
   parcel_key: RPC
   update_frequency: unknown
@@ -117,7 +117,7 @@
   notes: "Only permits that affect assessed value. The bulk file is download.data.arlingtonva.us/RealEstate/Permit.txt."
   evidence_urls:
     - "https://catalog.data.gov/dataset/valuation-related-building-permits"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_re_tax_exemption_history
   jurisdiction: arlington
@@ -127,7 +127,7 @@
   access_type: api
   cost: free
   format: "JSON API"
-  landing_url: "https://catalog.data.gov/dataset/property-tax-exemption-history"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/RealEstate/PropertyTaxExemptionHistory"
   parcel_key: RPC
   update_frequency: unknown
@@ -136,7 +136,7 @@
   notes: "Properties that have been tax-exempt at least once since 2000."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-tax-exemption-history"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_tax_assessment_payments
   jurisdiction: arlington
@@ -146,16 +146,16 @@
   access_type: api
   cost: free
   format: "JSON API"
-  landing_url: "https://catalog.data.gov/dataset/assessment-payments"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/Tax/RealEstateAssessmentPaymentSummary"
   parcel_key: RPC
   update_frequency: unknown
   history_start: "2015"
   terms: "Arlington public use notice"
-  notes: "Annual payment history per property. Unpaid balances can stand in for delinquency, but it is not a delinquent list. The endpoint path was derived from the catalog identifier."
+  notes: "Per installment: assessed tax, penalty, interest, fees, total and stormwater amounts, plus due date. Penalty and interest amounts identify delinquent installments, so this works as a delinquency proxy, not a formal list."
   evidence_urls:
     - "https://catalog.data.gov/dataset/assessment-payments"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_property_search
   jurisdiction: arlington
@@ -171,7 +171,7 @@
   update_frequency: unknown
   history_start: "About 10 years of assessments shown"
   terms: unknown
-  notes: "Per-parcel pages at /Home/Assessments, /Home/Sales and /Home/TaxBalanceAssessments. Useful for verification, not as a bulk source."
+  notes: "Per-parcel pages at /Home/Assessments, /Home/Sales and /Home/TaxBalanceAssessments. The site returns 403 to automated requests (2026-10-11), so it is for manual verification only. The datahub API carries the same data."
   evidence_urls:
     - "https://propertysearch.arlingtonva.us/Home/Sales?lrsn=52995"
   verified_at: null
@@ -193,7 +193,7 @@
   notes: "Bill and balance lookup at capp.arlingtonva.us. May require a login."
   evidence_urls:
     - "https://arlingtonva.us/Government/Departments/Treasurers-Office/Treasurers-Office-Contacts"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_treasurer_tax_sales
   jurisdiction: arlington
@@ -212,7 +212,7 @@
   notes: "No tax lien certificates. No published bulk delinquent list was found."
   evidence_urls:
     - "https://www.arlingtonva.us/Government/Programs/Taxes/Upcoming-Tax-Sales"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_bid_boundaries
   jurisdiction: arlington
@@ -231,7 +231,7 @@
   notes: "Rosslyn, Ballston and National Landing BIDs. Rates are not in the layer and must come from budget documents. Commercial property also pays a 12.5-cent transportation surcharge."
   evidence_urls:
     - "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_Business_Improvement_Districts/FeatureServer/0/iteminfo"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_budget_tax_rates
   jurisdiction: arlington
@@ -251,7 +251,7 @@
   evidence_urls:
     - "https://www.arlnow.com/?p=405021"
   in_matrix: false  # rate schedule, not parcel records
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_permits_applications
   jurisdiction: arlington
@@ -261,17 +261,17 @@
   access_type: api
   cost: free
   format: "JSON API"
-  landing_url: "https://catalog.data.gov/dataset/permits-applications-216b9"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/Permit/Permit"
   parcel_key: "unknown (probably RPC or address)"
   update_frequency: unknown
   history_start: unknown
   terms: "Arlington public use notice"
-  notes: "All submitted permits, including building, right-of-way and traffic, which covers the D.C. DOB and DDOT permit equivalents. Sibling endpoints: api/Permit/PermitHistory, api/Permit/PermitEventLog (may include inspections) and api/Permit/PermitComment."
+  notes: "All permit types (building, right-of-way, traffic and others), keyed by realEstatePropertyCode (RPC). Fields include holder, owner, contractor, status, applied/issued/closed dates, value and lat/long. Sibling endpoints (all 200): api/Permit/PermitHistory, PermitEventLog, PermitComment."
   evidence_urls:
     - "https://catalog.data.gov/dataset/permits-applications-216b9"
     - "https://catalog.data.gov/dataset/permit-application-actions"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_permit_arlington_portal
   jurisdiction: arlington
@@ -290,7 +290,7 @@
   notes: "Requires a login. Also holds inspection results and Accessory Homestay (short-term rental) permits."
   evidence_urls:
     - "https://www.arlingtonva.us/Government/Programs/Building/Permits/Permit-Arlington/Help"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_stop_work_unsafe_building
   jurisdiction: arlington
@@ -300,7 +300,7 @@
   access_type: api
   cost: free
   format: "JSON API"
-  landing_url: "https://catalog.data.gov/dataset/stop-work-order-and-unsafe-building-notices"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/HousingBuilding/StopWorkUnsafeBuildingCase"
   parcel_key: "unknown (probably RPC)"
   update_frequency: "unknown (last modified 2024-06-06, possibly stale)"
@@ -309,7 +309,7 @@
   notes: "The only open enforcement dataset found."
   evidence_urls:
     - "https://catalog.data.gov/dataset/stop-work-order-and-unsafe-building-notices"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_code_zoning_enforcement
   jurisdiction: arlington
@@ -328,7 +328,7 @@
   notes: "About 5,000 investigations a year. No public dataset."
   evidence_urls:
     - "https://www.arlingtonva.us/Government/Programs/Building/Enforcement-Appeals/Code"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_business_licenses
   jurisdiction: arlington
@@ -338,7 +338,7 @@
   access_type: api
   cost: free
   format: "JSON API, plus a dashboard viewer"
-  landing_url: "https://catalog.data.gov/dataset/active-business-licenses"
+  landing_url: "https://data.arlingtonva.us"
   endpoint_url: "https://datahub-v2.arlingtonva.us/api/DemographicEconomic/CurrentBusinessLicenseList"
   parcel_key: "null (address)"
   update_frequency: unknown
@@ -347,7 +347,7 @@
   notes: "Active licenses only; in-home businesses are excluded. Equivalent to D.C. Basic Business Licenses."
   evidence_urls:
     - "https://catalog.data.gov/dataset/active-business-licenses"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_parcels_gis
   jurisdiction: arlington
@@ -357,7 +357,7 @@
   access_type: api
   cost: free
   format: "ArcGIS MapServer and Hub"
-  landing_url: "https://us-cities.survey.okfn.org/entry/arlingtonva/parcels.html"
+  landing_url: "https://gisdata-arlgis.opendata.arcgis.com/"
   endpoint_url: "https://arlgis.arlingtonva.us/arcgis/rest/services/CRMS_311/CRMS311_Parcels/MapServer/0"
   parcel_key: "RPC Master (each condo building is one polygon)"
   update_frequency: "Weekly"
@@ -366,7 +366,7 @@
   notes: "The endpoint is a 311-app layer. The canonical Hub item is probably gisdata-arlgis.opendata.arcgis.com/datasets/parcels."
   evidence_urls:
     - "https://arlgis.arlingtonva.us/arcgis/rest/services/CRMS_311/CRMS311_Parcels/MapServer/0/iteminfo"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: arlington_glup_zoning_gis
   jurisdiction: arlington
@@ -377,15 +377,15 @@
   cost: free
   format: "ArcGIS MapServer"
   landing_url: "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_GLUP_Sectors/MapServer?f=pitemx"
-  endpoint_url: null
+  endpoint_url: "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_Zoning_Polygons/FeatureServer/0"
   parcel_key: "null (spatial)"
   update_frequency: "As needed"
   history_start: unknown
   terms: "Informational only"
-  notes: "No URL for a current zoning-district layer was found; check the Open_Data folder. The service root is od_GLUP_Sectors/MapServer, and its layer IDs are not yet known."
+  notes: "The endpoint is od_Zoning_Polygons. Same folder: od_GLUP_Sectors (0 GLUP, 1 Sectors), od_Zoning_Historic_District_Polygons, od_Zoning_Site_Plans_Polygons and od_Address_Points."
   evidence_urls:
     - "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_GLUP_Sectors/MapServer?f=pitemx"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 # ---------------- CITY OF FALLS CHURCH ----------------
 - source_id: falls_church_real_property_search
@@ -406,26 +406,26 @@
   evidence_urls:
     - "https://www.fallschurchva.gov/719/Real-Property-Search-Database-New-Sales-"
     - "https://gis.vgsi.com/fallschurchva/"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: falls_church_gis
   jurisdiction: falls_church
   custodian: "Department of Public Works, Geospatial Services"
   dataset_name: "City GIS (public viewer, parcels and zoning)"
   quoin_sections: [land, identity]
-  access_type: portal_search
+  access_type: "api"
   cost: free
   format: "ArcGIS web apps"
   landing_url: "https://www.fallschurchva.gov/158/Geographic-Information-Systems-GIS"
-  endpoint_url: null
+  endpoint_url: "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Parcels/FeatureServer/0"
   parcel_key: RPC
   update_frequency: unknown
   history_start: unknown
   terms: unknown
-  notes: "Feature services probably exist, but no official REST or Hub URL was found."
+  notes: "Published by the City's GIS account. Parcels layer: RPC_master, RPC, PIN, effective and expiry docs, subdivision, acres, 3,889 records. Sibling services: Parcels_zoning, Parcels_elu (existing land use), Parcels_flu (future land use), Easements_public. No assessed values or owners."
   evidence_urls:
     - "https://www.fallschurchva.gov/158/Geographic-Information-Systems-GIS"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: falls_church_treasurer_tax
   jurisdiction: falls_church
@@ -444,7 +444,7 @@
   notes: "Lookup requires a bill number, so it is not an open search."
   evidence_urls:
     - "https://www.fallschurchva.gov/treasurer"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: falls_church_delinquent_tax
   jurisdiction: falls_church
@@ -463,7 +463,7 @@
   notes: "Placeholder. No public list or tax-sale page was found."
   evidence_urls:
     - "https://www.fallschurchva.gov/treasurer"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: falls_church_building_permits
   jurisdiction: falls_church
@@ -482,7 +482,7 @@
   notes: "No public permit search was found."
   evidence_urls:
     - "https://www.fallschurchva.gov/1846/Building-Safety-Division"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: falls_church_business_licenses
   jurisdiction: falls_church
@@ -498,7 +498,7 @@
   update_frequency: "Annual"
   history_start: unknown
   terms: "Va. Code 58.1-3 confidentiality"
-  notes: "No published list."
+  notes: "No published list. The landing page returned 404 on 2026-10-11 and the current URL is unknown; the city's Licenses & Permits section is at /370/Licenses-Permits."
   evidence_urls:
     - "https://www.fallschurchva.gov/855/Business-Licenses-Permits"
   verified_at: null
@@ -520,4 +520,4 @@
   notes: "No public dataset."
   evidence_urls:
     - "https://www.fcnp.com/2012/01/10/fc-council-gives-preliminary-ok-to-fines-for-property-blight/amp"
-  verified_at: null
+  verified_at: "2026-10-11"

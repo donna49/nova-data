@@ -1,0 +1,802 @@
+[
+  {
+    "FID": 1,
+    "ORDINANCE": null,
+    "ZONING": "CC",
+    "AMENDMENT": null,
+    "Shape__Area": 37951.578125,
+    "Shape__Length": 968.2605473444368
+  },
+  {
+    "FID": 2,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 9684.4453125,
+    "Shape__Length": 399.30892544103085
+  },
+  {
+    "FID": 3,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 1704.640625,
+    "Shape__Length": 187.9710976018785
+  },
+  {
+    "FID": 4,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 9224.79296875,
+    "Shape__Length": 400.66091920733567
+  },
+  {
+    "FID": 5,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 2237.22265625,
+    "Shape__Length": 192.40247463155094
+  },
+  {
+    "FID": 6,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 6182.62109375,
+    "Shape__Length": 331.94624493017943
+  },
+  {
+    "FID": 7,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 18661.73046875,
+    "Shape__Length": 543.0658049306728
+  },
+  {
+    "FID": 8,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 1986.52734375,
+    "Shape__Length": 185.91858478757655
+  },
+  {
+    "FID": 9,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 16538.4375,
+    "Shape__Length": 667.2585215649017
+  },
+  {
+    "FID": 10,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 62851.06640625,
+    "Shape__Length": 1484.6238715996396
+  },
+  {
+    "FID": 11,
+    "ORDINANCE": "4413",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 659.2734375,
+    "Shape__Length": 145.37889949956863
+  },
+  {
+    "FID": 12,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 29487.87890625,
+    "Shape__Length": 1358.7202072582534
+  },
+  {
+    "FID": 13,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 55522.890625,
+    "Shape__Length": 1531.9326970103352
+  },
+  {
+    "FID": 14,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 65338.0859375,
+    "Shape__Length": 1673.2542542661577
+  },
+  {
+    "FID": 15,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 5678.37109375,
+    "Shape__Length": 337.64666465599765
+  },
+  {
+    "FID": 16,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 15383.40625,
+    "Shape__Length": 1008.911570507907
+  },
+  {
+    "FID": 17,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 13136.0703125,
+    "Shape__Length": 493.457907449746
+  },
+  {
+    "FID": 18,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 93637.2265625,
+    "Shape__Length": 2396.5612309407625
+  },
+  {
+    "FID": 19,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 175829.61328125,
+    "Shape__Length": 5311.284728696864
+  },
+  {
+    "FID": 20,
+    "ORDINANCE": "4375",
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 32871.3828125,
+    "Shape__Length": 1497.6513022993963
+  },
+  {
+    "FID": 21,
+    "ORDINANCE": null,
+    "ZONING": "CD",
+    "AMENDMENT": null,
+    "Shape__Area": 1568.91015625,
+    "Shape__Length": 271.8775440466314
+  },
+  {
+    "FID": 22,
+    "ORDINANCE": "4294",
+    "ZONING": "CDD #1",
+    "AMENDMENT": null,
+    "Shape__Area": 536076.9921875,
+    "Shape__Length": 4673.742834927881
+  },
+  {
+    "FID": 23,
+    "ORDINANCE": "5188",
+    "ZONING": "CDD #10",
+    "AMENDMENT": null,
+    "Shape__Area": 1434316.67578125,
+    "Shape__Length": 12413.934617666004
+  },
+  {
+    "FID": 24,
+    "ORDINANCE": "4294& 4643",
+    "ZONING": "CDD #11",
+    "AMENDMENT": null,
+    "Shape__Area": 247447.40234375,
+    "Shape__Length": 2881.332702845662
+  },
+  {
+    "FID": 25,
+    "ORDINANCE": "4310",
+    "ZONING": "CDD #12",
+    "AMENDMENT": null,
+    "Shape__Area": 37905.4296875,
+    "Shape__Length": 969.936042176516
+  },
+  {
+    "FID": 26,
+    "ORDINANCE": "4399",
+    "ZONING": "CDD #13",
+    "AMENDMENT": null,
+    "Shape__Area": 21173.52734375,
+    "Shape__Length": 991.2678307008229
+  },
+  {
+    "FID": 27,
+    "ORDINANCE": "4399",
+    "ZONING": "CDD #14",
+    "AMENDMENT": null,
+    "Shape__Area": 16335.12890625,
+    "Shape__Length": 585.6345423954676
+  },
+  {
+    "FID": 28,
+    "ORDINANCE": "4527",
+    "ZONING": "CDD #15",
+    "AMENDMENT": null,
+    "Shape__Area": 51939.90234375,
+    "Shape__Length": 1398.6156747848797
+  },
+  {
+    "FID": 29,
+    "ORDINANCE": "4575",
+    "ZONING": "CDD #16",
+    "AMENDMENT": null,
+    "Shape__Area": 85177.5546875,
+    "Shape__Length": 1821.796802145379
+  },
+  {
+    "FID": 30,
+    "ORDINANCE": "4580",
+    "ZONING": "CDD #17",
+    "AMENDMENT": null,
+    "Shape__Area": 49094.765625,
+    "Shape__Length": 887.1956014285654
+  },
+  {
+    "FID": 31,
+    "ORDINANCE": "4892",
+    "ZONING": "CDD #17a",
+    "AMENDMENT": null,
+    "Shape__Area": 58470.73046875,
+    "Shape__Length": 972.855068879579
+  },
+  {
+    "FID": 32,
+    "ORDINANCE": "4678/5188",
+    "ZONING": "CDD #19",
+    "AMENDMENT": null,
+    "Shape__Area": 466277.02734375,
+    "Shape__Length": 3142.7765001350926
+  },
+  {
+    "FID": 33,
+    "ORDINANCE": null,
+    "ZONING": "CDD #2",
+    "AMENDMENT": null,
+    "Shape__Area": 512477.50390625,
+    "Shape__Length": 5046.591913167163
+  },
+  {
+    "FID": 34,
+    "ORDINANCE": "4732",
+    "ZONING": "CDD #20",
+    "AMENDMENT": null,
+    "Shape__Area": 14610.71484375,
+    "Shape__Length": 483.4141893933928
+  },
+  {
+    "FID": 35,
+    "ORDINANCE": "4813",
+    "ZONING": "CDD #21",
+    "AMENDMENT": null,
+    "Shape__Area": 1357684.9609375,
+    "Shape__Length": 9236.483356489294
+  },
+  {
+    "FID": 36,
+    "ORDINANCE": "4813",
+    "ZONING": "CDD #22",
+    "AMENDMENT": null,
+    "Shape__Area": 192867.77734375,
+    "Shape__Length": 1812.3049746874067
+  },
+  {
+    "FID": 37,
+    "ORDINANCE": "4929/5110",
+    "ZONING": "CDD #23",
+    "AMENDMENT": null,
+    "Shape__Area": 68721.234375,
+    "Shape__Length": 1144.2951098832075
+  },
+  {
+    "FID": 38,
+    "ORDINANCE": "4999",
+    "ZONING": "CDD #24",
+    "AMENDMENT": null,
+    "Shape__Area": 233929.88671875,
+    "Shape__Length": 4652.181929005554
+  },
+  {
+    "FID": 39,
+    "ORDINANCE": "5015",
+    "ZONING": "CDD #25",
+    "AMENDMENT": null,
+    "Shape__Area": 20057.62890625,
+    "Shape__Length": 572.9713537558978
+  },
+  {
+    "FID": 40,
+    "ORDINANCE": "5220",
+    "ZONING": "CDD #26",
+    "AMENDMENT": null,
+    "Shape__Area": 48554.2890625,
+    "Shape__Length": 1184.1299021297998
+  },
+  {
+    "FID": 41,
+    "ORDINANCE": "5198",
+    "ZONING": "CDD #27",
+    "AMENDMENT": null,
+    "Shape__Area": 113316.2265625,
+    "Shape__Length": 1465.3526492208684
+  },
+  {
+    "FID": 42,
+    "ORDINANCE": "5240",
+    "ZONING": "CDD #28",
+    "AMENDMENT": null,
+    "Shape__Area": 42059.734375,
+    "Shape__Length": 900.4455959788481
+  },
+  {
+    "FID": 43,
+    "ORDINANCE": "5365",
+    "ZONING": "CDD #29",
+    "AMENDMENT": null,
+    "Shape__Area": 408701.58203125,
+    "Shape__Length": 2601.0445516455834
+  },
+  {
+    "FID": 44,
+    "ORDINANCE": null,
+    "ZONING": "CDD #3",
+    "AMENDMENT": null,
+    "Shape__Area": 197157.1953125,
+    "Shape__Length": 2497.095290684569
+  },
+  {
+    "FID": 45,
+    "ORDINANCE": "5452",
+    "ZONING": "CDD #30",
+    "AMENDMENT": null,
+    "Shape__Area": 128956.109375,
+    "Shape__Length": 2165.669422188481
+  },
+  {
+    "FID": 46,
+    "ORDINANCE": null,
+    "ZONING": "CDD #31",
+    "AMENDMENT": "#5571",
+    "Shape__Area": 64750.453125,
+    "Shape__Length": 1218.68392700481
+  },
+  {
+    "FID": 47,
+    "ORDINANCE": null,
+    "ZONING": "CDD #4",
+    "AMENDMENT": null,
+    "Shape__Area": 1038330.44140625,
+    "Shape__Length": 4280.801446106272
+  },
+  {
+    "FID": 48,
+    "ORDINANCE": null,
+    "ZONING": "CDD #5",
+    "AMENDMENT": null,
+    "Shape__Area": 252579.92578125,
+    "Shape__Length": 2147.803412537995
+  },
+  {
+    "FID": 49,
+    "ORDINANCE": "4310",
+    "ZONING": "CDD #6",
+    "AMENDMENT": null,
+    "Shape__Area": 75553.03515625,
+    "Shape__Length": 1369.7366267553866
+  },
+  {
+    "FID": 50,
+    "ORDINANCE": null,
+    "ZONING": "CDD #7",
+    "AMENDMENT": null,
+    "Shape__Area": 257664.51171875,
+    "Shape__Length": 2158.779214918859
+  },
+  {
+    "FID": 51,
+    "ORDINANCE": null,
+    "ZONING": "CDD #8",
+    "AMENDMENT": null,
+    "Shape__Area": 105283.7109375,
+    "Shape__Length": 1330.4425147812112
+  },
+  {
+    "FID": 52,
+    "ORDINANCE": null,
+    "ZONING": "CDD #9",
+    "AMENDMENT": null,
+    "Shape__Area": 1118634.265625,
+    "Shape__Length": 5678.470324956522
+  },
+  {
+    "FID": 53,
+    "ORDINANCE": null,
+    "ZONING": "CDX",
+    "AMENDMENT": null,
+    "Shape__Area": 7277.51171875,
+    "Shape__Length": 415.05673347023225
+  },
+  {
+    "FID": 54,
+    "ORDINANCE": null,
+    "ZONING": "CDX",
+    "AMENDMENT": null,
+    "Shape__Area": 40830.49609375,
+    "Shape__Length": 911.9592143013724
+  },
+  {
+    "FID": 55,
+    "ORDINANCE": null,
+    "ZONING": "CDX",
+    "AMENDMENT": null,
+    "Shape__Area": 53543.32421875,
+    "Shape__Length": 1169.0081396551611
+  },
+  {
+    "FID": 56,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 2607.10546875,
+    "Shape__Length": 251.00007547257556
+  },
+  {
+    "FID": 57,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 6026.5078125,
+    "Shape__Length": 323.6797813723501
+  },
+  {
+    "FID": 58,
+    "ORDINANCE": "4310",
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 34751.9765625,
+    "Shape__Length": 1019.5961782966905
+  },
+  {
+    "FID": 59,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 11583.61328125,
+    "Shape__Length": 477.36902172623905
+  },
+  {
+    "FID": 60,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 8174.671875,
+    "Shape__Length": 393.43604032940016
+  },
+  {
+    "FID": 61,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 36939.03125,
+    "Shape__Length": 903.966076083571
+  },
+  {
+    "FID": 62,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 2374.73046875,
+    "Shape__Length": 228.30902522003046
+  },
+  {
+    "FID": 63,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 16993.75,
+    "Shape__Length": 651.3718504976022
+  },
+  {
+    "FID": 64,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 114874.45703125,
+    "Shape__Length": 1348.0504301191668
+  },
+  {
+    "FID": 65,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 18582.83984375,
+    "Shape__Length": 698.02078416461
+  },
+  {
+    "FID": 66,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 82113.62890625,
+    "Shape__Length": 1240.050935385748
+  },
+  {
+    "FID": 67,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 194794.75,
+    "Shape__Length": 3011.734583770061
+  },
+  {
+    "FID": 68,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 195223.234375,
+    "Shape__Length": 2973.3975409133805
+  },
+  {
+    "FID": 69,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 19050.3671875,
+    "Shape__Length": 660.3121439164814
+  },
+  {
+    "FID": 70,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 51203.6484375,
+    "Shape__Length": 1032.2827778684543
+  },
+  {
+    "FID": 71,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 213705.51171875,
+    "Shape__Length": 3604.2737870216743
+  },
+  {
+    "FID": 72,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 140539.70703125,
+    "Shape__Length": 2214.760412216735
+  },
+  {
+    "FID": 73,
+    "ORDINANCE": null,
+    "ZONING": "CG",
+    "AMENDMENT": null,
+    "Shape__Area": 71414.703125,
+    "Shape__Length": 1068.5554620840232
+  },
+  {
+    "FID": 74,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 21813.11328125,
+    "Shape__Length": 721.0172023556819
+  },
+  {
+    "FID": 75,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 5968.04296875,
+    "Shape__Length": 348.244141343955
+  },
+  {
+    "FID": 76,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 7422.87109375,
+    "Shape__Length": 383.9843087400516
+  },
+  {
+    "FID": 77,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 24140.62890625,
+    "Shape__Length": 952.887776370968
+  },
+  {
+    "FID": 78,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 5527.33984375,
+    "Shape__Length": 426.9603068364518
+  },
+  {
+    "FID": 79,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 5489.5546875,
+    "Shape__Length": 363.4056915663941
+  },
+  {
+    "FID": 80,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 596.98828125,
+    "Shape__Length": 124.17560396350133
+  },
+  {
+    "FID": 81,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 1823.76953125,
+    "Shape__Length": 172.71236316773317
+  },
+  {
+    "FID": 82,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 21957.23828125,
+    "Shape__Length": 657.8369347043035
+  },
+  {
+    "FID": 83,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 4573.578125,
+    "Shape__Length": 303.8413342766608
+  },
+  {
+    "FID": 84,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 18188.83984375,
+    "Shape__Length": 601.0570233527008
+  },
+  {
+    "FID": 85,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 5112.8515625,
+    "Shape__Length": 301.3689978950786
+  },
+  {
+    "FID": 86,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 34384.4140625,
+    "Shape__Length": 886.0081638557975
+  },
+  {
+    "FID": 87,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 1412,
+    "Shape__Length": 156.36209665463653
+  },
+  {
+    "FID": 88,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 11382.171875,
+    "Shape__Length": 577.2556916945963
+  },
+  {
+    "FID": 89,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 4522.9765625,
+    "Shape__Length": 269.24634046406953
+  },
+  {
+    "FID": 90,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 18821.30078125,
+    "Shape__Length": 811.1872145179332
+  },
+  {
+    "FID": 91,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 8038.0859375,
+    "Shape__Length": 365.852733036746
+  },
+  {
+    "FID": 92,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 11412.83984375,
+    "Shape__Length": 435.84044805231946
+  },
+  {
+    "FID": 93,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 7972.2421875,
+    "Shape__Length": 367.6677173136888
+  },
+  {
+    "FID": 94,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 8292.01171875,
+    "Shape__Length": 591.9435316045234
+  },
+  {
+    "FID": 95,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 6606.97265625,
+    "Shape__Length": 331.2350141995841
+  },
+  {
+    "FID": 96,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 3345.25390625,
+    "Shape__Length": 276.63975114202935
+  },
+  {
+    "FID": 97,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 2979.90625,
+    "Shape__Length": 223.77568063459455
+  },
+  {
+    "FID": 98,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 3572.42578125,
+    "Shape__Length": 243.51236305140216
+  },
+  {
+    "FID": 99,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 5793.3828125,
+    "Shape__Length": 316.85185573165614
+  },
+  {
+    "FID": 100,
+    "ORDINANCE": null,
+    "ZONING": "CL",
+    "AMENDMENT": null,
+    "Shape__Area": 8897.88671875,
+    "Shape__Length": 420.71340015648684
+  }
+]

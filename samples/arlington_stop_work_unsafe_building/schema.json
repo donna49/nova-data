@@ -1,0 +1,23 @@
+{
+  "source_id": "arlington_stop_work_unsafe_building",
+  "endpoint_url": "https://datahub-v2.arlingtonva.us/api/HousingBuilding/StopWorkUnsafeBuildingCase",
+  "retrieved_at": "2026-10-11T21:30:46+00:00",
+  "sample_rows": 47,
+  "reported_row_count": null,
+  "sha256": "f27399be4ac7178f55ce4b0421980f544c147530db2ee664e5947ec5a2e5b1d1",
+  "fields": {
+    "stopWorkUnsafeBuildingCaseKey": "integer",
+    "caseNbr": "string",
+    "caseStatusCode": "string",
+    "streetNbr": "string",
+    "streetDirectionCode": "string",
+    "fullStreetName": "string",
+    "actionCode": "string",
+    "actionDesc": "string",
+    "actionDate": "string",
+    "statePlaneXCrd": "string",
+    "statePlaneYCrd": "string",
+    "latitudeCrd": "string",
+    "longitudeCrd": "string"
+  }
+}

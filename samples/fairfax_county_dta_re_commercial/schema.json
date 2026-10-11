@@ -1,0 +1,24 @@
+{
+  "source_id": "fairfax_county_dta_re_commercial",
+  "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Commercial_Data/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:33:02+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 12262,
+  "sha256": "06cf3b7317781af40dcdd5bf953f707a03bfbcd2996c66c6c693d994b1819ef2",
+  "fields": {
+    "OBJECTID": "integer",
+    "PARID": "string",
+    "TAXYR": "integer",
+    "ELEMENT": "string",
+    "UNITS": "integer",
+    "YRBLT": "integer",
+    "IMPRNAME": "string",
+    "USER1": "string",
+    "USER8": "string",
+    "BUSLA": "integer",
+    "USER3_DESC": "string",
+    "USER4_DESC": "string",
+    "USER6_DESC": "string",
+    "USER7_DESC": "string"
+  }
+}

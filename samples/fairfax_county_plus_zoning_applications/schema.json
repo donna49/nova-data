@@ -1,0 +1,30 @@
+{
+  "source_id": "fairfax_county_plus_zoning_applications",
+  "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/PLUS_Zoning_Applications/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:31:06+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 7888,
+  "sha256": "6ee4d4cdae2c5a825e613d377051b84b5c21c32300ac06f97149a0f2a9374a6b",
+  "fields": {
+    "RECORDID": "string",
+    "APPTYPEALIAS": "string",
+    "ACCEPTED_DATE": "integer",
+    "LINK_URL": "string",
+    "APPLICANT": "string",
+    "RECORD_STATUS": "string",
+    "RECORD_STATUS_DATE": "integer",
+    "SUBMITTED_DATE": "integer",
+    "PROFFERS": "null",
+    "DEVELOPMENT_CONDITIONS": "null",
+    "STAFF_MEMBER": "string",
+    "WORK_DESCRIPTION": "string",
+    "LAST_EDITED_DATE": "integer",
+    "GlobalID": "string",
+    "created_user": "string",
+    "created_date": "integer",
+    "last_edited_user": "string",
+    "OBJECTID": "integer",
+    "Shape__Area": "number",
+    "Shape__Length": "number"
+  }
+}

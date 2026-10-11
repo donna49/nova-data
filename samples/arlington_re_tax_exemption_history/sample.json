@@ -1,0 +1,702 @@
+[
+  {
+    "propertyTaxExemptionHistoryKey": 1,
+    "realEstatePropertyCode": "01001035",
+    "provalLrsnId": 162,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2022-04-11T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 2,
+    "realEstatePropertyCode": "01001055",
+    "provalLrsnId": 182,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-06-22T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 3,
+    "realEstatePropertyCode": "01001058",
+    "provalLrsnId": 185,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 4,
+    "realEstatePropertyCode": "01001059",
+    "provalLrsnId": 186,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 5,
+    "realEstatePropertyCode": "01001060",
+    "provalLrsnId": 187,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 6,
+    "realEstatePropertyCode": "01001061",
+    "provalLrsnId": 188,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 7,
+    "realEstatePropertyCode": "01001062",
+    "provalLrsnId": 189,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 8,
+    "realEstatePropertyCode": "01002005",
+    "provalLrsnId": 194,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-12-05T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 9,
+    "realEstatePropertyCode": "01002011",
+    "provalLrsnId": 198,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-06-30T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 10,
+    "realEstatePropertyCode": "01006044",
+    "provalLrsnId": 323,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-06-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 11,
+    "realEstatePropertyCode": "01008010",
+    "provalLrsnId": 380,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2011-05-20T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 12,
+    "realEstatePropertyCode": "01009022",
+    "provalLrsnId": 412,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-05-21T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 13,
+    "realEstatePropertyCode": "01009026",
+    "provalLrsnId": 416,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2020-03-20T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 14,
+    "realEstatePropertyCode": "01010028",
+    "provalLrsnId": 458,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2022-10-07T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 15,
+    "realEstatePropertyCode": "01010045",
+    "provalLrsnId": 471,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 16,
+    "realEstatePropertyCode": "01011001",
+    "provalLrsnId": 475,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-09-08T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 17,
+    "realEstatePropertyCode": "01012016",
+    "provalLrsnId": 493,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-06-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 18,
+    "realEstatePropertyCode": "01012016",
+    "provalLrsnId": 493,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2021-12-31T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 19,
+    "realEstatePropertyCode": "01013002",
+    "provalLrsnId": 497,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2010-12-31T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 20,
+    "realEstatePropertyCode": "01013002",
+    "provalLrsnId": 497,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2011-12-31T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 21,
+    "realEstatePropertyCode": "01018012",
+    "provalLrsnId": 594,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2018-12-31T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 22,
+    "realEstatePropertyCode": "01019036",
+    "provalLrsnId": 645,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2022-01-15T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 23,
+    "realEstatePropertyCode": "01019038",
+    "provalLrsnId": 647,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 24,
+    "realEstatePropertyCode": "01019038",
+    "provalLrsnId": 647,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2025-06-26T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 25,
+    "realEstatePropertyCode": "01021024",
+    "provalLrsnId": 718,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2022-08-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 26,
+    "realEstatePropertyCode": "01033006",
+    "provalLrsnId": 923,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2011-05-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 27,
+    "realEstatePropertyCode": "01033006",
+    "provalLrsnId": 923,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2014-11-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 28,
+    "realEstatePropertyCode": "01034035",
+    "provalLrsnId": 967,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2019-10-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 29,
+    "realEstatePropertyCode": "01036011",
+    "provalLrsnId": 1002,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2013-03-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 30,
+    "realEstatePropertyCode": "01036011",
+    "provalLrsnId": 1002,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2025-06-27T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 31,
+    "realEstatePropertyCode": "01038011",
+    "provalLrsnId": 1025,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2016-05-23T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 32,
+    "realEstatePropertyCode": "01039007",
+    "provalLrsnId": 1050,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2020-10-28T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 33,
+    "realEstatePropertyCode": "01044010",
+    "provalLrsnId": 1122,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2018-05-14T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 34,
+    "realEstatePropertyCode": "01044010",
+    "provalLrsnId": 1122,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2024-12-06T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 35,
+    "realEstatePropertyCode": "01052017",
+    "provalLrsnId": 1309,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-08-03T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 36,
+    "realEstatePropertyCode": "01052018",
+    "provalLrsnId": 1310,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 37,
+    "realEstatePropertyCode": "01054008",
+    "provalLrsnId": 1372,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-02-14T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 38,
+    "realEstatePropertyCode": "01060013",
+    "provalLrsnId": 1465,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-10-04T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 39,
+    "realEstatePropertyCode": "01060021",
+    "provalLrsnId": 1473,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2020-04-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 40,
+    "realEstatePropertyCode": "01060026",
+    "provalLrsnId": 1478,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 41,
+    "realEstatePropertyCode": "01060029",
+    "provalLrsnId": 1481,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-10-16T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 42,
+    "realEstatePropertyCode": "01060029",
+    "provalLrsnId": 1481,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-10-16T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 43,
+    "realEstatePropertyCode": "01063014",
+    "provalLrsnId": 1545,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-08-27T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 44,
+    "realEstatePropertyCode": "01065003",
+    "provalLrsnId": 1590,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-10-12T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 45,
+    "realEstatePropertyCode": "01065006",
+    "provalLrsnId": 1593,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-09-21T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 46,
+    "realEstatePropertyCode": "01065006",
+    "provalLrsnId": 1593,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2022-06-27T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 47,
+    "realEstatePropertyCode": "01065032",
+    "provalLrsnId": 1619,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-05-13T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 48,
+    "realEstatePropertyCode": "01067015",
+    "provalLrsnId": 1670,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 49,
+    "realEstatePropertyCode": "01068014",
+    "provalLrsnId": 1709,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2016-12-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 50,
+    "realEstatePropertyCode": "01068016",
+    "provalLrsnId": 1711,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-06-03T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 51,
+    "realEstatePropertyCode": "01069034",
+    "provalLrsnId": 1753,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-09-05T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 53,
+    "realEstatePropertyCode": "01072013",
+    "provalLrsnId": 1817,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-08-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 54,
+    "realEstatePropertyCode": "01072013",
+    "provalLrsnId": 1817,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-08-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 55,
+    "realEstatePropertyCode": "01072013",
+    "provalLrsnId": 1817,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2025-03-10T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 56,
+    "realEstatePropertyCode": "01072017",
+    "provalLrsnId": 1821,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-03-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 57,
+    "realEstatePropertyCode": "02002005",
+    "provalLrsnId": 1916,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2017-02-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 58,
+    "realEstatePropertyCode": "02002005",
+    "provalLrsnId": 1916,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2017-12-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 59,
+    "realEstatePropertyCode": "02006002",
+    "provalLrsnId": 1982,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2021-01-26T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 60,
+    "realEstatePropertyCode": "02006010",
+    "provalLrsnId": 1988,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-09-23T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 61,
+    "realEstatePropertyCode": "02008020",
+    "provalLrsnId": 2030,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-01-27T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 62,
+    "realEstatePropertyCode": "02008020",
+    "provalLrsnId": 2030,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2026-08-10T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 63,
+    "realEstatePropertyCode": "02009006",
+    "provalLrsnId": 2071,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2019-06-28T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 64,
+    "realEstatePropertyCode": "02018005",
+    "provalLrsnId": 2264,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-07-17T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 65,
+    "realEstatePropertyCode": "02022011",
+    "provalLrsnId": 2431,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2014-07-02T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 66,
+    "realEstatePropertyCode": "02023011",
+    "provalLrsnId": 2451,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2022-10-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 67,
+    "realEstatePropertyCode": "02024033",
+    "provalLrsnId": 2504,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-09-13T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 68,
+    "realEstatePropertyCode": "02024033",
+    "provalLrsnId": 2504,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2026-06-18T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 69,
+    "realEstatePropertyCode": "02025010",
+    "provalLrsnId": 2527,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 70,
+    "realEstatePropertyCode": "02025017",
+    "provalLrsnId": 2534,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-09-30T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 71,
+    "realEstatePropertyCode": "02025024",
+    "provalLrsnId": 2541,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2016-09-27T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 72,
+    "realEstatePropertyCode": "02025024",
+    "provalLrsnId": 2541,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2023-03-03T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 73,
+    "realEstatePropertyCode": "02028005",
+    "provalLrsnId": 2614,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-03-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 74,
+    "realEstatePropertyCode": "02029004",
+    "provalLrsnId": 2652,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-08-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 75,
+    "realEstatePropertyCode": "02029007",
+    "provalLrsnId": 2655,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-10-02T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 76,
+    "realEstatePropertyCode": "02032014",
+    "provalLrsnId": 2721,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2024-09-06T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 77,
+    "realEstatePropertyCode": "02032032",
+    "provalLrsnId": 2739,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2019-07-17T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 78,
+    "realEstatePropertyCode": "02035019",
+    "provalLrsnId": 2810,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 79,
+    "realEstatePropertyCode": "02035057",
+    "provalLrsnId": 2842,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2019-11-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 80,
+    "realEstatePropertyCode": "02035062",
+    "provalLrsnId": 2847,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 81,
+    "realEstatePropertyCode": "02035069",
+    "provalLrsnId": 2854,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2020-08-14T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 82,
+    "realEstatePropertyCode": "02036013",
+    "provalLrsnId": 2932,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2019-09-25T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 83,
+    "realEstatePropertyCode": "02036013",
+    "provalLrsnId": 2932,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2024-11-06T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 84,
+    "realEstatePropertyCode": "02036023",
+    "provalLrsnId": 2941,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2014-12-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 85,
+    "realEstatePropertyCode": "02036023",
+    "provalLrsnId": 2941,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-08-04T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 86,
+    "realEstatePropertyCode": "02037010",
+    "provalLrsnId": 2968,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 87,
+    "realEstatePropertyCode": "02037026",
+    "provalLrsnId": 2981,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2015-11-24T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 88,
+    "realEstatePropertyCode": "02037027",
+    "provalLrsnId": 2982,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2016-04-26T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 89,
+    "realEstatePropertyCode": "02043020",
+    "provalLrsnId": 3081,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2026-02-28T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 90,
+    "realEstatePropertyCode": "02044009",
+    "provalLrsnId": 3102,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2019-02-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 91,
+    "realEstatePropertyCode": "02051002",
+    "provalLrsnId": 3223,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2013-10-10T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 92,
+    "realEstatePropertyCode": "02051002",
+    "provalLrsnId": 3223,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2014-01-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 93,
+    "realEstatePropertyCode": "02052031",
+    "provalLrsnId": 3267,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-10-14T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 94,
+    "realEstatePropertyCode": "02053034",
+    "provalLrsnId": 3299,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-01-28T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 95,
+    "realEstatePropertyCode": "02053035",
+    "provalLrsnId": 3300,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2021-01-28T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 96,
+    "realEstatePropertyCode": "02053053",
+    "provalLrsnId": 3318,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 97,
+    "realEstatePropertyCode": "02053054",
+    "provalLrsnId": 3319,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2018-09-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 98,
+    "realEstatePropertyCode": "02058007",
+    "provalLrsnId": 3405,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2023-04-13T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 99,
+    "realEstatePropertyCode": "02059014",
+    "provalLrsnId": 3428,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2025-10-29T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 100,
+    "realEstatePropertyCode": "02061006",
+    "provalLrsnId": 3468,
+    "taxExemptionInd": true,
+    "taxExemptionEffectiveDate": "2013-04-01T00:00:00.000Z"
+  },
+  {
+    "propertyTaxExemptionHistoryKey": 101,
+    "realEstatePropertyCode": "02061006",
+    "provalLrsnId": 3468,
+    "taxExemptionInd": false,
+    "taxExemptionEffectiveDate": "2015-02-01T00:00:00.000Z"
+  }
+]

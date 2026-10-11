@@ -1,0 +1,23 @@
+[
+  {
+    "OBJECTID": 1,
+    "BID_name": "BALLSTON",
+    "GeoSyncDate": 1743026899000,
+    "Shape__Area": 5184964.179163365,
+    "Shape__Length": 21272.230166781104
+  },
+  {
+    "OBJECTID": 2,
+    "BID_name": "ROSSLYN",
+    "GeoSyncDate": 1743026899000,
+    "Shape__Area": 4537913.840116123,
+    "Shape__Length": 13650.45467220479
+  },
+  {
+    "OBJECTID": 3,
+    "BID_name": "NATIONAL LANDING",
+    "GeoSyncDate": 1743026900000,
+    "Shape__Area": 19360808.127376534,
+    "Shape__Length": 40862.68939696087
+  }
+]

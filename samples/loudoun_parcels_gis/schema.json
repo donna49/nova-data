@@ -1,0 +1,25 @@
+{
+  "source_id": "loudoun_parcels_gis",
+  "endpoint_url": "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/5",
+  "retrieved_at": "2026-10-11T21:30:37+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 132902,
+  "sha256": "7cde1b3b29ca77c0106da56e3768caba09fa34572372c6fb4217482d1f6cbcd4",
+  "fields": {
+    "OBJECTID": "integer",
+    "PA_TYPE": "string",
+    "PA_UNITS": "integer",
+    "PA_PLAT_NUM": "string",
+    "PA_PLAT_LOT": "string",
+    "PA_LEGAL_ACRE": "number",
+    "PA_SUBD_NAME": "string",
+    "PA_SUBD_PHASE": "string",
+    "PA_SUBD_SECT": "string",
+    "PA_SUBD_BLOCK": "null",
+    "PA_LEGAL_SQFT": "number",
+    "PA_UPD_DATE": "integer",
+    "PA_MCPI": "string",
+    "SHAPE_Length": "number",
+    "SHAPE_Area": "number"
+  }
+}

@@ -23,18 +23,15 @@ The goal is to know what has to be collected before building a NoVA equivalent.
 
 ## Status (2026-10-11)
 
-- **Discovery is done, but only from web search.** The environment's network policy blocks the jurisdictions' websites, so no URL has been opened or sampled yet. Every entry has `verified_at: null`.
-- **Sample pulls are pending.** They need these domains allowed in the environment's network settings:
-  - `*.arcgis.com`
-  - `*.arlingtonva.us`
-  - `*.alexandriava.gov`
-  - `*.fairfaxcounty.gov`
-  - `*.fairfaxva.gov`
-  - `*.loudoun.gov`
-  - `*.fallschurchva.gov`
-  - `*.virginia.gov`
-  - `*.vims.edu`
-  - `gis.mwcog.org`
+- **The catalog has 110 entries.** 105 are verified: the landing page resolves or the endpoint was sampled. The other 5 are sites that block automated requests or pages that no longer exist; their notes say which.
+- **All 39 queryable API sources returned data.** For each one, `samples/<source_id>/` holds 100 rows plus `schema.json` (fields, types, reported row count, sha256).
+- **Live discovery replaced several web-search guesses:**
+  - Fairfax County's real estate tables are standalone `Tax_Administration_Real_Estate_*` services.
+  - Fairfax's DevelopmentTracker permit layers require a token. `Building_Records_PLUS` is the anonymous alternative.
+  - Alexandria's parcel layer carries owners and assessed values.
+  - Loudoun's parcels are layer 5, not layer 0.
+  - VGIN moved hosts.
+  - The parcel layers for Falls Church and the City of Fairfax were found on ArcGIS Online.
 
 ## Layout
 
@@ -102,7 +99,7 @@ These are modeled on Quoin's own source catalog.
 
 Statewide, VGIN parcels add `VGIN_QPID`, which can serve as a cross-jurisdiction key.
 
-**Arlington is the strongest source.** Its open data API (`datahub-v2.arlingtonva.us/api/...`) publishes the following, all keyed by RPC:
+**Arlington is the strongest source (verified).** Its open data API (`datahub-v2.arlingtonva.us/api/...`) publishes the following, all keyed by RPC:
 
 - property
 - historical assessments
@@ -114,38 +111,61 @@ Statewide, VGIN parcels add `VGIN_QPID`, which can serve as a cross-jurisdiction
 - stop-work and unsafe-building notices
 - active business licenses
 
+Confirmed in the samples:
+- The Property API returns owner names and mailing addresses.
+- Sales carry deed book/page and a land-record document number.
+- Permits are keyed by RPC.
+- Payment rows include penalty and interest, which identify delinquent installments.
+
 There are gaps:
-- no commercial-building characteristics
+- no commercial-building characteristics (`ImprovementCommercial` returns 404)
 - no general code-enforcement cases
-- owner fields may be redacted in the bulk file
 
-**Fairfax County is close behind.** Its Department of Tax Administration (DTA) publishes nine real estate tables, joined on PARID and roughly equivalent to D.C.'s appraisal (CAMA) files:
+**Fairfax County is close behind (verified).** Its Department of Tax Administration (DTA) publishes eight real estate tables, joined on PARID and roughly equivalent to D.C.'s appraisal (CAMA) files:
 
-- parcels
-- assessed values
-- sales
-- owner
-- legal
-- land
-- dwelling
-- additions
-- commercial
+| Table | Rows |
+|---|---|
+| Parcels | 371K |
+| Assessed values (current and prior year) | 369K |
+| Sales, with deed BOOK/PAGE | 1.45M |
+| Legal | 370K |
+| Land | 372K |
+| Dwelling | 341K |
+| Additions | 1.5M |
+| Commercial | 12K |
+
+A ninth, the Owner table, is listed on Data.gov but no longer published, so owner names are only in iCARE lookups.
 
 The county also publishes:
-- a nightly building-permit and certificate-of-occupancy feed
+- 141K building permit records (`Building_Records_PLUS`)
+- 130K site records
+- zoning and zoning cases
 - special tax district boundaries
-- zoning
+
+The DevelopmentTracker permit and certificate-of-occupancy layers require a token.
 
 There are gaps:
 - tax bills must be derived from assessments and published rates
 - no delinquent list is published
+- no owner names in bulk
+- no code-case data
 - no business license data
 
 **Loudoun has good GIS layers but its assessment data is mostly per-parcel.** GIS covers parcels, zoning, address points and the Metrorail districts. Assessment, sales and deed data comes mainly from a per-parcel search (iasWorld). The exceptions are the annual Land Book detail PDFs and the Route 28 district parcel PDFs, which are bulk but need PDF parsing. Bulk CAMA data would need a FOIA request.
 
-**Alexandria has GIS bulk data but no CAMA bulk data.** Assessments, sales and APEX permits are lookup-only. The parcels layer includes instrument numbers. Land records are on the state's paid Secure Remote Access (SRA) system.
+**Alexandria is better than expected.** The `Real_Estate_Parcels` layer (25.5K rows) carries:
+- owner name and mailing address
+- current land, improvement and total assessed values
+- zoning, land use and lot size
+- the recorded INSTRUMENT number
 
-**Falls Church and the City of Fairfax are lookup-only.** Both have per-parcel assessment search and Accela/Vision portals. The City of Fairfax is the only one of the six that publishes a delinquent taxpayer list (quarterly).
+It has no sales history and no building characteristics. Those, and APEX building permits, are lookup-only. Land records are on the state's paid Secure Remote Access (SRA) system.
+
+**Falls Church and the City of Fairfax have parcel geometry only.**
+- Falls Church: 3,889 parcels by RPC, plus zoning and land use.
+- City of Fairfax: 9,742 parcels by PIN, with zoning and land use.
+
+Values, owners and sales are lookup-only through their Accela and Vision portals. The City of Fairfax website blocks automated requests. The City of Fairfax is the only one of the six that publishes a delinquent taxpayer list (quarterly).
 
 **Deeds are behind paywalls everywhere.** Each circuit court runs its own system:
 
@@ -162,9 +182,9 @@ None offers a bulk feed. The deed book/page and instrument numbers in the assess
 
 ## Next steps
 
-1. Open network access to the domains listed above, then run `pull_samples.py` and fill in `verified_at`.
-2. Resolve the remaining unknown endpoints:
-   - layer IDs for the Fairfax `OpenData_A5` tables
-   - the Alexandria, City of Fairfax and Loudoun Hub item URLs
-   - Arlington zoning
-3. Send FOIA requests for bulk CAMA data to Alexandria, Loudoun, Falls Church and the City of Fairfax.
+1. Send FOIA or bulk-data requests for:
+   - sales and building characteristics from Alexandria, Loudoun, Falls Church and the City of Fairfax
+   - the Fairfax County Owner table
+   - business license lists where a jurisdiction will release them
+2. Download the Virginia ABC licensee spreadsheet manually (the site blocks scripts).
+3. Decide how much history is needed. Several sources are current-year only (Fairfax assessed values, Alexandria parcels), so history has to come from saving periodic snapshots.

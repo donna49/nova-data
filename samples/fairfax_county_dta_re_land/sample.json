@@ -1,0 +1,1002 @@
+[
+  {
+    "OBJECTID": 1,
+    "PARID": "1024 17  0022",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 11175,
+    "ACRES": 0.2565,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 2,
+    "PARID": "1024 17  0023",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 9309,
+    "ACRES": 0.2137,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 3,
+    "PARID": "1024 17  0024",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 11928,
+    "ACRES": 0.2738,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 4,
+    "PARID": "1024 17  0025",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 8484,
+    "ACRES": 0.1948,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 5,
+    "PARID": "1024 17  0026",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 8733,
+    "ACRES": 0.2005,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 6,
+    "PARID": "1024 17  0030",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 12424,
+    "ACRES": 0.2852,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 7,
+    "PARID": "1024 17  0036",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 10406,
+    "ACRES": 0.2389,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 8,
+    "PARID": "1024 17  0037",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 11724,
+    "ACRES": 0.2691,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 9,
+    "PARID": "1024 17  0038",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 9316,
+    "ACRES": 0.2139,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 10,
+    "PARID": "0932 10030519",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 11,
+    "PARID": "0932 10030520",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 12,
+    "PARID": "0932 10030601",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 13,
+    "PARID": "0932 10030602",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 14,
+    "PARID": "0932 10030603",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 15,
+    "PARID": "0932 10030604",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 16,
+    "PARID": "0932 10030605",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 17,
+    "PARID": "0932 10030606",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 18,
+    "PARID": "0932 10030607",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 0,
+    "ACRES": 0,
+    "UNITS": 1,
+    "CODE_DESC": "RESIDENTIAL"
+  },
+  {
+    "OBJECTID": 19,
+    "PARID": "0933 01  0019C",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 15008,
+    "ACRES": 0.3445,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 20,
+    "PARID": "0933 01  0019D",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 5429,
+    "ACRES": 0.1246,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 21,
+    "PARID": "0933 01  0029",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 130680,
+    "ACRES": 3,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 22,
+    "PARID": "0933 02030001",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 19016,
+    "ACRES": 0.4365,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 23,
+    "PARID": "0933 02030002",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 13211,
+    "ACRES": 0.3033,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 24,
+    "PARID": "0933 02030003",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 16590,
+    "ACRES": 0.3809,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 25,
+    "PARID": "0933 02030004",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18702,
+    "ACRES": 0.4293,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 26,
+    "PARID": "0933 02030005",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18750,
+    "ACRES": 0.4304,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 27,
+    "PARID": "0933 02030006",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18780,
+    "ACRES": 0.4311,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 28,
+    "PARID": "0933 02030007",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18810,
+    "ACRES": 0.4318,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 29,
+    "PARID": "0933 02030008",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18840,
+    "ACRES": 0.4325,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 30,
+    "PARID": "0933 02030009",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18870,
+    "ACRES": 0.4332,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 31,
+    "PARID": "0933 02030010",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18900,
+    "ACRES": 0.4339,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 32,
+    "PARID": "0933 02030011",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18930,
+    "ACRES": 0.4346,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 33,
+    "PARID": "0933 02030012",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18960,
+    "ACRES": 0.4353,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 34,
+    "PARID": "0933 02030013",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 18990,
+    "ACRES": 0.436,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 35,
+    "PARID": "0933 02040001",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 15750,
+    "ACRES": 0.3616,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 36,
+    "PARID": "0933 02040002",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 12251,
+    "ACRES": 0.2812,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 37,
+    "PARID": "0933 02040003",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 15754,
+    "ACRES": 0.3617,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 38,
+    "PARID": "0933 02040004",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 19256,
+    "ACRES": 0.4421,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 39,
+    "PARID": "0933 02040005",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22099,
+    "ACRES": 0.5073,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 40,
+    "PARID": "0933 02040006",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 41,
+    "PARID": "0933 02040007",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 42,
+    "PARID": "0933 02040008",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 43,
+    "PARID": "0933 02040009",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 44,
+    "PARID": "0933 02040010",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 19904,
+    "ACRES": 0.4569,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 45,
+    "PARID": "0933 02040011",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 19702,
+    "ACRES": 0.4523,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 46,
+    "PARID": "0933 02040012",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 47,
+    "PARID": "0933 02040013",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 48,
+    "PARID": "0933 02040014",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 49,
+    "PARID": "0933 02040015",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 50,
+    "PARID": "0933 02040016",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 51,
+    "PARID": "0933 02040017",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 52,
+    "PARID": "0933 02040018",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 53,
+    "PARID": "0933 02040019",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 54,
+    "PARID": "0933 02040020",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22500,
+    "ACRES": 0.5165,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 55,
+    "PARID": "0933 03  0015A1",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 65749,
+    "ACRES": 1.5094,
+    "UNITS": null,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 56,
+    "PARID": "0933 03  0015A2",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 32804,
+    "ACRES": 0.7531,
+    "UNITS": null,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 57,
+    "PARID": "0933 03  0015B",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 26808,
+    "ACRES": 0.6154,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 58,
+    "PARID": "0933 03  0016",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 104716,
+    "ACRES": 2.4039,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 59,
+    "PARID": "0933 03  0017",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 95149,
+    "ACRES": 2.1843,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 60,
+    "PARID": "0933 03  0017A",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 22576,
+    "ACRES": 0.5183,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 61,
+    "PARID": "0933 03  0017B",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 4374,
+    "ACRES": 0.1004,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 62,
+    "PARID": "0933 24  0037",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 11012,
+    "ACRES": 0.2528,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 63,
+    "PARID": "0933 24  0038",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 9937,
+    "ACRES": 0.2281,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 64,
+    "PARID": "0933 24  0039",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 10889,
+    "ACRES": 0.25,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 65,
+    "PARID": "0933 24  0040",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 12408,
+    "ACRES": 0.2848,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 66,
+    "PARID": "0933 24  0041",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 10729,
+    "ACRES": 0.2463,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 67,
+    "PARID": "0933 24  0042",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 9664,
+    "ACRES": 0.2219,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 68,
+    "PARID": "0933 24  0043",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 10849,
+    "ACRES": 0.2491,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 69,
+    "PARID": "0933 24  0044",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 10186,
+    "ACRES": 0.2338,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 70,
+    "PARID": "0933 24  0045",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 8404,
+    "ACRES": 0.1929,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 71,
+    "PARID": "0933 24  0046",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 12458,
+    "ACRES": 0.286,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 72,
+    "PARID": "0933 24  0047",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 9524,
+    "ACRES": 0.2186,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 73,
+    "PARID": "0933 24  0048",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 11893,
+    "ACRES": 0.273,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 74,
+    "PARID": "0573 07  0254",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 12091,
+    "ACRES": 0.2776,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 75,
+    "PARID": "0573 07  0255",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 11209,
+    "ACRES": 0.2573,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 76,
+    "PARID": "0573 07  0256",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 10841,
+    "ACRES": 0.2489,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 77,
+    "PARID": "0573 07  0257",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 12080,
+    "ACRES": 0.2773,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 78,
+    "PARID": "0573 07  0258",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 11399,
+    "ACRES": 0.2617,
+    "UNITS": 1,
+    "CODE_DESC": "SINGLE DWELLING"
+  },
+  {
+    "OBJECTID": 79,
+    "PARID": "0652 05  0199A",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 80,
+    "PARID": "0652 05  0200A",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 81,
+    "PARID": "0652 05  0201A",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 82,
+    "PARID": "0652 05  0202A",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 83,
+    "PARID": "0652 05  0203A",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 84,
+    "PARID": "0652 05  0204A",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 85,
+    "PARID": "0652 05  0205",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 86,
+    "PARID": "0652 05  0206",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 87,
+    "PARID": "0652 05  0207",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 88,
+    "PARID": "0652 05  0208",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 89,
+    "PARID": "0652 05  0209",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 90,
+    "PARID": "0652 05  0210",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 91,
+    "PARID": "0652 05  0211",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 92,
+    "PARID": "0652 05  0212",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 93,
+    "PARID": "0652 05  0213",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 94,
+    "PARID": "0652 05  0214",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 95,
+    "PARID": "0652 05  0215",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 96,
+    "PARID": "0652 05  0216",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 97,
+    "PARID": "0652 05  0217",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 98,
+    "PARID": "0652 05  0218",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 99,
+    "PARID": "0652 05  0219",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 2024,
+    "ACRES": 0.0465,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  },
+  {
+    "OBJECTID": 100,
+    "PARID": "0652 05  0220",
+    "TAXYR": 2027,
+    "LLINE": 1,
+    "SF": 1628,
+    "ACRES": 0.0374,
+    "UNITS": 1,
+    "CODE_DESC": "TWNHSE END"
+  }
+]

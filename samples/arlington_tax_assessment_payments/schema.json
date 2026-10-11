@@ -1,0 +1,29 @@
+{
+  "source_id": "arlington_tax_assessment_payments",
+  "endpoint_url": "https://datahub-v2.arlingtonva.us/api/Tax/RealEstateAssessmentPaymentSummary",
+  "retrieved_at": "2026-10-11T21:30:40+00:00",
+  "sample_rows": 100,
+  "reported_row_count": null,
+  "sha256": "e671ba8f3a6b850066b8eebfd105c16b34b8a7659fa4a2c01ba87f166b44eb9f",
+  "fields": {
+    "realEstateAssessmentPaymentSummaryKey": "integer",
+    "realEstatePropertyCode": "string",
+    "taxYearDate": "integer",
+    "taxInstallmentName": "string",
+    "displayLabelTypeName": "string",
+    "taxDueDate": "string",
+    "assessedTaxAmt": "string",
+    "penaltyAmt": "string",
+    "interestAmt": "string",
+    "feeAmt": "string",
+    "totalAmt": "string",
+    "provalLrsnId": "integer",
+    "propertyKey": "integer",
+    "displayLabelSequenceNbr": "integer",
+    "assessedSwAmt": "string",
+    "swPenaltyAmt": "string",
+    "swInterestAmt": "string",
+    "swFeeAmt": "string",
+    "mostRecentPostDate": "string"
+  }
+}

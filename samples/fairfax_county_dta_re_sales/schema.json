@@ -1,0 +1,18 @@
+{
+  "source_id": "fairfax_county_dta_re_sales",
+  "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Sales_Data/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:32:57+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 1445420,
+  "sha256": "2a1abda6b1caa81f6cc3d5b5a5c90c4cd2a4436c9b4030614a0e96bc66502d4c",
+  "fields": {
+    "OBJECTID": "integer",
+    "PARID": "string",
+    "TAXYR": "integer",
+    "SALEDT": "integer",
+    "PRICE": "integer",
+    "BOOK": "string",
+    "PAGE": "string",
+    "SALEVAL_DESC": "string"
+  }
+}

@@ -63,7 +63,7 @@ def main():
         "| 📨 | By request or FOIA only |",
         "| ❌ | Nothing found |",
         "",
-        "Nothing has been fetched yet (network blocked). Every entry comes from web search, so treat ✅ as \"published\", not \"tested\".",
+        "Every ✅ API source was sampled successfully on 2026-10-11 (see `samples/`). A few ✅ cells rest on PDFs that need parsing (Loudoun Land Book and Route 28) or on narrow datasets (Alexandria permits are special-use permits only; several license cells are alcohol licenses only). Check the sources listed below each table.",
         "",
         "| Jurisdiction | " + " | ".join(SECTIONS) + " |",
         "|---" * (len(SECTIONS) + 1) + "|",

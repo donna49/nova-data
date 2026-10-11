@@ -1,0 +1,18 @@
+{
+  "source_id": "fairfax_county_dta_re_land",
+  "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Land_Data/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:32:59+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 372305,
+  "sha256": "b00c64443211ed6f9b19a264bb62ffd1e49ed7697c82b829445882e8825a5687",
+  "fields": {
+    "OBJECTID": "integer",
+    "PARID": "string",
+    "TAXYR": "integer",
+    "LLINE": "integer",
+    "SF": "integer",
+    "ACRES": "number",
+    "UNITS": "integer",
+    "CODE_DESC": "string"
+  }
+}

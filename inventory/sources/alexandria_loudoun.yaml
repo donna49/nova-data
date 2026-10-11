@@ -21,37 +21,37 @@
   evidence_urls:
     - "https://www.alexandriava.gov/go/1787"
     - "https://data.amerigeoss.org/it/dataset/alexandria-parcels"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_parcels_gis
   jurisdiction: alexandria
   custodian: "GIS (geometry); Office of Real Estate Assessments (attributes)"
   dataset_name: "Alexandria Parcels (land parcels, condo master cards, condos)"
-  quoin_sections: [identity, land, deed_reference]
+  quoin_sections: [identity, land, assessment, ownership, deed_reference]
   access_type: api
   cost: free
   format: "ArcGIS FeatureServer"
   landing_url: "https://geoportal.alexandriava.gov/server/rest/services/Real_Estate_Parcels/MapServer?f=pitemx"
-  endpoint_url: "https://geoportal.alexandriava.gov/server/rest/services/Hosted/CAD_Parcels/FeatureServer/0"
+  endpoint_url: "https://geoportal.alexandriava.gov/server/rest/services/Real_Estate_Parcels/FeatureServer/0"
   parcel_key: "PID"
   update_frequency: "Annual (February)"
   history_start: unknown
   terms: unknown
-  notes: "The CAD_Parcels metadata lists recorded instrument number and subdivision plat fields, which can serve as deed references. No assessment values. Other services: maps.alexandriava.gov alxLandWm, alxFindCondoUnitsWm, Matix_Parcels."
+  notes: "Much richer than expected. Fields include PID, account number, address, INSTRUMENT, PLAT, LANDCODE, ZONING, NEIGHBORHO, LAND_SF, current-year land, improvement and total assessed values (LAND_CYR, IMP_CYR, TOT_CYR), and owner name and mailing address (OWN_NAME, OWN_ADD, OWNERNAME2). Current year only, no history or sales."
   evidence_urls:
     - "https://geoportal.alexandriava.gov/server/rest/services/Hosted/CAD_Parcels/FeatureServer/0/metadata"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_zoning_gis
   jurisdiction: alexandria
   custodian: "GIS / Planning and Zoning"
   dataset_name: "Zoning, zoning land-use codes, parking districts and height districts"
   quoin_sections: [land]
-  access_type: bulk
+  access_type: "api"
   cost: free
   format: "GeoJSON, CSV, Shapefile (Hub)"
   landing_url: "https://data.amerigeoss.org/dataset/zoning"
-  endpoint_url: null
+  endpoint_url: "https://services2.arcgis.com/ChYV69FhfjwkvRmy/arcgis/rest/services/Zoning/FeatureServer/0"
   parcel_key: "null (spatial)"
   update_frequency: "Irregular (zoning modified 2025-03-28)"
   history_start: unknown
@@ -59,7 +59,7 @@
   notes: "Mirror records point back to the AlexGIS Hub."
   evidence_urls:
     - "https://data.amerigeoss.org/dataset/zoning"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_real_estate_assessment_search
   jurisdiction: alexandria
@@ -78,7 +78,7 @@
   notes: "About 46,836 parcels. The search host is realestate.alexandriava.gov. No bulk file was found."
   evidence_urls:
     - "https://www.alexandriava.gov/go/1312"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_assessment_bulk_request
   jurisdiction: alexandria
@@ -97,7 +97,7 @@
   notes: "Placeholder. Request through VFOIA or realestate@alexandriava.gov."
   evidence_urls:
     - "https://www.alexandriava.gov/go/1312"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_real_estate_tax_lookup
   jurisdiction: alexandria
@@ -116,7 +116,7 @@
   notes: "Bills include stormwater ($340.30 per ERU, FY2026) and refuse fees. The 2026 rate is $1.135 per $100."
   evidence_urls:
     - "https://www.alexandriava.gov/go/7448"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_tax_sales
   jurisdiction: alexandria
@@ -135,7 +135,7 @@
   notes: "No official page was found; the landing URL is a news article."
   evidence_urls:
     - "https://www.alxnow.com/?p=57069"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_special_tax_districts
   jurisdiction: alexandria
@@ -154,7 +154,7 @@
   notes: "No boundary layer was found. Current rates and member parcels must come from the budget. No business improvement districts."
   evidence_urls:
     - "https://pub.alexandriava.gov/cityor/0/edoc/58157/Ord.%20No.%204722.pdf"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_apex_permits
   jurisdiction: alexandria
@@ -173,7 +173,7 @@
   notes: "No login needed to view. No bulk download or API."
   evidence_urls:
     - "https://www.alexandriava.gov/go/2596"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_code_admin_monthly_reports
   jurisdiction: alexandria
@@ -193,7 +193,7 @@
   evidence_urls:
     - "https://alexandriava.gov/Code"
   in_matrix: false  # aggregate counts only
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_residential_rental_inspection
   jurisdiction: alexandria
@@ -212,7 +212,7 @@
   notes: "About 4,048 properties. Results are not published."
   evidence_urls:
     - "https://www.alexandriava.gov/go/6911"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_property_maintenance_complaints
   jurisdiction: alexandria
@@ -231,7 +231,7 @@
   notes: "No open 311 dataset. Use VFOIA."
   evidence_urls:
     - "https://alexandriava.gov/Alex311"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: alexandria_bpol_business_tax_portal
   jurisdiction: alexandria
@@ -250,7 +250,7 @@
   notes: "No public licensee list."
   evidence_urls:
     - "https://alexandriava.gov/BusinessTax"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 # ---------------- LOUDOUN COUNTY ----------------
 - source_id: loudoun_geohub
@@ -271,7 +271,7 @@
   evidence_urls:
     - "https://www.loudoun.gov/1776/GeoHub-and-Other-Online-Resources"
     - "https://logishub.loudoun.gov/"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_parcels_gis
   jurisdiction: loudoun
@@ -282,15 +282,15 @@
   cost: free
   format: "ArcGIS REST, plus Hub downloads"
   landing_url: "https://logis.loudoun.gov/metadata/Parcels.html"
-  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/0"
+  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/5"
   parcel_key: "MCPI (9-digit)"
   update_frequency: unknown
   history_start: unknown
   terms: "GIS disclaimer"
-  notes: "Some polygons are leaseholds or easements. Also served from COL_LatLong/Parcels_LatLong/MapServer."
+  notes: "LandRecords layer 5 is Parcel Boundaries (layer 0 is tile boundaries). The same service has Address Points (2), Subdivisions (7), Master Address List (8) and Parcel XY (9). Some polygons are leaseholds or easements."
   evidence_urls:
     - "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/0/iteminfo"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_zoning_gis
   jurisdiction: loudoun
@@ -301,15 +301,15 @@
   cost: free
   format: "ArcGIS MapServer (max 2,000 records per query)"
   landing_url: "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer"
-  endpoint_url: null
+  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3"
   parcel_key: "null (spatial)"
   update_frequency: unknown
   history_start: "2023 ordinance"
   terms: "Official map is ZOAM-2020-0001; only a Zoning Administrator determination is binding"
-  notes: "Layer IDs are not yet known."
+  notes: "Layer 3 is current zoning, 1 is the 1972 ordinance, 0 is Leesburg and 5 is ZMAP rezonings."
   evidence_urls:
     - "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_land_use_buildout
   jurisdiction: loudoun
@@ -328,7 +328,7 @@
   notes: "Layer 2 is Residential Communities. A planning-oriented dataset."
   evidence_urls:
     - "https://catalog.data.gov/dataset/loudoun-land-use-existing-structures"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_buildings_address_points
   jurisdiction: loudoun
@@ -347,7 +347,7 @@
   notes: "Footprints are geometry only, with no building characteristics."
   evidence_urls:
     - "https://catalog.data.gov/dataset/loudoun-address-points-c1eaa"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_parcel_database_cor
   jurisdiction: loudoun
@@ -366,7 +366,7 @@
   notes: "The richest Loudoun source: deed references, sales, assessments and dwelling characteristics, but per-parcel only. Short alias: loudoun.gov/ParcelDatabase."
   evidence_urls:
     - "https://reparcelasmt.loudoun.gov/pt/search/commonsearch.aspx?mode=parid"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_cor_land_book_reports
   jurisdiction: loudoun
@@ -385,7 +385,7 @@
   notes: "The detail PDFs are the closest thing to a bulk assessment roll and need PDF parsing. The FOIA page also covers bulk-data requests."
   evidence_urls:
     - "https://www.loudoun.gov/3864/Virginia-Freedom-of-Information-Act-FOIA"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_route28_tax_district_reports
   jurisdiction: loudoun
@@ -404,7 +404,7 @@
   notes: "1,537 taxable parcels in 2025. The detail lists PIN, owner, acreage and values."
   evidence_urls:
     - "https://www.loudoun.gov/DocumentCenter/View/213072/2025-Route-28-Tax-District-Report-PDF"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_metrorail_service_districts
   jurisdiction: loudoun
@@ -423,7 +423,7 @@
   notes: "Every parcel inside a district pays the special rate."
   evidence_urls:
     - "https://data.amerigeoss.org/dataset/loudoun-metrorail-service-districts-4f0d1"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_treasurer_tax_payments
   jurisdiction: loudoun
@@ -442,7 +442,7 @@
   notes: "The 2025 rate is $0.805 per $100. The Treasurer also collects taxes for some towns."
   evidence_urls:
     - "https://www.loudoun.gov/1911/Taxes-in-Loudoun-County"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_tax_sales
   jurisdiction: loudoun
@@ -461,7 +461,7 @@
   notes: "No standing delinquent list."
   evidence_urls:
     - "https://www.loudoun.gov/1918/Tax-Sales"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_landmarc_permits
   jurisdiction: loudoun
@@ -480,7 +480,7 @@
   notes: "Building, grading and zoning permits, plus inspections. No bulk download or API."
   evidence_urls:
     - "https://www.loudoun.gov/LandMarc"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_building_permit_applications_gis
   jurisdiction: loudoun
@@ -499,7 +499,7 @@
   notes: "Residential units only."
   evidence_urls:
     - "https://catalog.data.gov/dataset/building-permit-applications-2022"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_zoning_code_enforcement
   jurisdiction: loudoun
@@ -518,7 +518,7 @@
   notes: "No case-history search. Use VFOIA."
   evidence_urls:
     - "https://www.loudoun.gov/1751/Reporting-Zoning-Violations"
-  verified_at: null
+  verified_at: "2026-10-11"
 
 - source_id: loudoun_bpol_licensee_list
   jurisdiction: loudoun
@@ -537,4 +537,24 @@
   notes: "The full list has names only. An opt-in list with business details is available on request."
   evidence_urls:
     - "https://www.loudoun.gov/FAQ.aspx?TID=57"
-  verified_at: null
+  verified_at: "2026-10-11"
+
+# ---------------- Added 2026-10-11 from live service discovery (ALEXANDRIA) ----------------
+- source_id: alexandria_special_use_permits
+  jurisdiction: alexandria
+  custodian: "Planning and Zoning"
+  dataset_name: "Special Use Permits"
+  quoin_sections: [permit, land]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://geoportal.alexandriava.gov/server/rest/services/Special_Use_Permits/FeatureServer"
+  endpoint_url: "https://geoportal.alexandriava.gov/server/rest/services/Special_Use_Permits/FeatureServer/0"
+  parcel_key: "null (address)"
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "Fields: PLANNUMBER, DESCRIPTION, PlanStatus, GISAdd and URL (a link to the record). Land-use approvals only, not building permits."
+  evidence_urls:
+    - "https://geoportal.alexandriava.gov/server/rest/services?f=json"
+  verified_at: "2026-10-11"

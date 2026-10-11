@@ -1,0 +1,29 @@
+{
+  "source_id": "fairfax_county_dta_re_legal",
+  "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Legal_Data/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:32:58+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 369780,
+  "sha256": "630801b38942ca2bc42f08099446bb9d1db46d3516d5160d1b6cfdb984468185",
+  "fields": {
+    "OBJECTID": "integer",
+    "PARID": "string",
+    "TAXYR": "integer",
+    "ACRES": "number",
+    "ADRPRE": "null",
+    "ADRNO": "integer",
+    "ADRADD": "string",
+    "ADRDIR": "string",
+    "ADRSTR": "string",
+    "ADRSUF": "string",
+    "ADRSUF2": "string",
+    "CITYNAME": "string",
+    "ZIP1": "string",
+    "SQFT": "integer",
+    "TAXDIST": "string",
+    "LEGAL1": "string",
+    "LEGAL2": "string",
+    "LEGAL3": "string",
+    "TAXDIST_DESC": "null"
+  }
+}

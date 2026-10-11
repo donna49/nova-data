@@ -1,0 +1,18 @@
+{
+  "source_id": "arlington_business_licenses",
+  "endpoint_url": "https://datahub-v2.arlingtonva.us/api/DemographicEconomic/CurrentBusinessLicenseList",
+  "retrieved_at": "2026-10-11T21:30:46+00:00",
+  "sample_rows": 100,
+  "reported_row_count": null,
+  "sha256": "4e16185f6d09266bfb901bebfa1a02b6572fff9f19163a6f476e5737c9583b21",
+  "fields": {
+    "businessLegalName": "string",
+    "doingBusinessAsName": "null",
+    "businessAddressText": "string",
+    "streetAddressText": "string",
+    "cityName": "string",
+    "stateCode": "string",
+    "zipCode": "string",
+    "sectionCodeList": "string"
+  }
+}

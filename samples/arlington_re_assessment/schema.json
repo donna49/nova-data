@@ -1,0 +1,18 @@
+{
+  "source_id": "arlington_re_assessment",
+  "endpoint_url": "https://datahub-v2.arlingtonva.us/api/RealEstate/Assessment",
+  "retrieved_at": "2026-10-11T21:30:39+00:00",
+  "sample_rows": 100,
+  "reported_row_count": null,
+  "sha256": "4251cfa104833af129ccc9f7c2abd18cb3d4c9d59a7697ab454a800db15668cb",
+  "fields": {
+    "assessmentKey": "integer",
+    "provalLrsnId": "integer",
+    "realEstatePropertyCode": "string",
+    "assessmentChangeReasonTypeDsc": "string",
+    "assessmentDate": "string",
+    "improvementValueAmt": "integer",
+    "landValueAmt": "integer",
+    "totalValueAmt": "integer"
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "OBJECTID": 5,
+    "NAME": "PHASE 1 DULLES RAIL TRANSPORTATION IMPROVEMENT DISTRICT",
+    "GlobalID": "5fc27d6b-cf64-4ec4-bfd7-cb39e6cb1eb7",
+    "Shape__Area": 23502105.000904083,
+    "Shape__Length": 63079.1993917883
+  },
+  {
+    "OBJECTID": 961,
+    "NAME": "SPRINGFIELD WATER #1 FEE",
+    "GlobalID": "931d2ff4-218d-4630-a575-a0ec48afe76c",
+    "Shape__Area": 193914.7265625,
+    "Shape__Length": 3762.672225732575
+  },
+  {
+    "OBJECTID": 962,
+    "NAME": "SPRINGFIELD WATER #3 FEE",
+    "GlobalID": "df1678a5-6261-434f-abd5-beb51c74bba0",
+    "Shape__Area": 1220329.03760764,
+    "Shape__Length": 8407.313271393286
+  },
+  {
+    "OBJECTID": 1610,
+    "NAME": "RESTON COMMUNITY CENTER",
+    "GlobalID": "441240b9-6895-4bd0-86d9-117fc00a3354",
+    "Shape__Area": 58230559.48628235,
+    "Shape__Length": 46850.82875945603
+  },
+  {
+    "OBJECTID": 1931,
+    "NAME": "ROUTE 28 IMPROVEMENT DISTRICT",
+    "GlobalID": "1c855410-ae25-4f53-8400-80e301fc408f",
+    "Shape__Area": 42634789.0166626,
+    "Shape__Length": 56558.204073715075
+  },
+  {
+    "OBJECTID": 2253,
+    "NAME": "PHASE 2 DULLES RAIL TRANSPORTATION IMPROVEMENT DISTRICT",
+    "GlobalID": "91b41c80-bd48-402a-af6b-724af425c2f7",
+    "Shape__Area": 18620557.9917984,
+    "Shape__Length": 36364.06506134359
+  },
+  {
+    "OBJECTID": 3530,
+    "NAME": "MCLEAN COMMUNITY CENTER",
+    "GlobalID": "9cbdb9f7-47da-4110-b94f-1044fe6e860f",
+    "Shape__Area": 104265945.37805176,
+    "Shape__Length": 56181.311104793596
+  },
+  {
+    "OBJECTID": 4170,
+    "NAME": "TYSONS SERVICE DISTRICT",
+    "GlobalID": "1acccd96-8fa3-41d4-a102-7f0aaf5d89b4",
+    "Shape__Area": 19145450.923607826,
+    "Shape__Length": 57392.00502330267
+  },
+  {
+    "OBJECTID": 6730,
+    "NAME": "RESTON SERVICE DISTRICT",
+    "GlobalID": "57adaecf-d374-4256-a6c5-b9ac92819e4a",
+    "Shape__Area": 13587056.416000366,
+    "Shape__Length": 30304.695348442245
+  },
+  {
+    "OBJECTID": 7370,
+    "NAME": "BURGUNDY VILLAGE COMMUNITY CENTER",
+    "GlobalID": "3d961601-7194-4847-abef-1a71d4a07df6",
+    "Shape__Area": 734787.90234375,
+    "Shape__Length": 6778.396118043383
+  },
+  {
+    "OBJECTID": 7371,
+    "NAME": "LAKE BARCROFT WATERSHED IMPROVEMENT DISTRICT",
+    "GlobalID": "55a3b95e-d3d0-4397-8429-0fac40b47618",
+    "Shape__Area": 4751764.00828743,
+    "Shape__Length": 11043.702374078728
+  }
+]

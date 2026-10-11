@@ -1,0 +1,20 @@
+{
+  "source_id": "arlington_re_valuation_permits",
+  "endpoint_url": "https://datahub-v2.arlingtonva.us/api/RealEstate/Permit",
+  "retrieved_at": "2026-10-11T21:30:40+00:00",
+  "sample_rows": 100,
+  "reported_row_count": null,
+  "sha256": "9c876cdc7241ca410767a523ca56c6f71bae21fe6721578a7dbbf1e4c0f13d13",
+  "fields": {
+    "permitKey": "integer",
+    "provalLrsnId": "integer",
+    "realEstatePropertyCode": "string",
+    "permitNbr": "string",
+    "permitActivationDate": "string",
+    "permitCode": "string",
+    "permitCostEstimateAmt": "string",
+    "permitCompletedDate": "string",
+    "permitCompletedPct": "string",
+    "permitNoteText": "string"
+  }
+}

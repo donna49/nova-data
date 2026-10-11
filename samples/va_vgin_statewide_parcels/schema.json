@@ -1,0 +1,19 @@
+{
+  "source_id": "va_vgin_statewide_parcels",
+  "endpoint_url": "https://vginmaps.vdem.virginia.gov/arcgis/rest/services/VA_Base_Layers/VA_Parcels/FeatureServer/0",
+  "retrieved_at": "2026-10-11T21:31:07+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 4174364,
+  "sha256": "37002cb252317f2dafd5c762639afcd79f712646b6208009d1fe36fd1640bc2d",
+  "fields": {
+    "Shape__Area": "number",
+    "Shape__Length": "number",
+    "OBJECTID": "integer",
+    "VGIN_QPID": "number",
+    "FIPS": "string",
+    "LOCALITY": "string",
+    "PARCELID": "string",
+    "PTM_ID": "string",
+    "LASTUPDATE": "integer"
+  }
+}

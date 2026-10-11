@@ -1,0 +1,28 @@
+{
+  "source_id": "loudoun_zoning_gis",
+  "endpoint_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+  "retrieved_at": "2026-10-11T21:30:38+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 1271,
+  "sha256": "07bef98a544b59389c1c3a650855a731c0cde98eac54d9078ccd8e04c6fd715c",
+  "fields": {
+    "OBJECTID": "integer",
+    "ZO_ZONE": "string",
+    "ZO_ORDINANCE": "string",
+    "ZO_SPEC_CODE": "string",
+    "ZO_PROJ_NUM": "string",
+    "ZO_UPDATE_NUM": "string",
+    "ZO_ZONE_DATE": "integer",
+    "ZO_ZONE_ORD": "string",
+    "ZO_MAINT_TASK_ID": "string",
+    "ZO_GIS_START_DATE": "integer",
+    "ZO_GIS_END_DATE": "integer",
+    "ZO_UPD_DATE": "integer",
+    "SHAPE_Length": "number",
+    "SHAPE_Area": "number",
+    "NEW_ID": "integer",
+    "ZD_ZONE_NAME": "string",
+    "ZD_ZONE_DESC": "string",
+    "agstype": "string"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source_id": "regional_mwcog_taz_cooperative_forecast",
+  "endpoint_url": "https://gis.mwcog.org/wa/rest/services/RTDC/TAZ/MapServer/1",
+  "retrieved_at": "2026-10-11T21:31:07+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 3675,
+  "sha256": "af3fc60fc17c871c926961026d714bc5dc69e29c225fdc91a2858b04de54518f",
+  "fields": {
+    "OBJECTID": "integer",
+    "TAZ": "integer",
+    "NAME": "string",
+    "STATE": "string",
+    "STFIPS": "string",
+    "CNTYFIPS": "string",
+    "FIPSSTCO": "string",
+    "REGION": "string",
+    "ACRES": "number",
+    "SQMI": "number",
+    "Shape_Length": "number",
+    "Shape_Area": "number"
+  }
+}
