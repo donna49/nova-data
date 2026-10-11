@@ -1,0 +1,540 @@
+# City of Alexandria and Loudoun County.
+# Found by web search on 2026-10-11. URLs have not been fetched or verified yet (verified_at: null).
+# Land records are under va_sra_covers_land_records (Alexandria) and va_loudoun_circuit_court_lrms_remote, and ABC licenses under va_abc_licensees, all in virginia_state_regional.yaml.
+
+# ---------------- CITY OF ALEXANDRIA ----------------
+- source_id: alexandria_gis_open_data_portal
+  jurisdiction: alexandria
+  custodian: "ITS / GIS Division (AlexGIS)"
+  dataset_name: "AlexGIS Open Data Portal (ArcGIS Hub)"
+  quoin_sections: [identity, land, special_assessment]
+  access_type: bulk
+  cost: free
+  format: "Shapefile, CSV, KML, GeoJSON, ArcGIS API"
+  landing_url: "https://www.alexandriava.gov/go/1787"
+  endpoint_url: null
+  parcel_key: "PID (tax map-block-parcel, e.g. 054.02-03-05)"
+  update_frequency: "Twice a year; parcels annually in February"
+  history_start: unknown
+  terms: "No license shown on mirrors"
+  notes: "Parcels, zoning, parking and height districts. No permit, 311 or CAMA tables found. The Hub host cityofalexandria-alexgis.opendata.arcgis.com is not verified."
+  evidence_urls:
+    - "https://www.alexandriava.gov/go/1787"
+    - "https://data.amerigeoss.org/it/dataset/alexandria-parcels"
+  verified_at: null
+
+- source_id: alexandria_parcels_gis
+  jurisdiction: alexandria
+  custodian: "GIS (geometry); Office of Real Estate Assessments (attributes)"
+  dataset_name: "Alexandria Parcels (land parcels, condo master cards, condos)"
+  quoin_sections: [identity, land, deed_reference]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://geoportal.alexandriava.gov/server/rest/services/Real_Estate_Parcels/MapServer?f=pitemx"
+  endpoint_url: "https://geoportal.alexandriava.gov/server/rest/services/Hosted/CAD_Parcels/FeatureServer/0"
+  parcel_key: "PID"
+  update_frequency: "Annual (February)"
+  history_start: unknown
+  terms: unknown
+  notes: "The CAD_Parcels metadata lists recorded instrument number and subdivision plat fields, which can serve as deed references. No assessment values. Other services: maps.alexandriava.gov alxLandWm, alxFindCondoUnitsWm, Matix_Parcels."
+  evidence_urls:
+    - "https://geoportal.alexandriava.gov/server/rest/services/Hosted/CAD_Parcels/FeatureServer/0/metadata"
+  verified_at: null
+
+- source_id: alexandria_zoning_gis
+  jurisdiction: alexandria
+  custodian: "GIS / Planning and Zoning"
+  dataset_name: "Zoning, zoning land-use codes, parking districts and height districts"
+  quoin_sections: [land]
+  access_type: bulk
+  cost: free
+  format: "GeoJSON, CSV, Shapefile (Hub)"
+  landing_url: "https://data.amerigeoss.org/dataset/zoning"
+  endpoint_url: null
+  parcel_key: "null (spatial)"
+  update_frequency: "Irregular (zoning modified 2025-03-28)"
+  history_start: unknown
+  terms: "No license shown on mirror"
+  notes: "Mirror records point back to the AlexGIS Hub."
+  evidence_urls:
+    - "https://data.amerigeoss.org/dataset/zoning"
+  verified_at: null
+
+- source_id: alexandria_real_estate_assessment_search
+  jurisdiction: alexandria
+  custodian: "Office of Real Estate Assessments"
+  dataset_name: "Real Estate Assessment Search / property and sales data"
+  quoin_sections: [identity, assessment, ownership, transfer, building, land]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://www.alexandriava.gov/go/1312"
+  endpoint_url: null
+  parcel_key: "Account number; map number"
+  update_frequency: "Annual (Jan 1); sales ongoing"
+  history_start: unknown
+  terms: unknown
+  notes: "About 46,836 parcels. The search host is realestate.alexandriava.gov. No bulk file was found."
+  evidence_urls:
+    - "https://www.alexandriava.gov/go/1312"
+  verified_at: null
+
+- source_id: alexandria_assessment_bulk_request
+  jurisdiction: alexandria
+  custodian: "Office of Real Estate Assessments"
+  dataset_name: "Bulk assessment and sales extract (not confirmed)"
+  quoin_sections: [assessment, transfer, building, ownership]
+  access_type: request_only
+  cost: unknown
+  format: unknown
+  landing_url: "https://www.alexandriava.gov/go/1312"
+  endpoint_url: null
+  parcel_key: "Account number"
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "Placeholder. Request through VFOIA or realestate@alexandriava.gov."
+  evidence_urls:
+    - "https://www.alexandriava.gov/go/1312"
+  verified_at: null
+
+- source_id: alexandria_real_estate_tax_lookup
+  jurisdiction: alexandria
+  custodian: "Department of Finance, Revenue/Treasury"
+  dataset_name: "Real estate tax history search and payment"
+  quoin_sections: [tax, special_assessment]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://www.alexandriava.gov/go/7448"
+  endpoint_url: null
+  parcel_key: "Account number"
+  update_frequency: "Billed twice a year"
+  history_start: unknown
+  terms: unknown
+  notes: "Bills include stormwater ($340.30 per ERU, FY2026) and refuse fees. The 2026 rate is $1.135 per $100."
+  evidence_urls:
+    - "https://www.alexandriava.gov/go/7448"
+  verified_at: null
+
+- source_id: alexandria_tax_sales
+  jurisdiction: alexandria
+  custodian: "Department of Finance / special commissioner"
+  dataset_name: "Delinquent real estate tax sales (Va. Code 58.1-3965)"
+  quoin_sections: [delinquency_tax_sale]
+  access_type: portal_search
+  cost: free
+  format: "Auction listings"
+  landing_url: "https://www.alxnow.com/?p=57069"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: "Ad hoc"
+  history_start: unknown
+  terms: unknown
+  notes: "No official page was found; the landing URL is a news article."
+  evidence_urls:
+    - "https://www.alxnow.com/?p=57069"
+  verified_at: null
+
+- source_id: alexandria_special_tax_districts
+  jurisdiction: alexandria
+  custodian: "City Council / Finance"
+  dataset_name: "Potomac Yard Metrorail Station Special Services Districts (Tier I and II)"
+  quoin_sections: [special_assessment, tax]
+  access_type: request_only
+  cost: free
+  format: "PDF ordinances"
+  landing_url: "https://pub.alexandriava.gov/cityor/0/edoc/58157/Ord.%20No.%204722.pdf"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Annual rate setting"
+  history_start: "2011"
+  terms: unknown
+  notes: "No boundary layer was found. Current rates and member parcels must come from the budget. No business improvement districts."
+  evidence_urls:
+    - "https://pub.alexandriava.gov/cityor/0/edoc/58157/Ord.%20No.%204722.pdf"
+  verified_at: null
+
+- source_id: alexandria_apex_permits
+  jurisdiction: alexandria
+  custodian: "Code Administration / Planning and Zoning / T&ES"
+  dataset_name: "APEX (Alexandria Permit and Land Use Management Portal)"
+  quoin_sections: [permit, inspection_enforcement]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://www.alexandriava.gov/go/2596"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: "Real-time"
+  history_start: "2019"
+  terms: unknown
+  notes: "No login needed to view. No bulk download or API."
+  evidence_urls:
+    - "https://www.alexandriava.gov/go/2596"
+  verified_at: null
+
+- source_id: alexandria_code_admin_monthly_reports
+  jurisdiction: alexandria
+  custodian: "Department of Code Administration"
+  dataset_name: "Code Administration monthly activity reports"
+  quoin_sections: [permit, inspection_enforcement]
+  access_type: bulk
+  cost: free
+  format: "PDF (aggregate)"
+  landing_url: "https://alexandriava.gov/Code"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Monthly"
+  history_start: unknown
+  terms: unknown
+  notes: "Aggregate counts only; useful for quality checks."
+  evidence_urls:
+    - "https://alexandriava.gov/Code"
+  in_matrix: false  # aggregate counts only
+  verified_at: null
+
+- source_id: alexandria_residential_rental_inspection
+  jurisdiction: alexandria
+  custodian: "Code Administration, Maintenance Code Division"
+  dataset_name: "Residential Rental Inspection (RRI) program and district lookup"
+  quoin_sections: [license, inspection_enforcement]
+  access_type: request_only
+  cost: unknown
+  format: "HTML lookup / PDF"
+  landing_url: "https://www.alexandriava.gov/go/6911"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Annual inspections"
+  history_start: unknown
+  terms: unknown
+  notes: "About 4,048 properties. Results are not published."
+  evidence_urls:
+    - "https://www.alexandriava.gov/go/6911"
+  verified_at: null
+
+- source_id: alexandria_property_maintenance_complaints
+  jurisdiction: alexandria
+  custodian: "Code Administration / Alex311"
+  dataset_name: "Property maintenance complaints and code cases"
+  quoin_sections: [inspection_enforcement]
+  access_type: request_only
+  cost: unknown
+  format: unknown
+  landing_url: "https://alexandriava.gov/Alex311"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "No open 311 dataset. Use VFOIA."
+  evidence_urls:
+    - "https://alexandriava.gov/Alex311"
+  verified_at: null
+
+- source_id: alexandria_bpol_business_tax_portal
+  jurisdiction: alexandria
+  custodian: "Finance, Business Tax Division"
+  dataset_name: "Business Tax Portal (BPOL)"
+  quoin_sections: [license]
+  access_type: request_only
+  cost: unknown
+  format: "HTML (for filers only)"
+  landing_url: "https://alexandriava.gov/BusinessTax"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Annual"
+  history_start: "2020"
+  terms: "Va. Code 58.1-3 confidentiality"
+  notes: "No public licensee list."
+  evidence_urls:
+    - "https://alexandriava.gov/BusinessTax"
+  verified_at: null
+
+# ---------------- LOUDOUN COUNTY ----------------
+- source_id: loudoun_geohub
+  jurisdiction: loudoun
+  custodian: "Office of Mapping and Geographic Information (OMAGI)"
+  dataset_name: "Loudoun GeoHub open data portal"
+  quoin_sections: [identity, land, building, special_assessment, permit]
+  access_type: bulk
+  cost: free
+  format: "CSV, GeoJSON, KML, Shapefile, ArcGIS REST"
+  landing_url: "https://www.loudoun.gov/1776/GeoHub-and-Other-Online-Resources"
+  endpoint_url: null
+  parcel_key: "MCPI / PIN"
+  update_frequency: "Varies (address points daily)"
+  history_start: unknown
+  terms: "Loudoun GIS disclaimer"
+  notes: "REST root: logis.loudoun.gov/gis/rest/services. Portal: logishub.loudoun.gov."
+  evidence_urls:
+    - "https://www.loudoun.gov/1776/GeoHub-and-Other-Online-Resources"
+    - "https://logishub.loudoun.gov/"
+  verified_at: null
+
+- source_id: loudoun_parcels_gis
+  jurisdiction: loudoun
+  custodian: "OMAGI"
+  dataset_name: "Parcels of Loudoun County (plus Parcel XY centroids)"
+  quoin_sections: [identity, land]
+  access_type: api
+  cost: free
+  format: "ArcGIS REST, plus Hub downloads"
+  landing_url: "https://logis.loudoun.gov/metadata/Parcels.html"
+  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/0"
+  parcel_key: "MCPI (9-digit)"
+  update_frequency: unknown
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "Some polygons are leaseholds or easements. Also served from COL_LatLong/Parcels_LatLong/MapServer."
+  evidence_urls:
+    - "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/0/iteminfo"
+  verified_at: null
+
+- source_id: loudoun_zoning_gis
+  jurisdiction: loudoun
+  custodian: "Planning and Zoning / OMAGI"
+  dataset_name: "Loudoun County zoning (current, 1972 ordinance, Leesburg, ZMAP rezonings)"
+  quoin_sections: [land]
+  access_type: api
+  cost: free
+  format: "ArcGIS MapServer (max 2,000 records per query)"
+  landing_url: "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer"
+  endpoint_url: null
+  parcel_key: "null (spatial)"
+  update_frequency: unknown
+  history_start: "2023 ordinance"
+  terms: "Official map is ZOAM-2020-0001; only a Zoning Administrator determination is binding"
+  notes: "Layer IDs are not yet known."
+  evidence_urls:
+    - "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer"
+  verified_at: null
+
+- source_id: loudoun_land_use_buildout
+  jurisdiction: loudoun
+  custodian: "Department of Planning and Zoning"
+  dataset_name: "Land use: existing parcels, existing structures, residential communities"
+  quoin_sections: [land, building]
+  access_type: api
+  cost: free
+  format: "ArcGIS REST, plus Hub downloads"
+  landing_url: "https://catalog.data.gov/dataset/loudoun-land-use-existing-structures"
+  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/Projects/BuildOut_LandUse/MapServer/2"
+  parcel_key: unknown
+  update_frequency: "Irregular (2020-2022)"
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "Layer 2 is Residential Communities. A planning-oriented dataset."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/loudoun-land-use-existing-structures"
+  verified_at: null
+
+- source_id: loudoun_buildings_address_points
+  jurisdiction: loudoun
+  custodian: "OMAGI"
+  dataset_name: "Loudoun building footprints and address points"
+  quoin_sections: [identity, building]
+  access_type: bulk
+  cost: free
+  format: "Shapefile, CSV, GeoJSON, KML"
+  landing_url: "https://logis.loudoun.gov/metadata/Address.html"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Address points daily"
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "Footprints are geometry only, with no building characteristics."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/loudoun-address-points-c1eaa"
+  verified_at: null
+
+- source_id: loudoun_parcel_database_cor
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "Real Estate Tax, Assessment and Parcel Database"
+  quoin_sections: [identity, assessment, ownership, transfer, deed_reference, building, land, tax]
+  access_type: portal_search
+  cost: free
+  format: "HTML (iasWorld commonsearch)"
+  landing_url: "https://reparcelasmt.loudoun.gov/pt/search/commonsearch.aspx?mode=parid"
+  endpoint_url: null
+  parcel_key: "PIN, tax map number"
+  update_frequency: "Weekly"
+  history_start: unknown
+  terms: "Provided under Va. Code 58.1-3122.2"
+  notes: "The richest Loudoun source: deed references, sales, assessments and dwelling characteristics, but per-parcel only. Short alias: loudoun.gov/ParcelDatabase."
+  evidence_urls:
+    - "https://reparcelasmt.loudoun.gov/pt/search/commonsearch.aspx?mode=parid"
+  verified_at: null
+
+- source_id: loudoun_cor_land_book_reports
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "Land Book (county detail and summary, towns, Metrorail) and annual assessment reports"
+  quoin_sections: [assessment, special_assessment, ownership]
+  access_type: bulk
+  cost: free
+  format: PDF
+  landing_url: "https://www.loudoun.gov/3864/Virginia-Freedom-of-Information-Act-FOIA"
+  endpoint_url: "https://www.sheriff.loudoun.gov/DocumentCenter/View/194581/2024-County-Land-Book-Summary-PDF"
+  parcel_key: "PIN (in the detail PDFs)"
+  update_frequency: "Annual"
+  history_start: "2020"
+  terms: unknown
+  notes: "The detail PDFs are the closest thing to a bulk assessment roll and need PDF parsing. The FOIA page also covers bulk-data requests."
+  evidence_urls:
+    - "https://www.loudoun.gov/3864/Virginia-Freedom-of-Information-Act-FOIA"
+  verified_at: null
+
+- source_id: loudoun_route28_tax_district_reports
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue / Route 28 District Commission"
+  dataset_name: "Route 28 Tax District annual report and parcel detail"
+  quoin_sections: [special_assessment, assessment, ownership]
+  access_type: bulk
+  cost: free
+  format: PDF
+  landing_url: "https://www.loudoun.gov/1897/Route-28-Transportation-Improvement"
+  endpoint_url: "https://www.loudoun.gov/DocumentCenter/View/194586/2024-Route-28-Detail-PDF"
+  parcel_key: "PIN, tax map number"
+  update_frequency: "Annual"
+  history_start: "1987"
+  terms: unknown
+  notes: "1,537 taxable parcels in 2025. The detail lists PIN, owner, acreage and values."
+  evidence_urls:
+    - "https://www.loudoun.gov/DocumentCenter/View/213072/2025-Route-28-Tax-District-Report-PDF"
+  verified_at: null
+
+- source_id: loudoun_metrorail_service_districts
+  jurisdiction: loudoun
+  custodian: "OMAGI / Commissioner of the Revenue"
+  dataset_name: "Metrorail Service Districts (Route 606 / Airport, Route 772)"
+  quoin_sections: [special_assessment]
+  access_type: bulk
+  cost: free
+  format: "GeoHub layer, plus the Land Book Metrorail PDF"
+  landing_url: "https://logis.loudoun.gov/metadata/Metrorail%20tax%20districts.html"
+  endpoint_url: null
+  parcel_key: "null (spatial)"
+  update_frequency: unknown
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "Every parcel inside a district pays the special rate."
+  evidence_urls:
+    - "https://data.amerigeoss.org/dataset/loudoun-metrorail-service-districts-4f0d1"
+  verified_at: null
+
+- source_id: loudoun_treasurer_tax_payments
+  jurisdiction: loudoun
+  custodian: "Treasurer"
+  dataset_name: "Online tax portal (real estate bills and payments)"
+  quoin_sections: [tax]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://www.loudoun.gov/1911/Taxes-in-Loudoun-County"
+  endpoint_url: null
+  parcel_key: "Tax account number / PIN"
+  update_frequency: "Billed twice a year"
+  history_start: unknown
+  terms: unknown
+  notes: "The 2025 rate is $0.805 per $100. The Treasurer also collects taxes for some towns."
+  evidence_urls:
+    - "https://www.loudoun.gov/1911/Taxes-in-Loudoun-County"
+  verified_at: null
+
+- source_id: loudoun_tax_sales
+  jurisdiction: loudoun
+  custodian: "Treasurer / Special Commissioner of Sale"
+  dataset_name: "Delinquent tax sales (judicial and nonjudicial)"
+  quoin_sections: [delinquency_tax_sale]
+  access_type: bulk
+  cost: free
+  format: "PDF notices"
+  landing_url: "https://www.loudoun.gov/1918/Tax-Sales"
+  endpoint_url: "https://www.loudoun.gov/DocumentCenter/View/212183/Jan-2025-Public-Auction"
+  parcel_key: "PIN"
+  update_frequency: "Ad hoc"
+  history_start: unknown
+  terms: "Subject to Circuit Court confirmation"
+  notes: "No standing delinquent list."
+  evidence_urls:
+    - "https://www.loudoun.gov/1918/Tax-Sales"
+  verified_at: null
+
+- source_id: loudoun_landmarc_permits
+  jurisdiction: loudoun
+  custodian: "Department of Building and Development"
+  dataset_name: "LandMARC permits and land development records"
+  quoin_sections: [permit, inspection_enforcement, land]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://www.loudoun.gov/LandMarc"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: "Real-time"
+  history_start: unknown
+  terms: unknown
+  notes: "Building, grading and zoning permits, plus inspections. No bulk download or API."
+  evidence_urls:
+    - "https://www.loudoun.gov/LandMarc"
+  verified_at: null
+
+- source_id: loudoun_building_permit_applications_gis
+  jurisdiction: loudoun
+  custodian: "GIS / Planning and Zoning"
+  dataset_name: "Building permit applications by year (residential), 2018-2022"
+  quoin_sections: [permit]
+  access_type: bulk
+  cost: free
+  format: "ArcGIS GeoService / Hub"
+  landing_url: "https://catalog.data.gov/dataset/building-permit-applications-2022"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: "Annual"
+  history_start: "2018"
+  terms: "GIS disclaimer"
+  notes: "Residential units only."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/building-permit-applications-2022"
+  verified_at: null
+
+- source_id: loudoun_zoning_code_enforcement
+  jurisdiction: loudoun
+  custodian: "Zoning Enforcement / Code Enforcement"
+  dataset_name: "Zoning and building code complaints (Loudoun Express Request, LEx)"
+  quoin_sections: [inspection_enforcement]
+  access_type: request_only
+  cost: unknown
+  format: "HTML map of public requests"
+  landing_url: "https://www.loudoun.gov/1751/Reporting-Zoning-Violations"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: unknown
+  history_start: unknown
+  terms: "Zoning complaints can be released under FOIA"
+  notes: "No case-history search. Use VFOIA."
+  evidence_urls:
+    - "https://www.loudoun.gov/1751/Reporting-Zoning-Violations"
+  verified_at: null
+
+- source_id: loudoun_bpol_licensee_list
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue, Business Tax"
+  dataset_name: "List of licensed businesses (BPOL)"
+  quoin_sections: [license]
+  access_type: request_only
+  cost: unknown
+  format: unknown
+  landing_url: "https://www.loudoun.gov/1552/Business-License-Tax"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: unknown
+  history_start: unknown
+  terms: "Va. Code 58.1-3 confidentiality"
+  notes: "The full list has names only. An opt-in list with business details is available on request."
+  evidence_urls:
+    - "https://www.loudoun.gov/FAQ.aspx?TID=57"
+  verified_at: null

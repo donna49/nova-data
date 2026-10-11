@@ -1,0 +1,617 @@
+# Fairfax County and City of Fairfax.
+# Found by web search on 2026-10-11. URLs have not been fetched or verified yet (verified_at: null).
+# Land records are under va_fairfax_circuit_court_cpan and ABC licenses under va_abc_licensees, both in virginia_state_regional.yaml.
+
+# ---------------- FAIRFAX COUNTY ----------------
+# The DTA real estate tables are the closest equivalent to D.C. CAMA and are linked by PARID.
+# Data.gov lists them, and they are served from the county ArcGIS Hub (data-fairfaxcountygis.opendata.arcgis.com).
+# Some are in the OpenData_A5 FeatureServer (services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/OpenData_A5/FeatureServer).
+# Layer IDs still need to be read from that service's /layers listing before endpoint_url can be filled in.
+- source_id: fairfax_county_dta_re_parcels
+  jurisdiction: fairfax_county
+  custodian: "Department of Tax Administration (DTA), published by DIT-GIS"
+  dataset_name: "Tax Administration's Real Estate - Parcels Data"
+  quoin_sections: [identity, land, building]
+  access_type: bulk
+  cost: free
+  format: "CSV, GeoJSON, ArcGIS REST table"
+  landing_url: "https://catalog.data.gov/dataset/tax-administrations-real-estate-parcels-data-cc892"
+  endpoint_url: null
+  parcel_key: "PARID (tax map reference number)"
+  update_frequency: unknown
+  history_start: unknown
+  terms: "County GIS disclaimer"
+  notes: "Livable units, land use code, zoning and utilities. This is the table the other DTA tables join to."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/tax-administrations-real-estate-parcels-data-cc892/resource/301cf19c-dec2-4995-9c5f-2283fb9081ba"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_assessed_values
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Assessed Values"
+  quoin_sections: [assessment]
+  access_type: bulk
+  cost: free
+  format: "CSV, ArcGIS REST table"
+  landing_url: "https://catalog.data.gov/dataset/tax-administrations-real-estate-assessed-values-08c4b"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: unknown
+  history_start: "Current and prior tax years only"
+  terms: "County GIS disclaimer"
+  notes: "Building a longer history means saving a snapshot each year."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/tax-administrations-real-estate-assessed-values-08c4b/resource/9a6c4e6d-ecce-4898-8b11-deb51c823e0a"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_sales
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Sales Data"
+  quoin_sections: [transfer, deed_reference]
+  access_type: bulk
+  cost: free
+  format: "CSV, ArcGIS REST table"
+  landing_url: "https://data-fairfaxcountygis.opendata.arcgis.com"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: unknown
+  history_start: unknown
+  terms: "County GIS disclaimer"
+  notes: "Sale date and price. Deed book/page fields are likely but not confirmed. Hosted in OpenData_A5."
+  evidence_urls:
+    - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/OpenData_A5/FeatureServer/layers"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_owner
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Owner Data"
+  quoin_sections: [ownership]
+  access_type: bulk
+  cost: free
+  format: "CSV, ArcGIS REST table"
+  landing_url: "https://data.amerigeoss.org/dataset/tax-administrations-real-estate-owner-data-e2108"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: unknown
+  history_start: "Current owner only"
+  terms: "County GIS disclaimer"
+  notes: "Owner name and mailing address. Some names may be suppressed on request."
+  evidence_urls:
+    - "https://data.amerigeoss.org/dataset/tax-administrations-real-estate-owner-data-e2108"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_legal
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Legal Data"
+  quoin_sections: [identity, land, special_assessment]
+  access_type: bulk
+  cost: free
+  format: "CSV, ArcGIS REST table"
+  landing_url: "https://catalog.data.gov/dataset/tax-administrations-real-estate-legal-data-ffa92"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: unknown
+  history_start: unknown
+  terms: "County GIS disclaimer"
+  notes: "Site address, deeded land area and a tax district code. The code links each parcel to special tax districts (Tysons, Route 28, Dulles Rail)."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/tax-administrations-real-estate-legal-data-ffa92"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_land
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Land Data"
+  quoin_sections: [land]
+  access_type: bulk
+  cost: free
+  format: CSV
+  landing_url: "https://catalog.data.gov/dataset/tax-administrations-real-estate-land-data-7de95"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: "unknown (modified 2025-09)"
+  history_start: unknown
+  terms: "County GIS disclaimer"
+  notes: "Land size in square feet and acres, plus land type."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/tax-administrations-real-estate-land-data-7de95"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_dwelling
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Dwelling Data"
+  quoin_sections: [building]
+  access_type: bulk
+  cost: free
+  format: "CSV, ArcGIS REST table"
+  landing_url: "https://catalog.data.gov/dataset/tax-administrations-real-estate-dwelling-data-d6034"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: unknown
+  history_start: unknown
+  terms: "County GIS disclaimer"
+  notes: "Year built, bedrooms, bathrooms, style. Equivalent to D.C. CAMA Residential."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/tax-administrations-real-estate-dwelling-data-d6034"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_dwelling_addition
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Dwelling Addition Data"
+  quoin_sections: [building]
+  access_type: bulk
+  cost: free
+  format: "CSV, ArcGIS REST table"
+  landing_url: "https://catalog-old.data.gov/dataset/tax-administrations-real-estate-dwelling-addition-data-b7300"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: unknown
+  history_start: unknown
+  terms: "County GIS disclaimer"
+  notes: "Decks, patios, porches and other additions."
+  evidence_urls:
+    - "https://catalog-old.data.gov/dataset/tax-administrations-real-estate-dwelling-addition-data-b7300"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_commercial
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Tax Administration's Real Estate - Commercial Data"
+  quoin_sections: [building]
+  access_type: bulk
+  cost: free
+  format: "CSV, ArcGIS REST table"
+  landing_url: "https://catalog.data.gov/dataset/tax-administrations-real-estate-commercial-data-27d50"
+  endpoint_url: null
+  parcel_key: PARID
+  update_frequency: unknown
+  history_start: unknown
+  terms: "County GIS disclaimer"
+  notes: "Commercial building characteristics. Equivalent to D.C. CAMA Commercial."
+  evidence_urls:
+    - "https://catalog.data.gov/dataset/tax-administrations-real-estate-commercial-data-27d50"
+  verified_at: null
+
+- source_id: fairfax_county_gis_parcels
+  jurisdiction: fairfax_county
+  custodian: "DIT-GIS"
+  dataset_name: "Parcels (cadastral polygons)"
+  quoin_sections: [identity, land]
+  access_type: api
+  cost: free
+  format: "ArcGIS MapServer/FeatureServer"
+  landing_url: "https://www.fairfaxcounty.gov/maps/open-geospatial-data"
+  endpoint_url: "https://www.fairfaxcounty.gov/gispub1/rest/services/OpenData/OpenData_A9/MapServer/0"
+  parcel_key: "PIN (matches DTA PARID)"
+  update_frequency: "Daily"
+  history_start: unknown
+  terms: "Not a legal description"
+  notes: "Geometry plus parcel ID and type only."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/gispub1/rest/services/OpenData/OpenData_A9/MapServer/0"
+  verified_at: null
+
+- source_id: fairfax_county_gis_master_address_repository
+  jurisdiction: fairfax_county
+  custodian: "DIT-GIS"
+  dataset_name: "Master Address Repository (MAR)"
+  quoin_sections: [identity]
+  access_type: portal_search
+  cost: free
+  format: "Web lookup and GIS layers"
+  landing_url: "https://www.fairfaxcounty.gov/maps/node/294"
+  endpoint_url: null
+  parcel_key: "Parcel number"
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "The authoritative address-to-parcel source. A bulk layer is not confirmed."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/maps/node/294"
+  verified_at: null
+
+- source_id: fairfax_county_icare_assessment
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "iCARE Real Estate Assessment search"
+  quoin_sections: [identity, assessment, ownership, transfer, building, land, tax]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://icare.fairfaxcounty.gov/"
+  endpoint_url: null
+  parcel_key: "Tax map number (PARID)"
+  update_frequency: "Annual (Jan 1 valuation)"
+  history_start: unknown
+  terms: unknown
+  notes: "A per-parcel view of the same data as the DTA tables. Use it for verification."
+  evidence_urls:
+    - "https://icare.fairfaxcounty.gov/"
+  verified_at: null
+
+- source_id: fairfax_county_dta_re_tax_payment
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Real estate taxes-due lookup and payment"
+  quoin_sections: [tax]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://www.fairfaxcounty.gov/taxes/pay/payment-options"
+  endpoint_url: null
+  parcel_key: "Bill stub number / tax map number"
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "No bulk billing data is published. To estimate bills, multiply the assessment by the published rates. The lookup is at fairfaxcounty.gov/dta_mobileepayre/."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/dta_mobileepayre/"
+  verified_at: null
+
+- source_id: fairfax_county_dta_tax_rate_fee_tables
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "Real estate tax rates and annual tax/fee tables by tax district"
+  quoin_sections: [tax, special_assessment]
+  access_type: bulk
+  cost: free
+  format: "PDF / HTML"
+  landing_url: "https://www.fairfaxcounty.gov/taxes/real-estate/tax-rates"
+  endpoint_url: "https://www.fairfaxcounty.gov/taxes/sites/taxes/files/Assets/2024-tax-fee-table.pdf"
+  parcel_key: "Tax district code (joined through DTA Legal Data)"
+  update_frequency: "Annual"
+  history_start: "2017"
+  terms: unknown
+  notes: "District levies: Tysons $0.05, Dulles Rail Phase 1 $0.09 and Phase 2 $0.18, Route 28 $0.14 (2024). The tables must be parsed from PDF."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/taxes/real-estate/tax-rates"
+  verified_at: null
+
+- source_id: fairfax_county_gis_special_tax_areas
+  jurisdiction: fairfax_county
+  custodian: "DIT-GIS / DTA"
+  dataset_name: "Special Tax Areas (district boundaries)"
+  quoin_sections: [special_assessment]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Special_Tax_Areas/FeatureServer"
+  endpoint_url: "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Special_Tax_Areas/FeatureServer/0"
+  parcel_key: "null (spatial join)"
+  update_frequency: "Daily"
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "Route 28, Dulles Rail Phases 1 and 2, Tysons and others."
+  evidence_urls:
+    - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Special_Tax_Areas/FeatureServer/0"
+  verified_at: null
+
+- source_id: fairfax_county_tax_sale_auctions
+  jurisdiction: fairfax_county
+  custodian: "DTA / Taxing Authority Consulting Services (taxva.com)"
+  dataset_name: "Real estate tax sale auctions"
+  quoin_sections: [delinquency_tax_sale]
+  access_type: request_only
+  cost: free
+  format: "Notices and an email list"
+  landing_url: "https://www.fairfaxcounty.gov/taxes/node/243"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: "Ad hoc"
+  history_start: unknown
+  terms: unknown
+  notes: "The county does not publish a delinquent list (Va. Code 58.1-3924 allows one but does not require it)."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/taxes/node/243"
+  verified_at: null
+
+- source_id: fairfax_county_lds_recent_building_permits
+  jurisdiction: fairfax_county
+  custodian: "Land Development Services (LDS)"
+  dataset_name: "Development Tracker - Recent Building Permits"
+  quoin_sections: [permit]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://www.fairfaxcounty.gov/news/node/1212"
+  endpoint_url: "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/5"
+  parcel_key: "Parcel ID (PARID)"
+  update_frequency: "Nightly (from PLUS)"
+  history_start: "Recent window only, not full history"
+  terms: "Publicly available"
+  notes: "Fields: record ID and type, status, submitted/issued/closed dates, estimated cost, address. Building full history requires saving nightly snapshots. Layer 4 has the same data as centroid points."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/5"
+  verified_at: null
+
+- source_id: fairfax_county_lds_certificate_of_occupancy
+  jurisdiction: fairfax_county
+  custodian: "LDS"
+  dataset_name: "Development Tracker - Certificate of Occupancy"
+  quoin_sections: [permit, inspection_enforcement]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://www.fairfaxcounty.gov/news/node/1212"
+  endpoint_url: "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/6"
+  parcel_key: "Parcel ID"
+  update_frequency: "Nightly"
+  history_start: unknown
+  terms: "Publicly available"
+  notes: "Equivalent to D.C. occupancy permits."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/6"
+  verified_at: null
+
+- source_id: fairfax_county_lds_building_records_plus
+  jurisdiction: fairfax_county
+  custodian: "LDS"
+  dataset_name: "Building Records (PLUS) point layer"
+  quoin_sections: [permit, building]
+  access_type: bulk
+  cost: free
+  format: "CSV, GeoJSON, Shapefile, ArcGIS REST"
+  landing_url: "https://datagov-harvest.app.cloud.gov/harvest_record/f1899e96-7ad5-4cbc-8b59-24ceb165d223"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: "As needed"
+  history_start: "Includes historic records"
+  terms: unknown
+  notes: "Points that link to current and historic building records. Labeled 'intended for internal use'."
+  evidence_urls:
+    - "https://datagov-harvest.app.cloud.gov/harvest_record/f1899e96-7ad5-4cbc-8b59-24ceb165d223"
+  verified_at: null
+
+- source_id: fairfax_county_plus_portal
+  jurisdiction: fairfax_county
+  custodian: "LDS / DPD / DCC (PLUS, Accela; replaced FIDO)"
+  dataset_name: "PLUS online permitting and records portal"
+  quoin_sections: [permit, inspection_enforcement, land]
+  access_type: portal_search
+  cost: free
+  format: "HTML (Accela Citizen Access)"
+  landing_url: "https://plus.fairfaxcounty.gov"
+  endpoint_url: null
+  parcel_key: "Parcel ID / address"
+  update_frequency: "Real-time"
+  history_start: unknown
+  terms: unknown
+  notes: "Building and trade permits, inspections and zoning applications. Full history requires a FOIA request to LDS Records."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/plan2build/"
+  verified_at: null
+
+- source_id: fairfax_county_dcc_code_cases
+  jurisdiction: fairfax_county
+  custodian: "Department of Code Compliance (DCC)"
+  dataset_name: "DCC case search and PLUS EnforcementMap complaint layers"
+  quoin_sections: [inspection_enforcement]
+  access_type: api
+  cost: free
+  format: "ArcGIS MapServer (gisint1 server), plus an HTML case search"
+  landing_url: "https://www.fairfaxcounty.gov/code/"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "About 7,000 cases a year. The service is https://www.fairfaxcounty.gov/gisint1/rest/services/PLUS/EnforcementMap/MapServer, but its layer IDs are not yet known. The gisint1 server may be internal or unstable."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/gisint1/rest/services/PLUS/EnforcementMap/MapServer/layers"
+  verified_at: null
+
+- source_id: fairfax_county_gis_zoning
+  jurisdiction: fairfax_county
+  custodian: "DPD / DIT-GIS"
+  dataset_name: "Zoning districts and Zoning Overlay Districts"
+  quoin_sections: [land]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning/FeatureServer"
+  endpoint_url: "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning_Overlay_Districts/FeatureServer/0"
+  parcel_key: "null (spatial)"
+  update_frequency: "Daily"
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "Covers the county plus the towns of Herndon and Vienna. The DTA Parcels table also carries a zoning code."
+  evidence_urls:
+    - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning/FeatureServer"
+  verified_at: null
+
+- source_id: fairfax_county_gis_zoning_cases
+  jurisdiction: fairfax_county
+  custodian: "DPD Zoning Evaluation Division"
+  dataset_name: "Zoning cases after 2000, pre-2000 case locations, and pending applications"
+  quoin_sections: [land, permit]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning_Cases_Post_2000/FeatureServer"
+  endpoint_url: null
+  parcel_key: "null (spatial)"
+  update_frequency: "Weekly"
+  history_start: "Before 2000"
+  terms: "GIS disclaimer"
+  notes: "Rezoning and special-exception cases. Layer IDs are not yet known."
+  evidence_urls:
+    - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning_Cases_Post_2000/FeatureServer"
+  verified_at: null
+
+- source_id: fairfax_county_dta_bpol
+  jurisdiction: fairfax_county
+  custodian: "DTA"
+  dataset_name: "BPOL business license filings"
+  quoin_sections: [license]
+  access_type: request_only
+  cost: unknown
+  format: unknown
+  landing_url: "https://www.fairfaxcounty.gov/taxes/business/information-new-businesses"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Annual"
+  history_start: unknown
+  terms: "Va. Code 58.1-3 confidentiality"
+  notes: "No public licensee dataset."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/bpol/BPOLDisclaimer.aspx"
+  verified_at: null
+
+- source_id: fairfax_county_short_term_lodging_permits
+  jurisdiction: fairfax_county
+  custodian: "Zoning Administrator (DPD)"
+  dataset_name: "Short-Term Lodging (STL) permits"
+  quoin_sections: [license]
+  access_type: request_only
+  cost: unknown
+  format: unknown
+  landing_url: "https://www.fairfaxcounty.gov/planning-zoning/zoning/short-term-property-rentals"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "There is no countywide rental license; this permit is the closest registry. Nothing is published."
+  evidence_urls:
+    - "https://planning.org/knowledgebase/resource/9180282"
+  verified_at: null
+
+# ---------------- CITY OF FAIRFAX ----------------
+- source_id: fairfax_city_real_estate_assessment_database
+  jurisdiction: fairfax_city
+  custodian: "Office of Real Estate Assessments"
+  dataset_name: "Real Estate Assessment Database"
+  quoin_sections: [identity, assessment, ownership, transfer, building, land]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://fairfaxva.gov/government/real-estate/online-services/real-estate-assessment-database"
+  endpoint_url: null
+  parcel_key: "Tax map number / account number"
+  update_frequency: "Annual"
+  history_start: "Multi-year history shown"
+  terms: "Owners can ask to have their names suppressed"
+  notes: "Shows owner, legal description, land size, zoning, building areas, sales and assessments. For bulk data, ask RealEstate@fairfaxva.gov."
+  evidence_urls:
+    - "https://fairfaxva.gov/government/real-estate/online-services/real-estate-assessment-database"
+  verified_at: null
+
+- source_id: fairfax_city_gis_open_data_hub
+  jurisdiction: fairfax_city
+  custodian: "IT - GIS"
+  dataset_name: "City Open GIS Data Hub (parcels, buildings, roads, utilities)"
+  quoin_sections: [identity, land, building]
+  access_type: bulk
+  cost: free
+  format: "ArcGIS Hub (formats not confirmed)"
+  landing_url: "https://fairfaxva.gov/government/information-technology/geographic-information-system"
+  endpoint_url: null
+  parcel_key: "unknown (probably tax map number)"
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "The Hub URL was not found. Contact gis@fairfaxva.gov."
+  evidence_urls:
+    - "https://fairfaxva.gov/government/information-technology/geographic-information-system"
+  verified_at: null
+
+- source_id: fairfax_city_tax_portal
+  jurisdiction: fairfax_city
+  custodian: "Treasurer"
+  dataset_name: "Tax portal and tax payment receipt lookup"
+  quoin_sections: [tax]
+  access_type: portal_search
+  cost: free
+  format: HTML
+  landing_url: "https://www.fairfaxva.gov/Property-Business/Taxes/Pay-Your-Taxes"
+  endpoint_url: null
+  parcel_key: "Account number / property ID"
+  update_frequency: "Real-time"
+  history_start: unknown
+  terms: unknown
+  notes: "The receipt lookup searches by owner, property ID or address. Includes stormwater fees."
+  evidence_urls:
+    - "https://www.fairfaxva.gov/treasurer"
+  verified_at: null
+
+- source_id: fairfax_city_delinquent_taxpayer_lists
+  jurisdiction: fairfax_city
+  custodian: "Treasurer"
+  dataset_name: "Delinquent Taxpayer Lists (Va. Code 58.1-3924)"
+  quoin_sections: [delinquency_tax_sale]
+  access_type: bulk
+  cost: free
+  format: "PDF (assumed)"
+  landing_url: "https://www.fairfaxva.gov/Property-Business/Taxes/Delinquent-Taxpayer-Lists"
+  endpoint_url: null
+  parcel_key: unknown
+  update_frequency: "Quarterly"
+  history_start: "unknown (latest seen 2024-12-05)"
+  terms: unknown
+  notes: "The only published delinquent list among the six jurisdictions. Covers real estate, personal property, BPOL and meals tax."
+  evidence_urls:
+    - "https://www.fairfaxva.gov/Property-Business/Taxes/Delinquent-Taxpayer-Lists"
+  verified_at: null
+
+- source_id: fairfax_city_permit_portal
+  jurisdiction: fairfax_city
+  custodian: "Code Administration / Community Development and Planning"
+  dataset_name: "Permit Portal (Accela Citizen Access)"
+  quoin_sections: [permit, inspection_enforcement]
+  access_type: portal_search
+  cost: free
+  format: "HTML (Accela)"
+  landing_url: "https://aca-prod.accela.com/FAIRFAX/Default.aspx"
+  endpoint_url: null
+  parcel_key: "unknown (address / parcel)"
+  update_frequency: "Real-time"
+  history_start: unknown
+  terms: unknown
+  notes: "No open-data export."
+  evidence_urls:
+    - "https://fairfaxva.gov/home/showpublisheddocument/19065/637825023217870000"
+  verified_at: null
+
+- source_id: fairfax_city_code_enforcement
+  jurisdiction: fairfax_city
+  custodian: "Code Administration / Neighborhood Concerns"
+  dataset_name: "Code violations (Fairfax City Resolve)"
+  quoin_sections: [inspection_enforcement]
+  access_type: request_only
+  cost: unknown
+  format: unknown
+  landing_url: "https://fairfaxva.gov/government/code-administration/common-violations"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: unknown
+  history_start: unknown
+  terms: "Complainant identity is confidential"
+  notes: "Accepts complaints only; no public case data."
+  evidence_urls:
+    - "https://fairfaxva.gov/government/code-administration/common-violations"
+  verified_at: null
+
+- source_id: fairfax_city_business_license
+  jurisdiction: fairfax_city
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "Business license (BPOL) records"
+  quoin_sections: [license]
+  access_type: request_only
+  cost: unknown
+  format: unknown
+  landing_url: "https://www.fairfaxva.gov/government/commissioner-of-the-revenue/business-license-tax"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Annual"
+  history_start: unknown
+  terms: unknown
+  notes: "No public directory. Ask Revenue@fairfaxva.gov."
+  evidence_urls:
+    - "https://www.fairfaxva.gov/government/commissioner-of-the-revenue/business-license-tax"
+  verified_at: null

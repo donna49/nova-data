@@ -1,0 +1,404 @@
+# Virginia state-level and Northern Virginia regional sources.
+# Entries without `covers:` apply to all six jurisdictions.
+# Discovered via web search on 2026-10-11; URLs not yet fetched/verified (verified_at: null).
+- source_id: va_sra_covers_land_records
+  jurisdiction: virginia_state
+  covers: [alexandria]
+  custodian: "Supreme Court of Virginia, Office of the Executive Secretary (OES), and participating Circuit Court Clerks"
+  dataset_name: "Secure Remote Access (SRA) to circuit court land records, run on COVERS"
+  quoin_sections: [ownership, transfer, deed_reference]
+  access_type: paid
+  cost: "Set by each clerk, capped at $50/month by Va. Code 17.1-276 (Alexandria charges $50/mo or $500/yr); VJOPS adds a 4% fee"
+  format: "Web viewer: index search and scanned document images, with no bulk export"
+  landing_url: "https://courts.state.va.us/online/sra/home"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Continuous, as documents are recorded"
+  history_start: "Varies by clerk (Alexandria deed images start 1970-01-02)"
+  terms: "The clerk approves each subscriber and a subscriber agreement is required. Va. Code 17.1-294(D) and VITA SEC503 apply. Redistribution is not allowed."
+  notes: "Of the six jurisdictions, only Alexandria is confirmed on SRA/COVERS. Arlington, Fairfax and Loudoun run their own systems (see their entries). I could not read the SRA 'Available Courts' list."
+  evidence_urls:
+    - "https://courts.state.va.us/online/sra/home"
+    - "https://law.lis.virginia.gov/vacode/17.1-294/"
+    - "https://alexandriava.gov/courtrecords"
+    - "https://alexandriava.gov/sites/default/files/2024-08/remote_access_subscriber_agreement_-_covers_-_alexandria_clerk_of_circuit_court.pdf"
+  verified_at: null
+
+- source_id: va_arlington_circuit_court_land_records
+  jurisdiction: virginia_state
+  covers: [arlington, falls_church]
+  custodian: "Clerk of the Arlington County Circuit Court, Land Records Division"
+  dataset_name: "Arlington Circuit Court Official Records Search (land records index and images)"
+  quoin_sections: [ownership, transfer, deed_reference]
+  access_type: paid
+  cost: "Index is free with a registered account. Images are $0.50/page plus $2.00 per transaction. Subscription is $50/month or $600/year (notarized application)."
+  format: "Web search portal (GovOS publicsearch at arlington.va.publicsearch.us): index and images"
+  landing_url: "https://www.arlingtonva.us/Government/Departments/Courts/Circuit-Court/Land-Records"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Continuous"
+  history_start: "1869 (secondary source)"
+  terms: "Va. Code 17.1-294(D), plus the site's Disclaimer and Conditions of Use"
+  notes: "Covers Arlington County, and Falls Church records from 1988 on. Falls Church records from before 1988 are held by the Fairfax Circuit Court."
+  evidence_urls:
+    - "https://www.arlingtonva.us/Government/Departments/Courts/Circuit-Court/Land-Records"
+    - "https://www.arlingtonva.us/Government/Departments/Courts/Circuit-Court/Land-Records/Land-Records-FAQs"
+    - "https://landrec.arlingtonva.us/public/sign-up-instructions.html"
+  verified_at: null
+
+- source_id: va_fairfax_circuit_court_cpan
+  jurisdiction: virginia_state
+  covers: [fairfax_county, fairfax_city, falls_church]
+  custodian: "Clerk of the Fairfax Circuit Court, Land Records Division"
+  dataset_name: "Court Public Access Network (CPAN), Fairfax Circuit Court land records"
+  quoin_sections: [ownership, transfer, deed_reference]
+  access_type: paid
+  cost: "Conflicting reports: $150 per user per quarter (older) or $50/month (Dec 2023 CPAN agreement). Free at courthouse terminals. Certified copies are $2.00/document plus $0.50/page."
+  format: "Remote subscription viewer: index and document images"
+  landing_url: "https://www.fairfaxcounty.gov/circuit/land-records/research"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Continuous"
+  history_start: "1742"
+  terms: "Per-user subscription"
+  notes: "Covers Fairfax County, the City of Fairfax, and Falls Church records from before 1988. Also carries judgments and liens (tax liens could hint at delinquency, but this is not counted as delinquency coverage). Not part of SRA/COVERS. Press has described it as the region's most restrictive paywall (InsideNova, 2021)."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/circuit/land-records/research"
+    - "https://www.fairfaxcounty.gov/circuit/land-records/general-information"
+    - "https://www.insidenova.com/headlines/amid-push-for-online-access-to-court-records-fairfax-county-paywall-stands-alone/article_a559ed40-5c29-11ec-95b2-e7f41d404e0a.html"
+  verified_at: null
+
+- source_id: va_loudoun_circuit_court_lrms_remote
+  jurisdiction: virginia_state
+  covers: [loudoun]
+  custodian: "Clerk of the Loudoun County Circuit Court"
+  dataset_name: "Remote Access to the Land Records Management System"
+  quoin_sections: [ownership, transfer, deed_reference]
+  access_type: paid
+  cost: "$262/year per user for a subscription. Free index search with per-image fees (offered since 2025-09-23)."
+  format: "Web portal: index and document images"
+  landing_url: "https://www.loudoun.gov/6256/Land-Records-Remote-Access"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Continuous"
+  history_start: unknown
+  terms: "Approved subscribers only, one user per subscription"
+  notes: "Loudoun County only. This is the clerk's own system."
+  evidence_urls:
+    - "https://www.loudoun.gov/6256/Land-Records-Remote-Access"
+    - "https://www.loudoun.gov/CivicAlerts.asp?AID=10132"
+  verified_at: null
+
+- source_id: va_tax_assessment_sales_ratio_study
+  jurisdiction: virginia_state
+  custodian: "Virginia Department of Taxation"
+  dataset_name: "Assessment/Sales Ratio Study (annual)"
+  quoin_sections: [assessment, transfer, tax]
+  access_type: bulk
+  cost: free
+  format: "PDF with locality tables"
+  landing_url: "https://www.tax.virginia.gov/node/15"
+  endpoint_url: "https://www.tax.virginia.gov/sites/default/files/inline-files/2023-assessment-sales-ratio-study.pdf"
+  parcel_key: null
+  update_frequency: "Annual, with a 1-2 year lag"
+  history_start: "2005"
+  terms: "Public government publication"
+  notes: "Aggregates per locality only, with no parcel rows. The underlying sales sample would require a FOIA request (untested). PDF, so pull_samples skips it (not tabular)."
+  evidence_urls:
+    - "https://www.tax.virginia.gov/node/15"
+    - "https://www.tax.virginia.gov/sites/default/files/inline-files/2023-assessment-sales-ratio-study.pdf"
+  in_matrix: false  # locality aggregates only
+  verified_at: null
+
+- source_id: va_tax_local_tax_rates
+  jurisdiction: virginia_state
+  custodian: "Virginia Department of Taxation"
+  dataset_name: "Local Tax Rates survey"
+  quoin_sections: [tax]
+  access_type: bulk
+  cost: free
+  format: PDF
+  landing_url: "https://tax.virginia.gov/sites/default/files/inline-files/2023-local-tax-rates.pdf"
+  endpoint_url: "https://prd-tax.virginiainteractive.org/sites/default/files/inline-files/2024-local-tax-rates.pdf"
+  parcel_key: null
+  update_frequency: "Annual"
+  history_start: "TY2010"
+  terms: "Public government publication"
+  notes: "Nominal rates per $100 for all six jurisdictions. Special district rates appear only partially. Newest edition found is TY2024."
+  evidence_urls:
+    - "https://prd-tax.virginiainteractive.org/sites/default/files/inline-files/2024-local-tax-rates.pdf"
+  in_matrix: false  # rate table, not parcel records
+  verified_at: null
+
+- source_id: va_vgin_statewide_parcels
+  jurisdiction: virginia_state
+  custodian: "Virginia Geographic Information Network (VGIN), VDEM"
+  dataset_name: "Virginia Parcels (statewide parcel geometry)"
+  quoin_sections: [identity, land]
+  access_type: bulk
+  cost: free
+  format: "File geodatabase/shapefile, plus an ArcGIS MapServer"
+  landing_url: "https://vgin.vdem.virginia.gov/pages/cl-data-download"
+  endpoint_url: "https://gismaps.vdem.virginia.gov/arcgis/rest/services/VA_Base_Layers/VA_Parcels/MapServer/0"
+  parcel_key: "VGIN_QPID; local PARCELID + FIPS"
+  update_frequency: "Twice a year (data calls)"
+  history_start: unknown
+  terms: "For cartographic and analysis use only"
+  notes: "Should include all six jurisdictions, but how current each one is was not verified. Attributes are minimal."
+  evidence_urls:
+    - "https://gismaps.vdem.virginia.gov/arcgis/rest/services/VA_Base_Layers/VA_Parcels/MapServer/0"
+  verified_at: null
+
+- source_id: va_vgin_parcel_local_schema_tables
+  jurisdiction: virginia_state
+  custodian: "VGIN / VDEM (VIMS mirror)"
+  dataset_name: "Virginia Parcels: Local Schema Tables (per-locality attribute tables)"
+  quoin_sections: [identity, assessment, ownership, land, building]
+  access_type: bulk
+  cost: free
+  format: "ArcGIS tables, one per locality"
+  landing_url: "https://vgin.vdem.virginia.gov/pages/cl-data-download"
+  endpoint_url: null
+  parcel_key: VGIN_QPID
+  update_frequency: "Twice a year"
+  history_start: unknown
+  terms: "Same as VGIN Parcels"
+  notes: "Columns vary by locality. Service root: https://cmap22.vims.edu/arcgis/rest/services/VirginiaAndBaywide/VirginiaParcelsAndTables/MapServer, a third-party mirror. The table layer IDs for the six jurisdictions still need to be looked up."
+  evidence_urls:
+    - "https://cmap22.vims.edu/arcgis/rest/services/VirginiaAndBaywide/VirginiaParcelsAndTables/MapServer"
+  in_matrix: false  # per-locality columns unverified
+  verified_at: null
+
+- source_id: va_open_data_portal
+  jurisdiction: virginia_state
+  custodian: "Commonwealth Office of Data Governance and Analytics (ODGA)"
+  dataset_name: "Virginia Open Data Portal (data.virginia.gov) catalog"
+  quoin_sections: [identity, land, license]
+  access_type: api
+  cost: free
+  format: "CKAN catalog"
+  landing_url: "https://data.virginia.gov/about"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Varies"
+  history_start: unknown
+  terms: "Varies by dataset"
+  notes: "An aggregator. No parcel or assessment datasets were found for the six jurisdictions."
+  evidence_urls:
+    - "https://data.virginia.gov/about"
+  in_matrix: false  # catalog/aggregator
+  verified_at: null
+
+- source_id: va_dpor_license_lookup
+  jurisdiction: virginia_state
+  custodian: "Virginia Department of Professional and Occupational Regulation (DPOR)"
+  dataset_name: "DPOR License Lookup (contractors, tradesmen, real estate, appraisers, home inspectors)"
+  quoin_sections: [license]
+  access_type: portal_search
+  cost: free
+  format: "HTML lookup"
+  landing_url: "https://dporweb.dpor.virginia.gov/LicenseLookup/"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Routine"
+  history_start: unknown
+  terms: "The site disclaims that data may not be current"
+  notes: "Links to permits through contractor license numbers. No property key."
+  evidence_urls:
+    - "https://dporweb.dpor.virginia.gov/LicenseLookup/"
+  verified_at: null
+
+- source_id: va_dpor_regulant_lists
+  jurisdiction: virginia_state
+  custodian: "DPOR Information Management Section"
+  dataset_name: "DPOR regulant lists (bulk licensee lists)"
+  quoin_sections: [license]
+  access_type: request_only
+  cost: "FOIA cost recovery"
+  format: "Tab-delimited (unverified)"
+  landing_url: "https://www.dpor.virginia.gov/RecordsandDocuments"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: unknown
+  history_start: unknown
+  terms: "Virginia FOIA. Contact PublicRecords@dpor.virginia.gov."
+  notes: "No free direct download was confirmed."
+  evidence_urls:
+    - "https://www.dpor.virginia.gov/RecordsandDocuments"
+  verified_at: null
+
+- source_id: va_abc_licensees
+  jurisdiction: virginia_state
+  custodian: "Virginia Alcoholic Beverage Control Authority"
+  dataset_name: "Virginia ABC licensee search and downloadable licensee spreadsheet"
+  quoin_sections: [license]
+  access_type: bulk
+  cost: free
+  format: "XLS, plus a web search"
+  landing_url: "https://www.abc.virginia.gov/licenses/find-a-license"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: unknown
+  history_start: "Current licensees only"
+  terms: Public
+  notes: "Equivalent to D.C.'s ABCA dataset. Records carry premises addresses, so they need geocoding to link to parcels. The direct XLS URL is not yet known."
+  evidence_urls:
+    - "https://www.abc.virginia.gov/licenses/find-a-license"
+  verified_at: null
+
+- source_id: va_cca_pharmaceutical_processors
+  jurisdiction: virginia_state
+  custodian: "Virginia Cannabis Control Authority"
+  dataset_name: "Medical cannabis pharmaceutical processor and dispensary permit holders"
+  quoin_sections: [license]
+  access_type: portal_search
+  cost: free
+  format: "HTML page"
+  landing_url: "https://cca.virginia.gov/medicalcannabis/processors"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "As permits change"
+  history_start: unknown
+  terms: Public
+  notes: "Northern Virginia is Health Service Area 2. No adult-use retail licenses have been issued. Equivalent to D.C.'s ABCA cannabis lists."
+  evidence_urls:
+    - "https://cca.virginia.gov/medicalcannabis/processors"
+  verified_at: null
+
+- source_id: va_scc_cis_entity_search
+  jurisdiction: virginia_state
+  custodian: "State Corporation Commission, Clerk's Office"
+  dataset_name: "Clerk's Information System (CIS) business entity search"
+  quoin_sections: [ownership, license]
+  access_type: portal_search
+  cost: free
+  format: "Web search"
+  landing_url: "https://cis.scc.virginia.gov"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Continuous"
+  history_start: unknown
+  terms: "reCAPTCHA reportedly blocks automated access"
+  notes: "Used to resolve LLC and corporate owners. No official URL appeared in search results; the host name comes from third-party descriptions."
+  evidence_urls:
+    - "https://browse.sh/skills/cis.scc.virginia.gov/business-search-pg5zpn"
+  verified_at: null
+
+- source_id: va_scc_entity_bulk_extract
+  jurisdiction: virginia_state
+  custodian: "State Corporation Commission, Clerk's Office"
+  dataset_name: "SCC corporation/LLC/LP database extract (weekly FTP)"
+  quoin_sections: [ownership]
+  access_type: paid
+  cost: "$1,000/month under a license agreement (from a possible staging page; needs confirming)"
+  format: "Weekly flat files"
+  landing_url: "https://appspre.scc.virginia.gov/clk/purch.aspx"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: Weekly
+  history_start: unknown
+  terms: "License agreement required"
+  notes: "Confirm the price with the SCC."
+  evidence_urls:
+    - "https://appspre.scc.virginia.gov/clk/purch.aspx"
+  verified_at: null
+
+- source_id: va_dhcd_usbc_permit_levy_reports
+  jurisdiction: virginia_state
+  custodian: "Virginia DHCD, Division of Building and Fire Regulation"
+  dataset_name: "USBC building permit levy and permit activity reports"
+  quoin_sections: [permit, building, inspection_enforcement]
+  access_type: request_only
+  cost: unknown
+  format: "Locality submissions, not published as a dataset"
+  landing_url: "https://dhcd.virginia.gov/virginia-uniform-statewide-building-code-usbc"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Quarterly"
+  history_start: unknown
+  terms: FOIA
+  notes: "State aggregates only. The permits themselves stay with each local building official."
+  evidence_urls:
+    - "https://dhcd.virginia.gov/index.php/levy"
+  in_matrix: false  # state aggregates only
+  verified_at: null
+
+- source_id: va_sleac_use_value_estimates
+  jurisdiction: virginia_state
+  custodian: "State Land Evaluation Advisory Council (SLEAC) / Virginia Tech LUVA"
+  dataset_name: "Use-value (land use taxation) estimates per locality"
+  quoin_sections: [assessment, land, tax]
+  access_type: bulk
+  cost: free
+  format: PDF
+  landing_url: "https://luva.aaec.vt.edu/about/"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Annual"
+  history_start: "TY2007 or earlier"
+  terms: Public
+  notes: "Relevant mostly to Loudoun and possibly Fairfax County's land-use programs."
+  evidence_urls:
+    - "https://luva.aaec.vt.edu/about/"
+  in_matrix: false  # per-acre rate tables, not parcel records
+  verified_at: null
+
+- source_id: regional_mwcog_taz_cooperative_forecast
+  jurisdiction: regional
+  custodian: "Metropolitan Washington Council of Governments (MWCOG)"
+  dataset_name: "Traffic Analysis Zones and Cooperative Forecasts"
+  quoin_sections: [land]
+  access_type: api
+  cost: free
+  format: "ArcGIS MapServer"
+  landing_url: "https://gis.mwcog.org/wa/rest/services/RTDC/TAZ/MapServer"
+  endpoint_url: "https://gis.mwcog.org/wa/rest/services/RTDC/TAZ/MapServer/1"
+  parcel_key: null
+  update_frequency: "Every few years (Round 10.1 approved Oct 2025)"
+  history_start: "2009"
+  terms: Public
+  notes: "TAZ-level context only, not parcel data."
+  evidence_urls:
+    - "https://gis.mwcog.org/wa/rest/services/RTDC/TAZ/MapServer?f=pjson"
+  in_matrix: false  # TAZ-level, not parcel records
+  verified_at: null
+
+- source_id: regional_mwcog_commercial_construction_indicators
+  jurisdiction: regional
+  custodian: "Metropolitan Washington Council of Governments (MWCOG)"
+  dataset_name: "Commercial Construction Indicators (annual report)"
+  quoin_sections: [building, permit]
+  access_type: bulk
+  cost: free
+  format: "PDF report"
+  landing_url: "https://www.mwcog.org/documents/2026/04/06/commercial-construction-indicators-report--commercial-construction-communities-economy-growth--development/"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: "Annual"
+  history_start: "1995"
+  terms: Public
+  notes: "Project-level, but not machine-readable."
+  evidence_urls:
+    - "https://www.mwcog.org/documents/2026/04/06/commercial-construction-indicators-report--commercial-construction-communities-economy-growth--development/?print=y"
+  in_matrix: false  # aggregate report
+  verified_at: null
+
+- source_id: regional_bright_mls
+  jurisdiction: regional
+  custodian: "Bright MLS (private)"
+  dataset_name: "Bright MLS listing and sold data"
+  quoin_sections: [transfer, building]
+  access_type: paid
+  cost: "Membership or licensed feed only"
+  format: proprietary
+  landing_url: "https://www.brightmls.com"
+  endpoint_url: null
+  parcel_key: null
+  update_frequency: Continuous
+  history_start: unknown
+  terms: "Private; redistribution restricted"
+  notes: "NOT a public record; listed only for completeness."
+  evidence_urls:
+    - "https://virginiarealtors.org/research/data/"
+  in_matrix: false  # not a public record
+  verified_at: null

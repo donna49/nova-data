@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate inventory/sources.yaml and pull small samples from bulk/api sources.
+"""Validate inventory/sources/*.yaml and pull small samples from bulk/api sources.
 
 Usage:
     python3 scripts/pull_samples.py --validate          # schema check only
@@ -24,7 +24,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCES = ROOT / "inventory" / "sources.yaml"
+SOURCES_DIR = ROOT / "inventory" / "sources"
 SAMPLES = ROOT / "samples"
 
 SECTIONS = {
@@ -45,8 +45,11 @@ UA = "nova-data-inventory/0.1 (+https://github.com/donna49/nova-data)"
 
 
 def load_sources():
-    with SOURCES.open() as f:
-        return yaml.safe_load(f) or []
+    sources = []
+    for path in sorted(SOURCES_DIR.glob("*.yaml")):
+        with path.open() as f:
+            sources.extend(yaml.safe_load(f) or [])
+    return sources
 
 
 def validate(sources):
@@ -63,6 +66,9 @@ def validate(sources):
             errors.append(f"{sid}: unknown jurisdiction {s.get('jurisdiction')!r}")
         if s.get("access_type") not in ACCESS_TYPES:
             errors.append(f"{sid}: invalid access_type {s.get('access_type')!r}")
+        bad_covers = set(s.get("covers") or []) - JURISDICTIONS
+        if bad_covers:
+            errors.append(f"{sid}: unknown covers {sorted(bad_covers)}")
         bad = set(s.get("quoin_sections") or []) - SECTIONS
         if bad:
             errors.append(f"{sid}: unknown sections {sorted(bad)}")
@@ -113,6 +119,15 @@ def sample_socrata(url, limit):
     return json.loads(body), None, "json"
 
 
+def sample_odata(url, limit):
+    sep = "&" if "?" in url else "?"
+    _, _, body = fetch(f"{url}{sep}$top={limit}")
+    data = json.loads(body)
+    if isinstance(data, dict):
+        data = data.get("value", data)
+    return data, None, "json"
+
+
 def sample_generic(url, limit):
     _, ctype, body = fetch(url)
     text = body.decode("utf-8-sig", errors="replace")
@@ -129,6 +144,8 @@ def pull(source, limit):
     url = source["endpoint_url"]
     if "/FeatureServer/" in url or "/MapServer/" in url:
         rows, count, kind = sample_arcgis(url, limit)
+    elif "datahub-v2.arlingtonva.us/api/" in url:
+        rows, count, kind = sample_odata(url, limit)
     elif "/resource/" in url and url.split("?")[0].endswith(".json"):
         rows, count, kind = sample_socrata(url, limit)
     else:
@@ -186,6 +203,7 @@ def main():
     targets = [
         s for s in sources
         if s["access_type"] in ("bulk", "api") and s.get("endpoint_url")
+        and "pdf" not in (s.get("format") or "").lower()
         and (not args.only or s["source_id"] in args.only)
     ]
     failures = []
