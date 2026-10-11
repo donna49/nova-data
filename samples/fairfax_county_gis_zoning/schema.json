@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_gis_zoning",
   "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning/FeatureServer/0",
-  "retrieved_at": "2026-10-11T21:31:03+00:00",
+  "retrieved_at": "2026-10-11T21:51:49+00:00",
   "sample_rows": 100,
   "reported_row_count": 6455,
   "sha256": "8e8ea637f986973bcda887457e0e0267647c457da2f1f40405c875b1a2b1be74",

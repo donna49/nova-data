@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_dta_re_parcels",
   "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Parcels_Data/FeatureServer/0",
-  "retrieved_at": "2026-10-11T21:32:56+00:00",
+  "retrieved_at": "2026-10-11T21:51:41+00:00",
   "sample_rows": 100,
   "reported_row_count": 370589,
   "sha256": "09042627c2ac3e52c6506e5635be07411b630260e3390fc36fb495912b09c897",

@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_dta_re_assessed_values",
   "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Assessed_Values/FeatureServer/0",
-  "retrieved_at": "2026-10-11T21:32:56+00:00",
+  "retrieved_at": "2026-10-11T21:51:42+00:00",
   "sample_rows": 100,
   "reported_row_count": 369464,
   "sha256": "836390fce1ff0a0098537efa7553764669df6e952f5049033671aaa85931af39",

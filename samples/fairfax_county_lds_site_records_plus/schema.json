@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_lds_site_records_plus",
   "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Site_Records_PLUS/FeatureServer/0",
-  "retrieved_at": "2026-10-11T21:31:05+00:00",
+  "retrieved_at": "2026-10-11T21:51:51+00:00",
   "sample_rows": 100,
   "reported_row_count": 129902,
   "sha256": "f333c7e113d60bb95b92fbf9f48dec69f8599f76d717ce1987af948848ac30ca",

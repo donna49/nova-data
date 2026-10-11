@@ -33,6 +33,8 @@ SECTIONS = {
     "inspection_enforcement", "building", "land",
 }
 ACCESS_TYPES = {"bulk", "api", "portal_search", "request_only", "paid"}
+# How a portal_search source can be collected in practice (see inventory/lookup_alternatives.md).
+COLLECTION = {"bulk_alternative", "scrape_feasible", "robots_disallowed", "blocked", "request_only"}
 REQUIRED = [
     "source_id", "jurisdiction", "custodian", "dataset_name", "quoin_sections",
     "access_type", "landing_url",
@@ -66,6 +68,8 @@ def validate(sources):
             errors.append(f"{sid}: unknown jurisdiction {s.get('jurisdiction')!r}")
         if s.get("access_type") not in ACCESS_TYPES:
             errors.append(f"{sid}: invalid access_type {s.get('access_type')!r}")
+        if s.get("collection") and s["collection"] not in COLLECTION:
+            errors.append(f"{sid}: invalid collection {s['collection']!r}")
         bad_covers = set(s.get("covers") or []) - JURISDICTIONS
         if bad_covers:
             errors.append(f"{sid}: unknown covers {sorted(bad_covers)}")

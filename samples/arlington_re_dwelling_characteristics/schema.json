@@ -1,10 +1,10 @@
 {
   "source_id": "arlington_re_dwelling_characteristics",
   "endpoint_url": "https://datahub-v2.arlingtonva.us/api/RealEstate/ImprovementDwelling",
-  "retrieved_at": "2026-10-11T21:30:40+00:00",
+  "retrieved_at": "2026-10-11T21:51:31+00:00",
   "sample_rows": 100,
   "reported_row_count": null,
-  "sha256": "b019eb9f9a9d7d7e128c84c9028e4cca9f2d60ce75146ca95261f378de64d389",
+  "sha256": "f8aa5804e22a992cdb080b691927d98ee094215c085c2b08b5677b352e5b07a4",
   "fields": {
     "dwellingKey": "integer",
     "propertyKey": "integer",

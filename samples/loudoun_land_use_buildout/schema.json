@@ -1,7 +1,7 @@
 {
   "source_id": "loudoun_land_use_buildout",
   "endpoint_url": "https://logis.loudoun.gov/gis/rest/services/Projects/BuildOut_LandUse/MapServer/2",
-  "retrieved_at": "2026-10-11T21:30:38+00:00",
+  "retrieved_at": "2026-10-11T21:51:28+00:00",
   "sample_rows": 100,
   "reported_row_count": 699,
   "sha256": "6abc5002b5557007c28a038e43454dc1ad651a39cb3db60daac7af1a5552fc9f",

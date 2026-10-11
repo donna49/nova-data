@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_gis_parcels",
   "endpoint_url": "https://www.fairfaxcounty.gov/gispub1/rest/services/OpenData/OpenData_A9/MapServer/0",
-  "retrieved_at": "2026-10-11T21:31:01+00:00",
+  "retrieved_at": "2026-10-11T21:51:46+00:00",
   "sample_rows": 100,
   "reported_row_count": 369540,
   "sha256": "d413992e4681b161fbc3a7d5ac20c51b8bcc700461bdd1ce758e5b3deec2de07",

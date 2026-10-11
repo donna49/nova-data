@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_gis_special_tax_areas",
   "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Special_Tax_Areas/FeatureServer/0",
-  "retrieved_at": "2026-10-11T21:31:01+00:00",
+  "retrieved_at": "2026-10-11T21:51:48+00:00",
   "sample_rows": 11,
   "reported_row_count": 11,
   "sha256": "1472e0142774451f7acef4e9476b9337956b6f14b4cf7a56d475ff4a5498c508",

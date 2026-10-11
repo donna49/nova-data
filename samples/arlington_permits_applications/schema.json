@@ -1,7 +1,7 @@
 {
   "source_id": "arlington_permits_applications",
   "endpoint_url": "https://datahub-v2.arlingtonva.us/api/Permit/Permit",
-  "retrieved_at": "2026-10-11T21:30:45+00:00",
+  "retrieved_at": "2026-10-11T21:51:35+00:00",
   "sample_rows": 100,
   "reported_row_count": null,
   "sha256": "2264ef76d36ea761175163da1e7d984ca5870046828d1549c9180b1c12ae22aa",

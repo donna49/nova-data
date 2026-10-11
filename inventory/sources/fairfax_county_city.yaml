@@ -202,18 +202,19 @@
   custodian: "DIT-GIS"
   dataset_name: "Master Address Repository (MAR)"
   quoin_sections: [identity]
-  access_type: portal_search
+  access_type: "api"
   cost: free
   format: "Web lookup and GIS layers"
   landing_url: "https://www.fairfaxcounty.gov/maps/node/294"
-  endpoint_url: null
+  endpoint_url: "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Master_Address_Repository/FeatureServer/0"
   parcel_key: "Parcel number"
   update_frequency: unknown
   history_start: unknown
   terms: unknown
-  notes: "The authoritative address-to-parcel source. A bulk layer is not confirmed."
+  notes: "Bulk via the Master_Address_Repository FeatureServer (388K rows); see the endpoint."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/maps/node/294"
+  collection: "bulk_alternative"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_icare_assessment
@@ -230,9 +231,10 @@
   update_frequency: "Annual (Jan 1 valuation)"
   history_start: unknown
   terms: unknown
-  notes: "A per-parcel view of the same data as the DTA tables. Use it for verification."
+  notes: "The only bulk path to Fairfax owner names besides FOIA. One GET per parcel: https://icare.fairfaxcounty.gov/ffxcare/Datalets/PrintDatalet.aspx?pin={PARID url-encoded, keep the double space}&gsp=PROFILEALL&taxyear=2027&jur=000&ownseq=0&card=1&roll=&State=1&item=1&items=-1&all=all&ranks=Datalet. Returns owner and mailing address, deed book/page, sales with seller and buyer, values 2000-2026, and commercial structure. No session, CAPTCHA or robots.txt. About 370K requests (about 4.3 days at 1 request/s). Recommend getting a DTA FOIA quote for an owner extract first."
   evidence_urls:
     - "https://icare.fairfaxcounty.gov/"
+  collection: "scrape_feasible"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_tax_payment
@@ -325,9 +327,10 @@
   update_frequency: "Nightly (from PLUS)"
   history_start: "Recent window only, not full history"
   terms: "Publicly available"
-  notes: "The REST layer (gispub1 .../LDS/DevelopmentTracker/FeatureServer/5) returned 'Token Required' on 2026-10-11, so it is not anonymously queryable. Use the public Development Tracker map, or the Building_Records_PLUS service (fairfax_county_lds_building_records_plus)."
+  notes: "The public Development Tracker (experience.arcgis.com/experience/800d48111aa5477e8a8a17a5720ab13d) serves its tracker layers through an ArcGIS stored-credential proxy (utility.arcgis.com/usrsvcs/...), which is not for third-party use. Ask LDS for a public view. Building_Records_PLUS and PLUSApprovedSiteRecords cover most of it anonymously."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/5"
+  collection: "request_only"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_lds_certificate_of_occupancy
@@ -344,9 +347,10 @@
   update_frequency: "Nightly"
   history_start: unknown
   terms: "Publicly available"
-  notes: "The REST layer (DevelopmentTracker/FeatureServer/6) returned 'Token Required' on 2026-10-11. Viewable only in the public Development Tracker map."
+  notes: "Same stored-credential proxy as the Development Tracker. Ask LDS for a public view."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/6"
+  collection: "request_only"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_lds_building_records_plus
@@ -382,9 +386,10 @@
   update_frequency: "Real-time"
   history_start: unknown
   terms: unknown
-  notes: "Building and trade permits, inspections and zoning applications. Full history requires a FOIA request to LDS Records."
+  notes: "Anonymous Accela search on CapHome.aspx?module={Building|Enforcement|Planning|Site|Zoning|...} has a 'Download results' CSV. It needs an ASP.NET postback flow and results appear capped at about 100 per search, so use 1-2 day windows. Detail pages (CapDetail.aspx) show owner, inspections and fees. Most permit and site data is already bulk via the PLUS GIS layers."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/plan2build/"
+  collection: "scrape_feasible"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dcc_code_cases
@@ -401,9 +406,10 @@
   update_frequency: unknown
   history_start: unknown
   terms: unknown
-  notes: "About 7,000 cases a year. The public EnforcementMap service (gisint1 .../PLUS/EnforcementMap/MapServer) lists DCC districts, owned-property and floodplain layers, but no complaint or case layer (checked 2026-10-11). Case lookup is through DCC's web search only."
+  notes: "Case search is the PLUS Enforcement module (DCCCOMP, GCOMP, ENFCOMP record types, about 50 a day). Collect via date-window search and CSV export. Detail pages include owner names and complaint narratives, which is privacy-sensitive, so prefer a FOIA request for history."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gisint1/rest/services/PLUS/EnforcementMap/MapServer/layers"
+  collection: "scrape_feasible"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_gis_zoning
@@ -487,7 +493,7 @@
   jurisdiction: fairfax_city
   custodian: "Office of Real Estate Assessments"
   dataset_name: "Real Estate Assessment Database"
-  quoin_sections: [identity, assessment, ownership, transfer, building, land]
+  quoin_sections: [identity, assessment, ownership, transfer, deed_reference, building, land]
   access_type: portal_search
   cost: free
   format: HTML
@@ -497,9 +503,10 @@
   update_frequency: "Annual"
   history_start: "Multi-year history shown"
   terms: "Owners can ask to have their names suppressed"
-  notes: "Shows owner, legal description, land size, zoning, building areas, sales and assessments. fairfaxva.gov refuses automated requests (403 or TLS reset, 2026-10-11), so it is unverified by script and scraping would be blocked. For bulk data, ask RealEstate@fairfaxva.gov."
+  notes: "The app host realestate.fairfaxva.gov (Patriot Properties WebPro) is reachable even though www.fairfaxva.gov blocks scripts. No robots.txt, no CAPTCHA. The search grid works as a bulk extract: POST SearchResults.asp with SearchTotalValue=0..9999999999, then GET SearchResults.asp?page=N&PageChanged=1 (about 194 pages x 50 rows). Columns: parcel, location, owner, year built, type, total value, beds, baths, lot, GLA, LUC, subdivision, last sale date, price and book-page. Per account, g_sales.asp gives full sales history and g_previous.asp gives assessments back to 1992 (about 19.4K extra requests). Owner, values and year built are also bulk via fairfax_city_giscama (Feb 2025)."
   evidence_urls:
     - "https://fairfaxva.gov/government/real-estate/online-services/real-estate-assessment-database"
+  collection: "scrape_feasible"
   verified_at: null
 
 - source_id: fairfax_city_gis_open_data_hub
@@ -535,9 +542,10 @@
   update_frequency: "Real-time"
   history_start: unknown
   terms: unknown
-  notes: "The receipt lookup searches by owner, property ID or address. Includes stormwater fees."
+  notes: "eservices.fairfaxva.gov/taxes (Catalis Avalon) gates its API behind Google reCAPTCHA, so it is not collectable by script. Use FOIA."
   evidence_urls:
     - "https://www.fairfaxva.gov/treasurer"
+  collection: "blocked"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_city_delinquent_taxpayer_lists
@@ -573,9 +581,10 @@
   update_frequency: "Real-time"
   history_start: unknown
   terms: unknown
-  notes: "No open-data export."
+  notes: "Anonymous Accela search (Building, Fire and Planning modules) followed by 'Download results' returns text/csv via Export2CSV.ashx: Date, Record Number, Record Type, Address, Status, Created By, Description. About 3 requests per date window. The POST needs ordinary browser Referer and Origin headers. No robots.txt."
   evidence_urls:
     - "https://fairfaxva.gov/home/showpublisheddocument/19065/637825023217870000"
+  collection: "scrape_feasible"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_city_code_enforcement
@@ -653,4 +662,43 @@
   notes: "Found by listing the county ArcGIS org."
   evidence_urls:
     - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services?f=json"
+  verified_at: "2026-10-11"
+
+# ---------------- Added 2026-10-11: bulk alternatives to lookup-only portals ----------------
+- source_id: fairfax_county_plus_approved_site_records
+  jurisdiction: fairfax_county
+  custodian: "LDS"
+  dataset_name: "PLUS Approved Site Records"
+  quoin_sections: [permit]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://experience.arcgis.com/experience/800d48111aa5477e8a8a17a5720ab13d"
+  endpoint_url: "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/PLUSApprovedSiteRecords/FeatureServer/0"
+  parcel_key: "PARCEL_ID"
+  update_frequency: unknown
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "129,863 rows: RECORDID, APPTYPEALIAS, PROJECT_NAME, PARCEL_ID, status and dates, address, LINK_URL, APPROVED_PLAN_LINK. An anonymous component of the public Development Tracker map."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/PLUSApprovedSiteRecords/FeatureServer/0"
+  verified_at: "2026-10-11"
+
+- source_id: fairfax_city_giscama
+  jurisdiction: fairfax_city
+  custodian: "City of Fairfax GIS / Real Estate Assessments"
+  dataset_name: "GISCAMA (parcel CAMA attributes)"
+  quoin_sections: [identity, assessment, ownership, building, land]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://services2.arcgis.com/DANcyjLcCCpGk8Ri/arcgis/rest/services/GISCAMA/FeatureServer"
+  endpoint_url: "https://services2.arcgis.com/DANcyjLcCCpGk8Ri/arcgis/rest/services/GISCAMA/FeatureServer/0"
+  parcel_key: "AccountNum / PIN"
+  update_frequency: "unknown (last edit 2025-02-04)"
+  history_start: "Single snapshot"
+  terms: unknown
+  notes: "9,696 rows: owner names (CUO1-3), mailing address, current land, building and total values, acres, YearBuilt, zoning, existing and future land use, legal description. Stale (Feb 2025). The same org has Accela/FeatureServer/1 'Parcel Owner' (16,971 rows, Apr 2026) and /2 'Parcel Base' (9,728 rows). For current values and sales, use the realestate.fairfaxva.gov grid (fairfax_city_real_estate_assessment_database)."
+  evidence_urls:
+    - "https://services2.arcgis.com/DANcyjLcCCpGk8Ri/arcgis/rest/services/GISCAMA/FeatureServer/0"
   verified_at: "2026-10-11"

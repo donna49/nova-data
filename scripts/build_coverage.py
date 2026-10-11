@@ -24,8 +24,15 @@ SECTIONS = [
     "inspection_enforcement", "building", "land",
 ]
 # Lower rank = better access.
-RANK = {"bulk": 0, "api": 0, "portal_search": 1, "paid": 2, "request_only": 3}
-SYMBOL = {0: "✅", 1: "🔎", 2: "💲", 3: "📨", None: "❌"}
+RANK = {"bulk": 0, "api": 0, "portal_search": 1.5, "paid": 2, "request_only": 3}
+SYMBOL = {0: "✅", 1: "🔁", 1.5: "🔎", 2: "💲", 3: "📨", None: "❌"}
+
+
+def rank_of(source):
+    # A lookup portal that can be collected page by page ranks just below bulk/API.
+    if source["access_type"] == "portal_search" and source.get("collection") == "scrape_feasible":
+        return 1
+    return RANK[source["access_type"]]
 LOCAL = {j for j, _ in JURISDICTIONS}
 
 
@@ -39,7 +46,7 @@ def main():
     sources = [s for s in load_sources() if s.get("in_matrix", True)]
     best = {}  # (jurisdiction, section) -> (rank, [source_ids])
     for s in sources:
-        rank = RANK[s["access_type"]]
+        rank = rank_of(s)
         for j in applies_to(s):
             for sec in s["quoin_sections"]:
                 cur = best.get((j, sec))
@@ -58,7 +65,8 @@ def main():
         "| Symbol | Meaning |",
         "|---|---|",
         "| ✅ | Free bulk download or API |",
-        "| 🔎 | Searchable one parcel at a time |",
+        "| 🔁 | Lookup site, but per-record pages can be collected by script (no robots.txt ban, no CAPTCHA); see `inventory/lookup_alternatives.md` |",
+        "| 🔎 | Searchable one parcel at a time only (blocked, robots-disallowed, or not yet assessed) |",
         "| 💲 | Paid or subscription |",
         "| 📨 | By request or FOIA only |",
         "| ❌ | Nothing found |",

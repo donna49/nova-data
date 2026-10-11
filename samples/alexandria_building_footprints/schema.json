@@ -1,0 +1,27 @@
+{
+  "source_id": "alexandria_building_footprints",
+  "endpoint_url": "https://geoportal.alexandriava.gov/server/rest/services/Building/FeatureServer/1",
+  "retrieved_at": "2026-10-11T21:51:30+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 107581,
+  "sha256": "424e24d4a07cec6a716aa48867bbfbbd85be0f718e5283184817bf6d97a51059",
+  "fields": {
+    "OBJECTID": "integer",
+    "FACILITYID": "string",
+    "BNAME": "string",
+    "BCAMPUS": "string",
+    "BTYPE": "string",
+    "BUSE": "integer",
+    "BSIZE": "integer",
+    "BUNITS": "integer",
+    "BHOTEL": "integer",
+    "STORIES": "number",
+    "OWNERSHIP": "string",
+    "YEARBLT": "integer",
+    "GFRETAIL": "string",
+    "EDIT_D": "null",
+    "Shape__Area": "number",
+    "Shape__Length": "number",
+    "GlobalID": "string"
+  }
+}

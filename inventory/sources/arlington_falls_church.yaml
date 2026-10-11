@@ -7,7 +7,7 @@
   jurisdiction: arlington
   custodian: "Department of Real Estate Assessments (Arlington Open Data / datahub-v2)"
   dataset_name: "Real Estate Property"
-  quoin_sections: [identity, land, ownership]
+  quoin_sections: [identity, land, building]
   access_type: api
   cost: free
   format: "JSON API (OData-style $top paging), plus a pipe/text bulk file"
@@ -17,7 +17,7 @@
   update_frequency: unknown
   history_start: unknown
   terms: "Free to share and adapt, but users must display the notice 'Arlington County Data API was used for this purpose, but it is not endorsed or certified by Arlington County.'"
-  notes: "The API returns owner fields (firstOwnerName, secondOwnerName, owner mailing address, maskOwnerAddressInd), plus legal description, lot size, zoning list, year built, GFA, units, landRecordDocumentNbr and lat/long. The bulk text file is PropertyRedacted.txt, which may mask owners. Documentation: docs.data.arlingtonva.us. Catalog copies on Data.gov now return 404."
+  notes: "Owner-name fields (firstOwnerName, secondOwnerName, additionalOwnerText, compressedOwnerText) read 'Redacted' in all sampled rows. Owner mailing address IS present. Also has legal description, lot size, zoning list, year built, GFA, units, landRecordDocumentNbr and lat/long. Bulk assessment file: https://download.data.arlingtonva.us/RealEstate/Assessment.txt.gz (25.5 MB, refreshed daily). No swagger or $metadata; docs.data.arlingtonva.us says no token is needed but use is throttled."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property"
     - "https://us-cities.survey.okfn.org/entry/arlingtonva/property-assessment.html"
@@ -75,7 +75,7 @@
   update_frequency: unknown
   history_start: unknown
   terms: "Arlington public use notice"
-  notes: "Fields include deedBookNbr, deedPageNbr, landRecordDocumentNbr, granteeName, saleAmt, saleDate, salesTypeDsc. Deed references confirmed."
+  notes: "Fields include deedBookNbr, deedPageNbr, landRecordDocumentNbr, granteeName, saleAmt, saleDate, salesTypeDsc. granteeName is NOT redacted, so the latest grantee is the practical stand-in for the current owner. Quirk: the newest rows show saleDate 2026-12-31."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-sale-history"
   verified_at: "2026-10-11"
@@ -171,9 +171,10 @@
   update_frequency: unknown
   history_start: "About 10 years of assessments shown"
   terms: unknown
-  notes: "Per-parcel pages at /Home/Assessments, /Home/Sales and /Home/TaxBalanceAssessments. The site returns 403 to automated requests (2026-10-11), so it is for manual verification only. The datahub API carries the same data."
+  notes: "Returns 403 to scripts (Azure Application Gateway). Everything except owner names is in datahub-v2, and owner names stand in via SalesHistory granteeName."
   evidence_urls:
     - "https://propertysearch.arlingtonva.us/Home/Sales?lrsn=52995"
+  collection: "blocked"
   verified_at: null
 
 - source_id: arlington_treasurer_capp
@@ -190,9 +191,10 @@
   update_frequency: "Real-time (assumed)"
   history_start: unknown
   terms: unknown
-  notes: "Bill and balance lookup at capp.arlingtonva.us. May require a login."
+  notes: "Stateful vendor app (TAP) that requires JavaScript and cookies. No enumerable URLs. Use FOIA."
   evidence_urls:
     - "https://arlingtonva.us/Government/Departments/Treasurers-Office/Treasurers-Office-Contacts"
+  collection: "blocked"
   verified_at: "2026-10-11"
 
 - source_id: arlington_treasurer_tax_sales
@@ -287,9 +289,10 @@
   update_frequency: "Real-time"
   history_start: "2022. The legacy system is frozen as of 2022-06-27."
   terms: unknown
-  notes: "Requires a login. Also holds inspection results and Accessory Homestay (short-term rental) permits."
+  notes: "aca-prod.accela.com/ARLINGTONCO has an anonymous search with an ExportCSV control, so date-window CSV exports work as for the City of Fairfax. All permit types are already in datahub-v2 api/Permit/Permit."
   evidence_urls:
     - "https://www.arlingtonva.us/Government/Programs/Building/Permits/Permit-Arlington/Help"
+  collection: "scrape_feasible"
   verified_at: "2026-10-11"
 
 - source_id: arlington_stop_work_unsafe_building
@@ -402,10 +405,11 @@
   update_frequency: "Annual (Jan 1 valuation)"
   history_start: unknown
   terms: unknown
-  notes: "About 3,747 parcels. Search is by address or RPC (no owner search). The viewer is at gis.vgsi.com/fallschurchva/. No bulk export was found; ask by FOIA."
+  notes: "gis.vgsi.com/fallschurchva now redirects (301) to actdatascout.com, which sits behind an Azure WAF JavaScript challenge (403). The city no longer posts its sales Excel files; it says 2025 sales are on actDataScout. Request a CAMA or sales extract from realestateassessor@fallschurchva.gov."
   evidence_urls:
     - "https://www.fallschurchva.gov/719/Real-Property-Search-Database-New-Sales-"
     - "https://gis.vgsi.com/fallschurchva/"
+  collection: "blocked"
   verified_at: "2026-10-11"
 
 - source_id: falls_church_gis
@@ -441,9 +445,10 @@
   update_frequency: unknown
   history_start: unknown
   terms: unknown
-  notes: "Lookup requires a bill number, so it is not an open search."
+  notes: "Invoice Cloud payment portal. No bulk path. Use FOIA."
   evidence_urls:
     - "https://www.fallschurchva.gov/treasurer"
+  collection: "blocked"
   verified_at: "2026-10-11"
 
 - source_id: falls_church_delinquent_tax

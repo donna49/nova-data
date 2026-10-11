@@ -1,7 +1,7 @@
 {
   "source_id": "arlington_parcels_gis",
   "endpoint_url": "https://arlgis.arlingtonva.us/arcgis/rest/services/CRMS_311/CRMS311_Parcels/MapServer/0",
-  "retrieved_at": "2026-10-11T21:30:50+00:00",
+  "retrieved_at": "2026-10-11T21:51:38+00:00",
   "sample_rows": 100,
   "reported_row_count": 38689,
   "sha256": "062a21b1b581fc0eb64cb90e2f780f49961a2577e3cf18921b63a7c6aa5189be",

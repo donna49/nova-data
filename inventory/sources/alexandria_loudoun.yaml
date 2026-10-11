@@ -75,9 +75,10 @@
   update_frequency: "Annual (Jan 1); sales ongoing"
   history_start: unknown
   terms: unknown
-  notes: "About 46,836 parcels. The search host is realestate.alexandriava.gov. No bulk file was found."
+  notes: "The detail.php?accountno={ACCOUNTNO} pages hold full assessment history (2000-2026), full sales history (to 1943) and building facts. recent.php?study={SG}&accountno=...&year= lists each study group's sales (about 500-1,000 requests for all recent sales). No CAPTCHA, but robots.txt says 'User-Agent: * / Disallow: /'. Do not scrape without the city's permission; ask realestate@alexandriava.gov for an extract or for permission. Bulk proxies: building footprints (alexandria_building_footprints) and a stale 2019 values layer (geoportal Hosted/Real_Estate_Parcels_DSTest)."
   evidence_urls:
     - "https://www.alexandriava.gov/go/1312"
+  collection: "robots_disallowed"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_assessment_bulk_request
@@ -113,9 +114,10 @@
   update_frequency: "Billed twice a year"
   history_start: unknown
   terms: unknown
-  notes: "Bills include stormwater ($340.30 per ERU, FY2026) and refuse fees. The 2026 rate is $1.135 per $100."
+  notes: "Per-account tax_history.php?accountno= (levies 2015-2026, payments, balance, stormwater) is on the same host, which robots.txt disallows. Request a file from Finance."
   evidence_urls:
     - "https://www.alexandriava.gov/go/7448"
+  collection: "robots_disallowed"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_tax_sales
@@ -170,9 +172,10 @@
   update_frequency: "Real-time"
   history_start: "2019"
   terms: unknown
-  notes: "No login needed to view. No bulk download or API."
+  notes: "See alexandria_apex_energov_api: an unofficial EnerGov JSON search with no login."
   evidence_urls:
     - "https://www.alexandriava.gov/go/2596"
+  collection: "bulk_alternative"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_code_admin_monthly_reports
@@ -363,9 +366,10 @@
   update_frequency: "Weekly"
   history_start: unknown
   terms: "Provided under Va. Code 58.1-3122.2"
-  notes: "The richest Loudoun source: deed references, sales, assessments and dwelling characteristics, but per-parcel only. Short alias: loudoun.gov/ParcelDatabase."
+  notes: "One GET per parcel returns profile, values history (2018+), sales with instrument and book/page, and dwelling data: https://reparcelasmt.loudoun.gov/pt/Datalets/PrintDatalet.aspx?pin={PA_MCPI}&gsp=PROFILEALL&taxyear=2026&jur=000&ownseq=0&card=1&roll=&State=1&item=1&items=-1&all=all&ranks=Datalet. No session, ViewState or CAPTCHA. No robots.txt (404). About 133K requests (roughly 37 hours at 1 request/s); IDs come from loudoun_parcels_gis. Condo masters return 'No Data', so use the address-table MCPIs. Owner and current tax are already in bulk via loudoun_treasurer_public_csv."
   evidence_urls:
     - "https://reparcelasmt.loudoun.gov/pt/search/commonsearch.aspx?mode=parid"
+  collection: "scrape_feasible"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_cor_land_book_reports
@@ -439,9 +443,10 @@
   update_frequency: "Billed twice a year"
   history_start: unknown
   terms: unknown
-  notes: "The 2025 rate is $0.805 per $100. The Treasurer also collects taxes for some towns."
+  notes: "Current-year bills, payments and delinquent amounts for all parcels are in bulk via loudoun_treasurer_public_csv. Per-parcel history back to 2018: https://loudounportal.com/PaymentHistoryPage/ViewPaymentHistory.aspx?PIN={PIN} (plain GET, no CAPTCHA, about 133K requests)."
   evidence_urls:
     - "https://www.loudoun.gov/1911/Taxes-in-Loudoun-County"
+  collection: "bulk_alternative"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_tax_sales
@@ -477,9 +482,10 @@
   update_frequency: "Real-time"
   history_start: unknown
   terms: unknown
-  notes: "Building, grading and zoning permits, plus inspections. No bulk download or API."
+  notes: "The app is Tyler EnerGov (loudouncountyvaeg.tylerhost.net). Bulk equivalent: loudoun_landmarc_permits_gis (568K issued permits, refreshed daily)."
   evidence_urls:
     - "https://www.loudoun.gov/LandMarc"
+  collection: "bulk_alternative"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_building_permit_applications_gis
@@ -557,4 +563,81 @@
   notes: "Fields: PLANNUMBER, DESCRIPTION, PlanStatus, GISAdd and URL (a link to the record). Land-use approvals only, not building permits."
   evidence_urls:
     - "https://geoportal.alexandriava.gov/server/rest/services?f=json"
+  verified_at: "2026-10-11"
+
+# ---------------- Added 2026-10-11: bulk alternatives to lookup-only portals ----------------
+- source_id: loudoun_treasurer_public_csv
+  jurisdiction: loudoun
+  custodian: "Treasurer"
+  dataset_name: "Public Real Estate Tax Records (monthly CSV of all parcels and payments)"
+  quoin_sections: [identity, ownership, tax, delinquency_tax_sale]
+  access_type: bulk
+  cost: free
+  format: "CSV (about 72 MB) plus an XLSX layout guide"
+  landing_url: "https://www.loudoun.gov/1911/Taxes-in-Loudoun-County"
+  endpoint_url: null
+  parcel_key: "PIN (12-digit, matches PA_MCPI); account number"
+  update_frequency: "Monthly"
+  history_start: "Current billing cycle only"
+  terms: unknown
+  notes: "Directory: https://interwapp22.loudoun.gov/TreasurerPublicFiles/public/. The file name changes monthly (e.g. OutstandingRealEstate_082026_IncludesDelinquentAmts-GoodThru_10052026.CSV). Fields: account #, PIN, account (owner) name, mailing/situs address, bill ref, tax year, installment, due date, tax due, relief, fees, penalty, interest, total due, total paid, lender. Gives Loudoun owner names, tax and delinquent amounts in bulk. endpoint_url is null because the file name rotates; list the directory first."
+  evidence_urls:
+    - "https://interwapp22.loudoun.gov/TreasurerPublicFiles/public/"
+  verified_at: "2026-10-11"
+
+- source_id: loudoun_landmarc_permits_gis
+  jurisdiction: loudoun
+  custodian: "Building and Development (LandMARC / EnerGov), published by OMAGI"
+  dataset_name: "LandMARC Permits Issued and Permits Submitted (ArcGIS tables)"
+  quoin_sections: [permit, inspection_enforcement]
+  access_type: api
+  cost: free
+  format: "ArcGIS MapServer table (maxRecordCount 8000)"
+  landing_url: "https://logis.loudoun.gov/gis/rest/services/LMARC/LandMARC_Permits/MapServer"
+  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/LMARC/LandMARC_Permits/MapServer/1"
+  parcel_key: "ParcelPIN"
+  update_frequency: "Daily (DataSnapshot field)"
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "Layer 1 is Permits Issued (568,228 rows) and layer 2 is Permits Submitted (6,155). Fields: PermitNumber, type, status, work class, apply/issue/finalize/expire dates, LASTINSPECTIONDATE, square feet, value, address, description, ParcelPIN. Has the last inspection date but no inspection detail, contractors or fees."
+  evidence_urls:
+    - "https://logis.loudoun.gov/gis/rest/services/LMARC/LandMARC_Permits/MapServer/1"
+  verified_at: "2026-10-11"
+
+- source_id: alexandria_apex_energov_api
+  jurisdiction: alexandria
+  custodian: "Code Administration / Planning and Zoning / T&ES (APEX, Tyler EnerGov)"
+  dataset_name: "APEX EnerGov Self-Service search API (permits, plans, inspections, code cases)"
+  quoin_sections: [permit, inspection_enforcement]
+  access_type: api
+  cost: free
+  format: "JSON (POST)"
+  landing_url: "https://apexselfservice.alexandriava.gov/EnerGov_Prod/SelfService#/home"
+  endpoint_url: null
+  parcel_key: "MainParcel (= GIS ACCOUNTNO)"
+  update_frequency: "Real-time"
+  history_start: unknown
+  terms: "No robots.txt and no terms page found. Undocumented endpoint, so keep the request rate low."
+  notes: "POST https://apexselfservice.alexandriava.gov/EnerGov_Prod/SelfService/api/energov/search/search with headers tenantId: 1, tenantName: APEX, Tyler-TenantUrl: APEX and an EnerGov criteria body (Keyword, SearchModule, PageNumber, PageSize). A keyword search returned 47,046 permits, 83,988 inspections and 15,253 code cases. Searching by account number returns that parcel's records, so it can be looped over ACCOUNTNO (26-47K requests). A date-only bulk query is not yet working. The UI's Excel export is capped at 1,000 rows. Not sampled by pull_samples.py (POST API)."
+  evidence_urls:
+    - "https://apexselfservice.alexandriava.gov/EnerGov_Prod/SelfService#/home"
+  verified_at: "2026-10-11"
+
+- source_id: alexandria_building_footprints
+  jurisdiction: alexandria
+  custodian: "GIS / Planning"
+  dataset_name: "Building footprints with planning attributes"
+  quoin_sections: [building]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://geoportal.alexandriava.gov/server/rest/services/Building/FeatureServer"
+  endpoint_url: "https://geoportal.alexandriava.gov/server/rest/services/Building/FeatureServer/1"
+  parcel_key: "null (FACILITYID; spatial join)"
+  update_frequency: unknown
+  history_start: unknown
+  terms: unknown
+  notes: "107,581 footprints with BTYPE, BUSE, BSIZE, BUNITS, STORIES, YEARBLT. A proxy for assessor building characteristics, which are lookup-only."
+  evidence_urls:
+    - "https://geoportal.alexandriava.gov/server/rest/services/Building/FeatureServer/1"
   verified_at: "2026-10-11"

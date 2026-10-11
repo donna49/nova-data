@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_gis_zoning_cases",
   "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/OpenData_A2/FeatureServer/2",
-  "retrieved_at": "2026-10-11T21:31:03+00:00",
+  "retrieved_at": "2026-10-11T21:51:50+00:00",
   "sample_rows": 100,
   "reported_row_count": 898,
   "sha256": "1920869c960c90addeae8c005725be5b333d5cd1e14d64e8223cc14e708455ae",

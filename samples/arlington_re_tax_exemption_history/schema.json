@@ -1,7 +1,7 @@
 {
   "source_id": "arlington_re_tax_exemption_history",
   "endpoint_url": "https://datahub-v2.arlingtonva.us/api/RealEstate/PropertyTaxExemptionHistory",
-  "retrieved_at": "2026-10-11T21:30:40+00:00",
+  "retrieved_at": "2026-10-11T21:51:32+00:00",
   "sample_rows": 100,
   "reported_row_count": null,
   "sha256": "ba67cf7f54d251dcaf22924b167bb33334bd6f84950aac61f5395d1c067d8c7a",

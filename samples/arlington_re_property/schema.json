@@ -1,10 +1,10 @@
 {
   "source_id": "arlington_re_property",
   "endpoint_url": "https://datahub-v2.arlingtonva.us/api/RealEstate/Property",
-  "retrieved_at": "2026-10-11T21:30:39+00:00",
+  "retrieved_at": "2026-10-11T21:51:30+00:00",
   "sample_rows": 100,
   "reported_row_count": null,
-  "sha256": "51fdefe936b6d5fd103acc0a4682031231bc8ba06f74cf59e3f75104b6564baa",
+  "sha256": "e2e231c3c86002c21467da85e95a5bfb4287393116035b76921800e2ca6acce7",
   "fields": {
     "propertyKey": "integer",
     "provalLrsnId": "integer",
@@ -79,7 +79,7 @@
     "maskOwnerAddressInd": "boolean",
     "economicUnitNumberOfUnitsCnt": "null",
     "ownerCountryName": "string",
-    "solarNote": "string",
-    "ownerStreet2Text": "null"
+    "solarNote": "null",
+    "ownerStreet2Text": "string"
   }
 }

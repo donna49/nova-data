@@ -7,7 +7,8 @@ Each cell shows the best public access found for that section.
 | Symbol | Meaning |
 |---|---|
 | ✅ | Free bulk download or API |
-| 🔎 | Searchable one parcel at a time |
+| 🔁 | Lookup site, but per-record pages can be collected by script (no robots.txt ban, no CAPTCHA); see `inventory/lookup_alternatives.md` |
+| 🔎 | Searchable one parcel at a time only (blocked, robots-disallowed, or not yet assessed) |
 | 💲 | Paid or subscription |
 | 📨 | By request or FOIA only |
 | ❌ | Nothing found |
@@ -17,11 +18,11 @@ Every ✅ API source was sampled successfully on 2026-10-11 (see `samples/`). A 
 | Jurisdiction | identity | assessment | tax | delinquency_tax_sale | special_assessment | ownership | transfer | deed_reference | permit | license | inspection_enforcement | building | land |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Arlington County | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Fairfax County | ✅ | ✅ | ✅ | 📨 | ✅ | 🔎 | ✅ | ✅ | ✅ | ✅ | 🔎 | ✅ | ✅ |
-| Loudoun County | ✅ | ✅ | 🔎 | ✅ | ✅ | ✅ | 🔎 | 🔎 | ✅ | ✅ | 🔎 | ✅ | ✅ |
-| City of Alexandria | ✅ | ✅ | 🔎 | 🔎 | ✅ | ✅ | 🔎 | ✅ | ✅ | ✅ | 🔎 | 🔎 | ✅ |
+| Fairfax County | ✅ | ✅ | ✅ | 📨 | ✅ | 🔁 | ✅ | ✅ | ✅ | ✅ | 🔁 | ✅ | ✅ |
+| Loudoun County | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🔁 | 🔁 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| City of Alexandria | ✅ | ✅ | 🔎 | 🔎 | ✅ | ✅ | 🔎 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | City of Falls Church | ✅ | 🔎 | 🔎 | 📨 | ❌ | 🔎 | 🔎 | 💲 | 📨 | ✅ | 📨 | 🔎 | ✅ |
-| City of Fairfax | ✅ | 🔎 | 🔎 | ✅ | ❌ | 🔎 | 🔎 | 💲 | 🔎 | ✅ | 🔎 | 🔎 | ✅ |
+| City of Fairfax | ✅ | ✅ | 🔎 | ✅ | ❌ | ✅ | 🔁 | 🔁 | 🔁 | ✅ | 🔁 | ✅ | ✅ |
 
 ## Sources behind each cell
 
@@ -32,44 +33,44 @@ Every ✅ API source was sampled successfully on 2026-10-11 (see `samples/`). A 
 - **tax** ✅ `arlington_re_tax_exemption_history`, `arlington_tax_assessment_payments`
 - **delinquency_tax_sale** ✅ `arlington_tax_assessment_payments`
 - **special_assessment** ✅ `arlington_bid_boundaries`
-- **ownership** ✅ `arlington_re_property`, `arlington_re_sales_history`
+- **ownership** ✅ `arlington_re_sales_history`
 - **transfer** ✅ `arlington_re_sales_history`
 - **deed_reference** ✅ `arlington_re_sales_history`
 - **permit** ✅ `arlington_re_valuation_permits`, `arlington_permits_applications`
 - **license** ✅ `arlington_business_licenses`, `va_abc_licensees`
 - **inspection_enforcement** ✅ `arlington_permits_applications`, `arlington_stop_work_unsafe_building`
-- **building** ✅ `arlington_re_dwelling_characteristics`, `arlington_re_valuation_permits`
+- **building** ✅ `arlington_re_property`, `arlington_re_dwelling_characteristics`, `arlington_re_valuation_permits`
 - **land** ✅ `arlington_re_property`, `arlington_parcels_gis`, `arlington_glup_zoning_gis`, `va_vgin_statewide_parcels`
 
 ### Fairfax County
 
-- **identity** ✅ `fairfax_county_dta_re_parcels`, `fairfax_county_dta_re_legal`, `fairfax_county_gis_parcels`, `va_vgin_statewide_parcels`
+- **identity** ✅ `fairfax_county_dta_re_parcels`, `fairfax_county_dta_re_legal`, `fairfax_county_gis_parcels`, `fairfax_county_gis_master_address_repository`, `va_vgin_statewide_parcels`
 - **assessment** ✅ `fairfax_county_dta_re_assessed_values`
 - **tax** ✅ `fairfax_county_dta_tax_rate_fee_tables`
 - **delinquency_tax_sale** 📨 `fairfax_county_tax_sale_auctions`
 - **special_assessment** ✅ `fairfax_county_dta_re_legal`, `fairfax_county_dta_tax_rate_fee_tables`, `fairfax_county_gis_special_tax_areas`
-- **ownership** 🔎 `fairfax_county_icare_assessment`, `va_scc_cis_entity_search`
+- **ownership** 🔁 `fairfax_county_icare_assessment`
 - **transfer** ✅ `fairfax_county_dta_re_sales`
 - **deed_reference** ✅ `fairfax_county_dta_re_sales`
-- **permit** ✅ `fairfax_county_lds_building_records_plus`, `fairfax_county_gis_zoning_cases`, `fairfax_county_lds_site_records_plus`, `fairfax_county_plus_zoning_applications`
+- **permit** ✅ `fairfax_county_lds_building_records_plus`, `fairfax_county_gis_zoning_cases`, `fairfax_county_lds_site_records_plus`, `fairfax_county_plus_zoning_applications`, `fairfax_county_plus_approved_site_records`
 - **license** ✅ `va_abc_licensees`
-- **inspection_enforcement** 🔎 `fairfax_county_lds_certificate_of_occupancy`, `fairfax_county_plus_portal`, `fairfax_county_dcc_code_cases`
+- **inspection_enforcement** 🔁 `fairfax_county_plus_portal`, `fairfax_county_dcc_code_cases`
 - **building** ✅ `fairfax_county_dta_re_parcels`, `fairfax_county_dta_re_dwelling`, `fairfax_county_dta_re_dwelling_addition`, `fairfax_county_dta_re_commercial`, `fairfax_county_lds_building_records_plus`
 - **land** ✅ `fairfax_county_dta_re_parcels`, `fairfax_county_dta_re_legal`, `fairfax_county_dta_re_land`, `fairfax_county_gis_parcels`, `fairfax_county_gis_zoning`, `fairfax_county_gis_zoning_cases`, `fairfax_county_plus_zoning_applications`, `va_vgin_statewide_parcels`
 
 ### Loudoun County
 
-- **identity** ✅ `loudoun_geohub`, `loudoun_parcels_gis`, `loudoun_buildings_address_points`, `va_vgin_statewide_parcels`
+- **identity** ✅ `loudoun_geohub`, `loudoun_parcels_gis`, `loudoun_buildings_address_points`, `loudoun_treasurer_public_csv`, `va_vgin_statewide_parcels`
 - **assessment** ✅ `loudoun_cor_land_book_reports`, `loudoun_route28_tax_district_reports`
-- **tax** 🔎 `loudoun_parcel_database_cor`, `loudoun_treasurer_tax_payments`
-- **delinquency_tax_sale** ✅ `loudoun_tax_sales`
+- **tax** ✅ `loudoun_treasurer_public_csv`
+- **delinquency_tax_sale** ✅ `loudoun_tax_sales`, `loudoun_treasurer_public_csv`
 - **special_assessment** ✅ `loudoun_geohub`, `loudoun_cor_land_book_reports`, `loudoun_route28_tax_district_reports`, `loudoun_metrorail_service_districts`
-- **ownership** ✅ `loudoun_cor_land_book_reports`, `loudoun_route28_tax_district_reports`
-- **transfer** 🔎 `loudoun_parcel_database_cor`
-- **deed_reference** 🔎 `loudoun_parcel_database_cor`
-- **permit** ✅ `loudoun_geohub`, `loudoun_building_permit_applications_gis`
+- **ownership** ✅ `loudoun_cor_land_book_reports`, `loudoun_route28_tax_district_reports`, `loudoun_treasurer_public_csv`
+- **transfer** 🔁 `loudoun_parcel_database_cor`
+- **deed_reference** 🔁 `loudoun_parcel_database_cor`
+- **permit** ✅ `loudoun_geohub`, `loudoun_building_permit_applications_gis`, `loudoun_landmarc_permits_gis`
 - **license** ✅ `va_abc_licensees`
-- **inspection_enforcement** 🔎 `loudoun_landmarc_permits`
+- **inspection_enforcement** ✅ `loudoun_landmarc_permits_gis`
 - **building** ✅ `loudoun_geohub`, `loudoun_land_use_buildout`, `loudoun_buildings_address_points`
 - **land** ✅ `loudoun_geohub`, `loudoun_parcels_gis`, `loudoun_zoning_gis`, `loudoun_land_use_buildout`, `va_vgin_statewide_parcels`
 
@@ -83,10 +84,10 @@ Every ✅ API source was sampled successfully on 2026-10-11 (see `samples/`). A 
 - **ownership** ✅ `alexandria_parcels_gis`
 - **transfer** 🔎 `alexandria_real_estate_assessment_search`
 - **deed_reference** ✅ `alexandria_parcels_gis`
-- **permit** ✅ `alexandria_special_use_permits`
+- **permit** ✅ `alexandria_special_use_permits`, `alexandria_apex_energov_api`
 - **license** ✅ `va_abc_licensees`
-- **inspection_enforcement** 🔎 `alexandria_apex_permits`
-- **building** 🔎 `alexandria_real_estate_assessment_search`
+- **inspection_enforcement** ✅ `alexandria_apex_energov_api`
+- **building** ✅ `alexandria_building_footprints`
 - **land** ✅ `alexandria_gis_open_data_portal`, `alexandria_parcels_gis`, `alexandria_zoning_gis`, `alexandria_special_use_permits`, `va_vgin_statewide_parcels`
 
 ### City of Falls Church
@@ -107,16 +108,16 @@ Every ✅ API source was sampled successfully on 2026-10-11 (see `samples/`). A 
 
 ### City of Fairfax
 
-- **identity** ✅ `fairfax_city_gis_open_data_hub`, `va_vgin_statewide_parcels`
-- **assessment** 🔎 `fairfax_city_real_estate_assessment_database`
+- **identity** ✅ `fairfax_city_gis_open_data_hub`, `fairfax_city_giscama`, `va_vgin_statewide_parcels`
+- **assessment** ✅ `fairfax_city_giscama`
 - **tax** 🔎 `fairfax_city_tax_portal`
 - **delinquency_tax_sale** ✅ `fairfax_city_delinquent_taxpayer_lists`
 - **special_assessment** ❌ none found
-- **ownership** 🔎 `fairfax_city_real_estate_assessment_database`, `va_scc_cis_entity_search`
-- **transfer** 🔎 `fairfax_city_real_estate_assessment_database`
-- **deed_reference** 💲 `va_fairfax_circuit_court_cpan`
-- **permit** 🔎 `fairfax_city_permit_portal`
+- **ownership** ✅ `fairfax_city_giscama`
+- **transfer** 🔁 `fairfax_city_real_estate_assessment_database`
+- **deed_reference** 🔁 `fairfax_city_real_estate_assessment_database`
+- **permit** 🔁 `fairfax_city_permit_portal`
 - **license** ✅ `va_abc_licensees`
-- **inspection_enforcement** 🔎 `fairfax_city_permit_portal`
-- **building** 🔎 `fairfax_city_real_estate_assessment_database`
-- **land** ✅ `fairfax_city_gis_open_data_hub`, `va_vgin_statewide_parcels`
+- **inspection_enforcement** 🔁 `fairfax_city_permit_portal`
+- **building** ✅ `fairfax_city_giscama`
+- **land** ✅ `fairfax_city_gis_open_data_hub`, `fairfax_city_giscama`, `va_vgin_statewide_parcels`

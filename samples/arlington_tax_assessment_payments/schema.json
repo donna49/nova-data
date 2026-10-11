@@ -1,10 +1,10 @@
 {
   "source_id": "arlington_tax_assessment_payments",
   "endpoint_url": "https://datahub-v2.arlingtonva.us/api/Tax/RealEstateAssessmentPaymentSummary",
-  "retrieved_at": "2026-10-11T21:30:40+00:00",
+  "retrieved_at": "2026-10-11T21:51:32+00:00",
   "sample_rows": 100,
   "reported_row_count": null,
-  "sha256": "e671ba8f3a6b850066b8eebfd105c16b34b8a7659fa4a2c01ba87f166b44eb9f",
+  "sha256": "ec5fd6647431519416568c048c7a9f9227dcc5f84e7732d59d8d230052a37f7a",
   "fields": {
     "realEstateAssessmentPaymentSummaryKey": "integer",
     "realEstatePropertyCode": "string",

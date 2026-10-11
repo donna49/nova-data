@@ -1,7 +1,7 @@
 {
   "source_id": "alexandria_parcels_gis",
   "endpoint_url": "https://geoportal.alexandriava.gov/server/rest/services/Real_Estate_Parcels/FeatureServer/0",
-  "retrieved_at": "2026-10-11T21:30:36+00:00",
+  "retrieved_at": "2026-10-11T21:51:26+00:00",
   "sample_rows": 100,
   "reported_row_count": 47567,
   "sha256": "d33eecef29d5457dd75625ab5310f3d59228532a73b14def6c19c8c528c638a4",

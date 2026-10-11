@@ -1,7 +1,7 @@
 {
   "source_id": "fairfax_county_dta_re_dwelling",
   "endpoint_url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Tax_Administration_Real_Estate_Dwelling_Data/FeatureServer/0",
-  "retrieved_at": "2026-10-11T21:33:00+00:00",
+  "retrieved_at": "2026-10-11T21:51:44+00:00",
   "sample_rows": 100,
   "reported_row_count": 340692,
   "sha256": "3b5d7b948cb17863e7ae130e41b893f78234de5de36bb0f0ab0f103ebfb6ea12",

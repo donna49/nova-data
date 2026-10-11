@@ -41,6 +41,7 @@ The goal is to know what has to be collected before building a NoVA equivalent.
 | `inventory/coverage_matrix.md` | Best available access for each jurisdiction and section. Generated; do not edit. |
 | `scripts/pull_samples.py` | Validates the catalog and pulls 100-row samples from bulk/API entries into `samples/<source_id>/` |
 | `scripts/build_coverage.py` | Regenerates the coverage matrix |
+| `inventory/lookup_alternatives.md` | Bulk and scripted alternatives for each lookup-only site, with verdicts, volumes and constraints |
 
 ```sh
 pip install -r requirements.txt
@@ -72,6 +73,7 @@ These are modeled on Quoin's own source catalog.
 | `terms` | License or terms of use |
 | `notes` | Caveats |
 | `evidence_urls` | The search results the entry is based on |
+| `collection` | For lookup-only sources, how they can be collected: `bulk_alternative`, `scrape_feasible`, `robots_disallowed`, `blocked` or `request_only` |
 | `in_matrix` | When `false`, the entry is left out of the matrix (aggregates, non-public, or unverified columns) |
 | `verified_at` | When the entry was last checked against the live source |
 
@@ -112,10 +114,11 @@ Statewide, VGIN parcels add `VGIN_QPID`, which can serve as a cross-jurisdiction
 - active business licenses
 
 Confirmed in the samples:
-- The Property API returns owner names and mailing addresses.
 - Sales carry deed book/page and a land-record document number.
 - Permits are keyed by RPC.
 - Payment rows include penalty and interest, which identify delinquent installments.
+
+**Correction:** the Property API **redacts owner names**; owner mailing addresses are present. Sales-history buyer names are not redacted and stand in for the current owner. An earlier version of this README said otherwise.
 
 There are gaps:
 - no commercial-building characteristics (`ImprovementCommercial` returns 404)
@@ -179,6 +182,16 @@ Values, owners and sales are lookup-only through their Accela and Vision portals
 None offers a bulk feed. The deed book/page and instrument numbers in the assessor sales tables are the practical way to get deed references.
 
 **Licenses come mainly from the state.** The Virginia ABC licensee spreadsheet (statewide, free) replaces D.C.'s alcohol license data (ABCA). Local business licenses (BPOL) are confidential under Va. Code 58.1-3 everywhere except Arlington, which publishes active licenses. Virginia has not issued adult-use cannabis retail licenses.
+
+## Lookup-only sites: alternatives found
+
+The full write-up is in `inventory/lookup_alternatives.md`.
+
+- **Loudoun:** a monthly Treasurer CSV of every parcel with owner name, tax and delinquent amounts. 568K permits from an anonymous ArcGIS table. Sales, deed and building data can be collected per parcel from iasWorld.
+- **City of Fairfax:** the assessment app `realestate.fairfaxva.gov` returns every parcel in about 194 search pages (owner, value, year built, last sale with book-page). Accela permits have a CSV export.
+- **Fairfax County:** owner names only by FOIA, or per-parcel collection from iCARE (about 370K pages).
+- **Alexandria:** permits, inspections and code cases come from the APEX JSON search. Sales and history pages are robots-disallowed, so FOIA or permission is needed.
+- **Falls Church:** blocked (WAF) and has no permit portal. FOIA.
 
 ## Next steps
 
