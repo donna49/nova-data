@@ -1,0 +1,24 @@
+{
+  "source_id": "loudoun_cor_assessed_values_xlsx",
+  "endpoint_url": "https://www.loudoun.gov/DocumentCenter/View/212731",
+  "retrieved_at": "2026-10-12T01:57:41+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 151121,
+  "sha256": "1b79df0b55db6f08885bba54bd15623b08f48758c8b1baf2e7d31dc5533dda49",
+  "fields": {
+    "#": "integer",
+    "JUR": "string",
+    "PARID": "string",
+    "CLASS": "string",
+    "FAIR MARKET LAND": "integer",
+    "FAIR MARKET BUILDING": "integer",
+    "FAIR MARKET TOTAL": "integer",
+    "LAND USE VALUE": "integer",
+    "DEFERRED VALUE": "integer",
+    "EXON/SUPP AMOUNT": "integer",
+    "TAXABLE LAND": "integer",
+    "TAXABLE BUILDING": "integer",
+    "TAXABLE VALUE": "integer",
+    "EST TAX": "number"
+  }
+}

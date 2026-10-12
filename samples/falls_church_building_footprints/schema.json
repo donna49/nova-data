@@ -1,0 +1,25 @@
+{
+  "source_id": "falls_church_building_footprints",
+  "endpoint_url": "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Buildings_public/FeatureServer/0",
+  "retrieved_at": "2026-10-12T01:57:56+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 6301,
+  "sha256": "0bb2ae3bfff584b91f977e310476584cde98c3e4ab894bf3d623dc86f30bb8b0",
+  "fields": {
+    "OBJECTID": "integer",
+    "NUMSTORIES": "integer",
+    "BLDGHEIGHT": "number",
+    "FEATURECODE": "string",
+    "BuildingName": "string",
+    "BuildingType": "string",
+    "BUILDINGID": "string",
+    "FACILITYKEY": "string",
+    "Shape__Area": "number",
+    "Shape__Length": "number",
+    "Active": "integer",
+    "XLon_centroid": "number",
+    "YLat_centroid": "number",
+    "XLon_central": "number",
+    "YLat_central": "number"
+  }
+}

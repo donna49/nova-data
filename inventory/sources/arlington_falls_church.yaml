@@ -75,7 +75,7 @@
   update_frequency: unknown
   history_start: unknown
   terms: "Arlington public use notice"
-  notes: "Fields include deedBookNbr, deedPageNbr, landRecordDocumentNbr, granteeName, saleAmt, saleDate, salesTypeDsc. granteeName is NOT redacted, so the latest grantee is the practical stand-in for the current owner. Quirk: the newest rows show saleDate 2026-12-31."
+  notes: "312,281 rows (via $count). Fields include deedBookNbr, deedPageNbr, landRecordDocumentNbr, granteeName, saleAmt, saleDate, salesTypeDsc. granteeName is NOT redacted, so the latest grantee is the current-owner proxy; a few rows have maskOwnerAddressInd=true, so set a privacy policy for those. No bulk .txt.gz, so page the API with $top=10000 (about 32 requests). Quirk: the newest rows show saleDate 2026-12-31."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-sale-history"
   verified_at: "2026-10-11"
@@ -526,3 +526,80 @@
   evidence_urls:
     - "https://www.fcnp.com/2012/01/10/fc-council-gives-preliminary-ok-to-fines-for-property-blight/amp"
   verified_at: "2026-10-11"
+
+# ---------------- Added 2026-10-12: round-3 bulk sources ----------------
+- source_id: arlington_permit_bulk_file
+  jurisdiction: arlington
+  custodian: "CPHD / DES (Open Data)"
+  dataset_name: "Permit bulk file (Permit.txt.gz)"
+  quoin_sections: [permit, ownership]
+  access_type: bulk
+  cost: free
+  format: "Pipe-delimited text, gzip (42 MB)"
+  landing_url: "https://data.arlingtonva.us/data.json"
+  endpoint_url: "https://download.data.arlingtonva.us/Permit/Permit.txt.gz"
+  parcel_key: "RealEstatePropertyCode (RPC)"
+  update_frequency: "Daily (last modified 2026-10-11)"
+  history_start: "2011"
+  terms: "Arlington public use notice; check the portal Terms of Use before reuse"
+  notes: "About 355K rows, 34 columns. PropertyOwnerName is NOT redacted (filled on 299 of 299 rows checked), covering about 36K RPCs. Owner as of the permit date, so a cross-check for sales grantee names. The full catalog is https://data.arlingtonva.us/data.json."
+  evidence_urls:
+    - "https://data.arlingtonva.us/data.json"
+  verified_at: "2026-10-12"
+
+- source_id: arlington_payment_summary_bulk_file
+  jurisdiction: arlington
+  custodian: "Treasurer (Open Data)"
+  dataset_name: "Real Estate Assessment Payment Summary bulk file"
+  quoin_sections: [tax, delinquency_tax_sale]
+  access_type: bulk
+  cost: free
+  format: "Pipe-delimited text, gzip (138 MB)"
+  landing_url: "https://data.arlingtonva.us/data.json"
+  endpoint_url: "https://download.data.arlingtonva.us/Tax/RealEstateAssessmentPaymentSummary.txt.gz"
+  parcel_key: "RPC"
+  update_frequency: "Daily (last modified 2026-10-11)"
+  history_start: "2015"
+  terms: "Arlington public use notice"
+  notes: "One row per RPC, tax year, installment and label (Levy, Payment, Relief, stormwater fee and others), with penalty, interest, fee and total amounts. Summing the rows per installment gives the unpaid balance, so delinquency can be computed for every parcel. The same data as arlington_tax_assessment_payments, as one file."
+  evidence_urls:
+    - "https://data.arlingtonva.us/data.json"
+  verified_at: "2026-10-12"
+
+- source_id: falls_church_stormwater_fee_fy27
+  jurisdiction: falls_church
+  custodian: "Public Works"
+  dataset_name: "FY27 Stormwater Utility Fee by parcel (SWUF_FY27)"
+  quoin_sections: [special_assessment]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/SWUF_FY27/FeatureServer"
+  endpoint_url: "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/SWUF_FY27/FeatureServer/0"
+  parcel_key: "RPC / PIN"
+  update_frequency: "Annual (edited 2026-10-08)"
+  history_start: "FY27"
+  terms: unknown
+  notes: "4,839 rows: impervious area, billing units, unit price ($23.36), fee, credits, adjusted fee. A per-parcel fee billed with property taxes, not the real estate tax itself."
+  evidence_urls:
+    - "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/SWUF_FY27/FeatureServer/0"
+  verified_at: "2026-10-12"
+
+- source_id: falls_church_building_footprints
+  jurisdiction: falls_church
+  custodian: "Public Works, Geospatial Services"
+  dataset_name: "Building footprints (Buildings_public)"
+  quoin_sections: [building]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer"
+  landing_url: "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Buildings_public/FeatureServer"
+  endpoint_url: "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Buildings_public/FeatureServer/0"
+  parcel_key: "null (spatial join)"
+  update_frequency: "edited 2026-10-07"
+  history_start: unknown
+  terms: unknown
+  notes: "6,301 footprints with NUMSTORIES, BLDGHEIGHT, BuildingType. No year built, beds or baths; a proxy only."
+  evidence_urls:
+    - "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Buildings_public/FeatureServer/0"
+  verified_at: "2026-10-12"

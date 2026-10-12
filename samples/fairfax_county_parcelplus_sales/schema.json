@@ -1,0 +1,28 @@
+{
+  "source_id": "fairfax_county_parcelplus_sales",
+  "endpoint_url": "https://www.fairfaxcounty.gov/gispub1/rest/services/GIS/ParcelPlusSales/MapServer/0",
+  "retrieved_at": "2026-10-12T01:57:57+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 1444890,
+  "sha256": "09888fa2a81665c9c44cf5da8bca3108c8aaed751f2437206fe827c5a432bfa1",
+  "fields": {
+    "OBJECTID": "integer",
+    "PIN": "string",
+    "PARID": "string",
+    "ELEMENT": "null",
+    "SALEDT": "integer",
+    "SALETYPE": "string",
+    "PRICE": "integer",
+    "SALEVAL": "string",
+    "NOPAR": "null",
+    "WHO": "string",
+    "WEN": "integer",
+    "BOOK": "string",
+    "PAGE": "string",
+    "SALETYPE_DESC": "string",
+    "SALEVAL_DESC": "string",
+    "CPAN_URL": "string",
+    "SHAPE.STArea()": "number",
+    "SHAPE.STLength()": "number"
+  }
+}

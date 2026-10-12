@@ -1,0 +1,24 @@
+{
+  "source_id": "loudoun_cor_commercial_dwelling_xlsx",
+  "endpoint_url": "https://www.loudoun.gov/DocumentCenter/View/212732",
+  "retrieved_at": "2026-10-12T01:57:38+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 4157,
+  "sha256": "3f6a1a3d79e3b8c967ae7b42da85ef17e526d1eb208d107ed23315e9f77b3e68",
+  "fields": {
+    "#": "integer",
+    "Parcel ID": "string",
+    "Card Number": "integer",
+    "State Code": "string",
+    "Occupancy Code": "string",
+    "Structure Code": "string",
+    "Year Built": "integer",
+    "Effective Year": "integer",
+    "Square Feet": "integer",
+    "State Class": "string",
+    "Foundation": "string",
+    "Roof Type": "string",
+    "Roof Material": "string",
+    "Percent Complete": "integer"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source_id": "loudoun_gisfs_latest_sale",
+  "endpoint_url": "https://logis.loudoun.gov/gis/rest/services/COL/FSview_PRM_inter/MapServer/11",
+  "retrieved_at": "2026-10-12T01:57:52+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 156899,
+  "sha256": "5eddf8d8082edc4d187f28f1ae0c83de6c6cd93fbd09540d98d08abcb284a1f8",
+  "fields": {
+    "OBJECTID": "integer",
+    "PIN_NO": "string",
+    "LATEST_SALE_PRICE": "integer",
+    "LATEST_SALE_DATE": "integer"
+  }
+}

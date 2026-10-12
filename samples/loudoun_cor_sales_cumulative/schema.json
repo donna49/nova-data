@@ -1,0 +1,22 @@
+{
+  "source_id": "loudoun_cor_sales_cumulative",
+  "endpoint_url": "https://www.loudoun.gov/DocumentCenter/View/190095",
+  "retrieved_at": "2026-10-12T01:57:52+00:00",
+  "sample_rows": 100,
+  "reported_row_count": 11846,
+  "sha256": "e800fbb9681d340f6078b69b6cad9dfff1bb8eac1b3383e97d1f782e685d9d8c",
+  "fields": {
+    "#": "integer",
+    "JUR": "string",
+    "SALEKEY": "integer",
+    "PARID": "string",
+    "INSTRUMENT#": "string",
+    "RECORD DATE": "string",
+    "PRICE": "integer",
+    "# OF PARCELS": "integer",
+    "OLD OWNER": "string",
+    "NEW OWNER": "string",
+    "SALE TYPE": "string",
+    "SALE VERIFICATION": "string"
+  }
+}

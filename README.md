@@ -118,7 +118,7 @@ Confirmed in the samples:
 - Permits are keyed by RPC.
 - Payment rows include penalty and interest, which identify delinquent installments.
 
-**Correction:** the Property API **redacts owner names**; owner mailing addresses are present. Sales-history buyer names are not redacted and stand in for the current owner. An earlier version of this README said otherwise.
+**Correction:** the Property API **redacts owner names**; owner mailing addresses are present. An earlier version of this README said otherwise. Owner names are available in bulk from `Permit.txt.gz` (PropertyOwnerName) and from sales-history buyer names.
 
 There are gaps:
 - no commercial-building characteristics (`ImprovementCommercial` returns 404)
@@ -183,12 +183,30 @@ None offers a bulk feed. The deed book/page and instrument numbers in the assess
 
 **Licenses come mainly from the state.** The Virginia ABC licensee spreadsheet (statewide, free) replaces D.C.'s alcohol license data (ABCA). Local business licenses (BPOL) are confidential under Va. Code 58.1-3 everywhere except Arlington, which publishes active licenses. Virginia has not issued adult-use cannabis retail licenses.
 
+## Coverage (as of 2026-10-12)
+
+| Measure | Free bulk / API | Including script-collectible sites |
+|---|---|---|
+| Jurisdiction × section slots (78) | **59 (76%)** | 64 (82%) |
+| Weighted by parcel count (about 600K parcels) | **about 83%** | about 93% |
+
+| Jurisdiction | Free bulk sections (of 13) |
+|---|---|
+| Arlington | 13 |
+| Loudoun | 13 |
+| Fairfax County | 10 |
+| Alexandria | 10 |
+| City of Fairfax | 8 |
+| Falls Church | 5 |
+
+These counts measure breadth, not depth: some sources are current-year only or are proxies (footprints, buyer names). The remaining gaps are FOIA items; see `inventory/lookup_alternatives.md`, "Round 3".
+
 ## Lookup-only sites: alternatives found
 
 The full write-up is in `inventory/lookup_alternatives.md`.
 
-- **Loudoun:** a monthly Treasurer CSV of every parcel with owner name, tax and delinquent amounts. 568K permits from an anonymous ArcGIS table. Sales, deed and building data can be collected per parcel from iasWorld.
-- **City of Fairfax:** the assessment app `realestate.fairfaxva.gov` returns every parcel in about 194 search pages (owner, value, year built, last sale with book-page). Accela permits have a CSV export.
+- **Loudoun:** fully bulk. The Commissioner's 2026 XLSX files (dwellings, values, owners), yearly sales files from 2013, a daily latest-sale table, the Treasurer CSV and LandMARC permits. No crawl needed.
+- **City of Fairfax:** owners, 2026 values, year built and deed book-page come in bulk from the city's `cofgis` PropertyOwners layer. Sales history is still only on the assessment site (about 194 search pages). Accela permits have a CSV export.
 - **Fairfax County:** owner names only by FOIA, or per-parcel collection from iCARE (about 370K pages).
 - **Alexandria:** permits, inspections and code cases come from the APEX JSON search. Sales and history pages are robots-disallowed, so FOIA or permission is needed.
 - **Falls Church:** blocked (WAF) and has no permit portal. FOIA.

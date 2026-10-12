@@ -163,7 +163,7 @@
   update_frequency: "Twice a year"
   history_start: unknown
   terms: "Same as VGIN Parcels"
-  notes: "Columns vary by locality. Service root: https://cmap22.vims.edu/arcgis/rest/services/VirginiaAndBaywide/VirginiaParcelsAndTables/MapServer, a third-party mirror. The table layer IDs for the six jurisdictions still need to be looked up."
+  notes: "2026 Q3 file geodatabase (ArcGIS item 523d89ebf23d4d84957f9fe5b9158bd9, 373 MB, modified 2026-09-25; headers read with byte-range requests 2026-10-12). For the six jurisdictions only BL_Alexandria_City carries owner names and mailing addresses (47,414 rows). None of the six has values, sales, year built or building size. Arlington 38,683, Fairfax County 369,338, City of Fairfax 9,742, Falls Church 3,733, Loudoun 132,553 rows, all GIS parcel fields only."
   evidence_urls:
     - "https://cmap22.vims.edu/arcgis/rest/services/VirginiaAndBaywide/VirginiaParcelsAndTables/MapServer"
   in_matrix: false  # per-locality columns unverified

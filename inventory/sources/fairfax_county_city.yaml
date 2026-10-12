@@ -78,7 +78,7 @@
   update_frequency: unknown
   history_start: "Current owner only"
   terms: "County GIS disclaimer"
-  notes: "Owner name and mailing address, one row per parcel, listed on Data.gov and AmeriGEOSS. NOT found on the county's live ArcGIS org or Hub on 2026-10-11 (searched all 329 services). It may have been withdrawn. Check whether the Parcels table carries owner fields; otherwise request from DTA."
+  notes: "Withdrawn. The old Data.gov/AmeriGEOSS record points to item 753448c6e45c434d97b61e77ea752079 on OpenData_A3 layer 2. The item no longer exists, Hub downloads return 400, and OpenData_A3 now holds only Easements (checked 2026-10-12). No other public county layer has owner fields. Route: FOIA or a data request to DTA Real Estate (DTARED@fairfaxcounty.gov, 703-222-8234)."
   evidence_urls:
     - "https://data.amerigeoss.org/dataset/tax-administrations-real-estate-owner-data-e2108"
   verified_at: "2026-10-11"
@@ -562,7 +562,7 @@
   update_frequency: "Quarterly"
   history_start: "unknown (latest seen 2024-12-05)"
   terms: unknown
-  notes: "The only published delinquent list among the six jurisdictions. Covers real estate, personal property, BPOL and meals tax."
+  notes: "The only published delinquent list among the six jurisdictions. Latest real estate list: https://www.fairfaxva.gov/files/ff8bf075-60aa-4156-a888-3983fc82fee3/040326-Real-Estate-Delinquent-Accounts-By-Name.pdf (as of 2026-04-03; columns Name, Map Number, Total Due; first owner only). fairfaxva.gov returns 403 to scripts (Akamai), so download it manually in a browser. Quarterly."
   evidence_urls:
     - "https://www.fairfaxva.gov/Property-Business/Taxes/Delinquent-Taxpayer-Lists"
   verified_at: "2026-10-11"
@@ -698,7 +698,46 @@
   update_frequency: "unknown (last edit 2025-02-04)"
   history_start: "Single snapshot"
   terms: unknown
-  notes: "9,696 rows: owner names (CUO1-3), mailing address, current land, building and total values, acres, YearBuilt, zoning, existing and future land use, legal description. Stale (Feb 2025). The same org has Accela/FeatureServer/1 'Parcel Owner' (16,971 rows, Apr 2026) and /2 'Parcel Base' (9,728 rows). For current values and sales, use the realestate.fairfaxva.gov grid (fairfax_city_real_estate_assessment_database)."
+  notes: "9,696 rows, last edit 2025-02-04. Superseded by fairfax_city_property_owners (cofgis, Sep 2026), which has the same fields and current values."
   evidence_urls:
     - "https://services2.arcgis.com/DANcyjLcCCpGk8Ri/arcgis/rest/services/GISCAMA/FeatureServer/0"
   verified_at: "2026-10-11"
+
+# ---------------- Added 2026-10-12: round-3 bulk sources ----------------
+- source_id: fairfax_city_property_owners
+  jurisdiction: fairfax_city
+  custodian: "City of Fairfax GIS / Real Estate Assessments"
+  dataset_name: "PropertyOwners (city ArcGIS Enterprise)"
+  quoin_sections: [identity, assessment, ownership, deed_reference, building, land]
+  access_type: api
+  cost: free
+  format: "ArcGIS FeatureServer (exports to CSV, FGDB, GeoJSON)"
+  landing_url: "https://cofgis.fairfaxva.gov/server/rest/services/Hosted/PropertyOwners/FeatureServer"
+  endpoint_url: "https://cofgis.fairfaxva.gov/server/rest/services/Hosted/PropertyOwners/FeatureServer/0"
+  parcel_key: "parcelid / pin / accountnumber"
+  update_frequency: "edited 2026-09-28"
+  history_start: "Current values (probably 2026)"
+  terms: "None stated"
+  notes: "9,742 rows: parcel ID, PIN, account, current land, building and total values, up to 3 owner names, owner mailing address, situs address, legal description (ends with deed book-page), year built, property type, zoning, land use, flood and RPA. Has an isprivateownerflag field, so honor owner privacy flags. Found through the city's public 'PropertyMailingList' and 'Public_Property_Info_App_Map' web maps. Supersedes fairfax_city_giscama (Feb 2025)."
+  evidence_urls:
+    - "https://cofgis.fairfaxva.gov/server/rest/services/Hosted/PropertyOwners/FeatureServer/0"
+  verified_at: "2026-10-12"
+
+- source_id: fairfax_county_parcelplus_sales
+  jurisdiction: fairfax_county
+  custodian: "DTA via DIT-GIS"
+  dataset_name: "ParcelPLUS Sales Data"
+  quoin_sections: [transfer, deed_reference]
+  access_type: api
+  cost: free
+  format: "ArcGIS MapServer table"
+  landing_url: "https://www.fairfaxcounty.gov/gispub1/rest/services/GIS/ParcelPlusSales/MapServer"
+  endpoint_url: "https://www.fairfaxcounty.gov/gispub1/rest/services/GIS/ParcelPlusSales/MapServer/0"
+  parcel_key: "PARID"
+  update_frequency: unknown
+  history_start: unknown
+  terms: "GIS disclaimer"
+  notes: "About 1.44M sales with a CPAN_URL deed link per sale; no owner names (the WHO field is an audit user). Complements fairfax_county_dta_re_sales."
+  evidence_urls:
+    - "https://www.fairfaxcounty.gov/gispub1/rest/services/GIS/ParcelPlusSales/MapServer/0"
+  verified_at: "2026-10-12"

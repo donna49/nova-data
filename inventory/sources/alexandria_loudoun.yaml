@@ -637,7 +637,123 @@
   update_frequency: unknown
   history_start: unknown
   terms: unknown
-  notes: "107,581 footprints with BTYPE, BUSE, BSIZE, BUNITS, STORIES, YEARBLT. A proxy for assessor building characteristics, which are lookup-only."
+  notes: "107,581 footprint rows on geoportal; the city's ArcGIS Online copy (services2.arcgis.com/ChYV69FhfjwkvRmy/.../Building/FeatureServer/0) has 35,896 buildings, 27,595 with YEARBLT. Fields: BTYPE, BUSE, BSIZE, BUNITS, STORIES, YEARBLT. Planning attributes, not CAMA. Needs a spatial join to parcels."
   evidence_urls:
     - "https://geoportal.alexandriava.gov/server/rest/services/Building/FeatureServer/1"
   verified_at: "2026-10-11"
+
+# ---------------- Added 2026-10-12: round-3 bulk sources ----------------
+- source_id: loudoun_cor_residential_dwelling_xlsx
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "2026 Residential Dwelling Data (XLSX)"
+  quoin_sections: [building]
+  access_type: bulk
+  cost: free
+  format: "XLSX (15.5 MB)"
+  landing_url: "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  endpoint_url: "https://www.loudoun.gov/DocumentCenter/View/212734"
+  parcel_key: "PARID (= PIN)"
+  update_frequency: "Annual (file stamped 2026-10-06)"
+  history_start: "Current year"
+  terms: "Commissioner's 'no warranties' disclaimer"
+  notes: "About 136K rows: PARID, CARD, STYLE, YRBLT, STORIES, living area, bedrooms, baths, half baths, fireplaces, attic, grade, condition, exterior wall, builder, model, % complete, basement and finished basement, foundation, heat, fuel. Closes Loudoun building characteristics without scraping."
+  evidence_urls:
+    - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  verified_at: "2026-10-12"
+
+- source_id: loudoun_cor_commercial_dwelling_xlsx
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "2026 Commercial Dwelling Data (XLSX)"
+  quoin_sections: [building]
+  access_type: bulk
+  cost: free
+  format: "XLSX (308 KB)"
+  landing_url: "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  endpoint_url: "https://www.loudoun.gov/DocumentCenter/View/212732"
+  parcel_key: "Parcel ID"
+  update_frequency: "Annual"
+  history_start: "Current year"
+  terms: "Commissioner's 'no warranties' disclaimer"
+  notes: "4,157 rows: parcel ID, card, occupancy, structure code, year built, effective year, square feet, state class, foundation, roof."
+  evidence_urls:
+    - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  verified_at: "2026-10-12"
+
+- source_id: loudoun_cor_assessed_values_xlsx
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "2026 Assessed Values - Countywide and ADU (XLSX)"
+  quoin_sections: [assessment, tax]
+  access_type: bulk
+  cost: free
+  format: "XLSX (12.1 MB; COUNTYWIDE and ADU sheets)"
+  landing_url: "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  endpoint_url: "https://www.loudoun.gov/DocumentCenter/View/212731"
+  parcel_key: "PARID"
+  update_frequency: "Annual"
+  history_start: "Current year only (prior years are not posted; save a copy each year)"
+  terms: "Commissioner's 'no warranties' disclaimer"
+  notes: "151,121 parcels plus 1,650 ADUs: class, fair-market land, building and total, land-use value, deferred value, exemption, taxable land, building and total, estimated tax."
+  evidence_urls:
+    - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  verified_at: "2026-10-12"
+
+- source_id: loudoun_cor_owner_legal_address_xlsx
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "2026 Owner Legal Address Data (XLSX)"
+  quoin_sections: [identity, ownership, land, special_assessment]
+  access_type: bulk
+  cost: free
+  format: "XLSX (36.8 MB)"
+  landing_url: "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  endpoint_url: "https://www.loudoun.gov/DocumentCenter/View/212733"
+  parcel_key: "PARID (assumed)"
+  update_frequency: "Annual"
+  history_start: "Current year"
+  terms: "Commissioner's 'no warranties' disclaimer"
+  notes: "153,827 rows: PARID, 'Hide Name' privacy flag, acres, OWN1/OWN2, care-of, owner mailing address, property address, LEGAL1-3, election and billing district, permanent open space, TAXDIST, class, neighborhood, zoning, state use class, occupancy, special tax district (and partial acreage). Honor the Hide Name flag."
+  evidence_urls:
+    - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  verified_at: "2026-10-12"
+
+- source_id: loudoun_cor_sales_cumulative
+  jurisdiction: loudoun
+  custodian: "Commissioner of the Revenue"
+  dataset_name: "Real Property Sales Cumulative Report (one XLSX per year, 2013-2024)"
+  quoin_sections: [transfer, deed_reference, ownership]
+  access_type: bulk
+  cost: free
+  format: "XLSX per year (layout differs by year)"
+  landing_url: "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  endpoint_url: "https://www.loudoun.gov/DocumentCenter/View/190095"
+  parcel_key: "PARID / PIN"
+  update_frequency: "Annual (no 2025 cumulative file yet)"
+  history_start: "2013"
+  terms: "Commissioner's 'no warranties' disclaimer"
+  notes: "The endpoint is the 2024 file (11,846 sales). 2024 fields: JUR, SALEKEY, PARID, INSTRUMENT#, RECORD DATE, PRICE, # OF PARCELS, OLD OWNER, NEW OWNER, SALE TYPE, SALE VERIFICATION. 2020-2024 DocumentCenter IDs: 162688, 164604, 168667, 177682, 190095 (162688 may return HTML, so use the Laserfiche copy). 2013-2020 are in the public Laserfiche folder https://lfportal.loudoun.gov/LFPortalInternet/0/fol/1952627/Row1.aspx (doc IDs 1952628-1952634 and 1973751; the 2013 file has 22,326 rows plus SFLA and zoning). Map columns per year. For 2025 onward, use loudoun_gisfs_latest_sale."
+  evidence_urls:
+    - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+    - "https://lfportal.loudoun.gov/LFPortalInternet/0/fol/1952627/Row1.aspx"
+  verified_at: "2026-10-12"
+
+- source_id: loudoun_gisfs_latest_sale
+  jurisdiction: loudoun
+  custodian: "OMAGI (from Commissioner of the Revenue data)"
+  dataset_name: "Latest sale price and date per parcel (GISFS table)"
+  quoin_sections: [transfer]
+  access_type: api
+  cost: free
+  format: "ArcGIS MapServer table"
+  landing_url: "https://logis.loudoun.gov/gis/rest/services/COL/FSview_PRM_inter/MapServer"
+  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/COL/FSview_PRM_inter/MapServer/11"
+  parcel_key: "PIN_NO"
+  update_frequency: "About daily (newest sale 2026-10-07 when checked)"
+  history_start: "Latest sale only"
+  terms: "GIS disclaimer"
+  notes: "156,899 rows: PIN_NO, LATEST_SALE_PRICE, LATEST_SALE_DATE. No instrument number or parties. Fills 2025 to now until the next cumulative report is posted."
+  evidence_urls:
+    - "https://logis.loudoun.gov/gis/rest/services/COL/FSview_PRM_inter/MapServer/11"
+  verified_at: "2026-10-12"

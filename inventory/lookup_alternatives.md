@@ -77,3 +77,39 @@ As of 2026-10-11.
    - Fairfax County: an owner extract, plus a public view of the Development Tracker layers
    - Treasurer files for Alexandria, Arlington and the City of Fairfax
 4. **Large per-parcel crawls, only if FOIA fails:** Loudoun iasWorld (sales and building) and Fairfax iCARE (owners).
+
+## Round 3 (2026-10-12): more whole-dataset sources
+
+A third pass looked for **bulk files only**, closing gaps without per-parcel collection. Every source below was sampled; see `samples/`.
+
+| Gap closed | Source (`source_id`) | Rows | Notes |
+|---|---|---|---|
+| Loudoun building characteristics | `loudoun_cor_residential_dwelling_xlsx`, `loudoun_cor_commercial_dwelling_xlsx` | 136,308 + 4,157 | Commissioner's 2026 XLSX files. **Replaces the iasWorld crawl.** |
+| Loudoun current values and estimated tax | `loudoun_cor_assessed_values_xlsx` | 151,121 | 2026 only. Save a copy each year to build history. |
+| Loudoun owners, legal, districts | `loudoun_cor_owner_legal_address_xlsx` | 153,827 | Has a "Hide Name" flag; honor it |
+| Loudoun sales 2013–2024 | `loudoun_cor_sales_cumulative` | 11,846 (2024) | Instrument #, price, old/new owner. Yearly layouts differ. |
+| Loudoun latest sale, 2025 to now | `loudoun_gisfs_latest_sale` | 156,899 | Updated daily; price and date only |
+| Arlington owner names | `arlington_permit_bulk_file` (PropertyOwnerName, not redacted) and `arlington_re_sales_history` (granteeName) | about 355K / 312K | Owner as of the permit or sale date |
+| Arlington delinquency | `arlington_payment_summary_bulk_file` | 138 MB | Sum each installment's rows to get unpaid balances |
+| City of Fairfax owners, 2026 values, year built, deed book-page | `fairfax_city_property_owners` (cofgis server) | 9,742 | Has `isprivateownerflag`. **Replaces the Patriot grid crawl** for everything except sales history. |
+| Fairfax County sales with deed links | `fairfax_county_parcelplus_sales` | 1,444,890 | No owner names |
+| Falls Church stormwater fee and buildings | `falls_church_stormwater_fee_fy27`, `falls_church_building_footprints` | 4,839 / 6,301 | Proxies only |
+
+**Checked and found nothing usable:**
+- VGIN 2026 Local Schema Tables: owners for Alexandria only, and no values or sales for any of the six.
+- Virginia Tax: no parcel-level sales file.
+- data.virginia.gov: mirrors only.
+
+**Not used:**
+- Fairfax `gisint1/.../PLUSGISRecords`: it looks like an internal backend, so it isn't cleared for public use.
+- The City of Fairfax delinquent PDF: the site blocks scripts, so download it in a browser.
+- Internet Archive copies of old Falls Church sales files: the Wayback Machine was unreachable from this environment.
+
+### Remaining gaps (FOIA or request only)
+
+| Jurisdiction | What's missing | Contact |
+|---|---|---|
+| Fairfax County | Owner names (old Owner table withdrawn), delinquent list, code-compliance cases | DTA DTARED@fairfaxcounty.gov; Code Compliance |
+| Alexandria | Sales history, assessment history, building CAMA, delinquent list (Va. Code 58.1-3924) | GovQA (alexandriava.mycusthelp.com) or FOIArequests@alexandriava.gov; realestate@alexandriava.gov |
+| Falls Church | 2026 land book (owners, values, characteristics), 2025 sales file, Treasurer delinquency, permits, code cases | fallschurchva.gov/387; Assessor 703-248-5022 |
+| City of Fairfax | Sales price and date history, code cases | Real Estate Assessments; Code Administration |

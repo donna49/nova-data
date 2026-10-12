@@ -18,6 +18,7 @@ import json
 import sys
 import urllib.parse
 import urllib.request
+import zlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -79,8 +80,11 @@ def validate(sources):
     return errors
 
 
-def fetch(url, timeout=60):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+def fetch(url, timeout=60, byte_range=None):
+    headers = {"User-Agent": UA}
+    if byte_range:
+        headers["Range"] = f"bytes=0-{byte_range - 1}"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.status, resp.headers.get("Content-Type", ""), resp.read()
 
@@ -144,12 +148,42 @@ def sample_generic(url, limit):
     return rows[:limit], len(rows), "csv"
 
 
+def sample_gzip_text(url, limit):
+    # Large gzipped pipe/CSV files: read only the first 2 MB and decompress what we can.
+    _, _, body = fetch(url, byte_range=2_000_000)
+    text = zlib.decompressobj(31).decompress(body).decode("utf-8-sig", errors="replace")
+    lines = text.splitlines()[: limit + 1]
+    delim = "|" if lines[0].count("|") > lines[0].count(",") else ","
+    rows = list(csv.DictReader(lines, delimiter=delim))
+    return rows[:limit], None, "csv"
+
+
+def sample_xlsx(url, limit):
+    import openpyxl  # only needed for spreadsheet sources
+
+    _, _, body = fetch(url, timeout=180)
+    wb = openpyxl.load_workbook(io.BytesIO(body), read_only=True, data_only=True)
+    ws = wb.worksheets[0]
+    it = ws.iter_rows(values_only=True)
+    header = [str(h) if h is not None else f"col{i}" for i, h in enumerate(next(it))]
+    rows = []
+    for values in it:
+        if len(rows) >= limit:
+            break
+        rows.append({h: (v.isoformat() if hasattr(v, "isoformat") else v) for h, v in zip(header, values)})
+    return rows, ws.max_row - 1 if ws.max_row else None, "json"
+
+
 def pull(source, limit):
     url = source["endpoint_url"]
     if "/FeatureServer/" in url or "/MapServer/" in url:
         rows, count, kind = sample_arcgis(url, limit)
     elif "datahub-v2.arlingtonva.us/api/" in url:
         rows, count, kind = sample_odata(url, limit)
+    elif url.endswith(".gz"):
+        rows, count, kind = sample_gzip_text(url, limit)
+    elif "xlsx" in (source.get("format") or "").lower():
+        rows, count, kind = sample_xlsx(url, limit)
     elif "/resource/" in url and url.split("?")[0].endswith(".json"):
         rows, count, kind = sample_socrata(url, limit)
     else:
