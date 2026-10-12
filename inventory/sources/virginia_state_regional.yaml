@@ -22,6 +22,7 @@
     - "https://law.lis.virginia.gov/vacode/17.1-294/"
     - "https://alexandriava.gov/courtrecords"
     - "https://alexandriava.gov/sites/default/files/2024-08/remote_access_subscriber_agreement_-_covers_-_alexandria_clerk_of_circuit_court.pdf"
+  official_source: "Clerk of the Circuit Court of the City of Alexandria"
   verified_at: "2026-10-11"
 
 - source_id: va_arlington_circuit_court_land_records
@@ -44,6 +45,7 @@
     - "https://www.arlingtonva.us/Government/Departments/Courts/Circuit-Court/Land-Records"
     - "https://www.arlingtonva.us/Government/Departments/Courts/Circuit-Court/Land-Records/Land-Records-FAQs"
     - "https://landrec.arlingtonva.us/public/sign-up-instructions.html"
+  official_source: "Clerk of the Circuit Court of Arlington County"
   verified_at: "2026-10-11"
 
 - source_id: va_fairfax_circuit_court_cpan
@@ -66,6 +68,7 @@
     - "https://www.fairfaxcounty.gov/circuit/land-records/research"
     - "https://www.fairfaxcounty.gov/circuit/land-records/general-information"
     - "https://www.insidenova.com/headlines/amid-push-for-online-access-to-court-records-fairfax-county-paywall-stands-alone/article_a559ed40-5c29-11ec-95b2-e7f41d404e0a.html"
+  official_source: "Clerk of the Circuit Court of Fairfax County"
   verified_at: "2026-10-11"
 
 - source_id: va_loudoun_circuit_court_lrms_remote
@@ -87,6 +90,7 @@
   evidence_urls:
     - "https://www.loudoun.gov/6256/Land-Records-Remote-Access"
     - "https://www.loudoun.gov/CivicAlerts.asp?AID=10132"
+  official_source: "Clerk of the Circuit Court of Loudoun County"
   verified_at: "2026-10-11"
 
 - source_id: va_tax_assessment_sales_ratio_study
@@ -108,6 +112,7 @@
     - "https://www.tax.virginia.gov/node/15"
     - "https://www.tax.virginia.gov/sites/default/files/inline-files/2023-assessment-sales-ratio-study.pdf"
   in_matrix: false  # locality aggregates only
+  official_source: "Virginia Department of Taxation"
   verified_at: "2026-10-11"
 
 - source_id: va_tax_local_tax_rates
@@ -128,6 +133,7 @@
   evidence_urls:
     - "https://prd-tax.virginiainteractive.org/sites/default/files/inline-files/2024-local-tax-rates.pdf"
   in_matrix: false  # rate table, not parcel records
+  official_source: "Virginia Department of Taxation"
   verified_at: "2026-10-11"
 
 - source_id: va_vgin_statewide_parcels
@@ -147,6 +153,8 @@
   notes: "Host moved: gismaps.vdem.virginia.gov is unreachable, and the service is now on vginmaps.vdem.virginia.gov. Minimal attributes."
   evidence_urls:
     - "https://gismaps.vdem.virginia.gov/arcgis/rest/services/VA_Base_Layers/VA_Parcels/MapServer/0"
+  official_source: "Virginia Department of Emergency Management, Virginia Geographic Information Network"
+  query_where: "FIPS IN ('51013','51059','51107','51510','51600','51610')"
   verified_at: "2026-10-11"
 
 - source_id: va_vgin_parcel_local_schema_tables
@@ -158,7 +166,7 @@
   cost: free
   format: "ArcGIS tables, one per locality"
   landing_url: "https://vgin.vdem.virginia.gov/pages/cl-data-download"
-  endpoint_url: null
+  endpoint_url: "https://www.arcgis.com/sharing/rest/content/items/523d89ebf23d4d84957f9fe5b9158bd9/data"
   parcel_key: VGIN_QPID
   update_frequency: "Twice a year"
   history_start: unknown
@@ -167,6 +175,7 @@
   evidence_urls:
     - "https://cmap22.vims.edu/arcgis/rest/services/VirginiaAndBaywide/VirginiaParcelsAndTables/MapServer"
   in_matrix: false  # per-locality columns unverified
+  official_source: "Virginia Department of Emergency Management, Virginia Geographic Information Network"
   verified_at: "2026-10-11"
 
 - source_id: va_open_data_portal
@@ -187,6 +196,7 @@
   evidence_urls:
     - "https://data.virginia.gov/about"
   in_matrix: false  # catalog/aggregator
+  official_source: "Virginia Office of Data Governance and Analytics"
   verified_at: "2026-10-11"
 
 - source_id: va_dpor_license_lookup
@@ -206,6 +216,7 @@
   notes: "Links to permits through contractor license numbers. No property key."
   evidence_urls:
     - "https://dporweb.dpor.virginia.gov/LicenseLookup/"
+  official_source: "Virginia Department of Professional and Occupational Regulation"
   verified_at: "2026-10-11"
 
 - source_id: va_dpor_regulant_lists
@@ -225,6 +236,7 @@
   notes: "No free direct download was confirmed."
   evidence_urls:
     - "https://www.dpor.virginia.gov/RecordsandDocuments"
+  official_source: "Virginia Department of Professional and Occupational Regulation"
   verified_at: "2026-10-11"
 
 - source_id: va_abc_licensees
@@ -244,6 +256,7 @@
   notes: "Equivalent to D.C.'s ABCA dataset. The site returns HTTP 403 to automated requests (checked 2026-10-11), so the XLS has to be downloaded manually in a browser or requested. Records carry premises addresses that need geocoding."
   evidence_urls:
     - "https://www.abc.virginia.gov/licenses/find-a-license"
+  official_source: "Virginia Alcoholic Beverage Control Authority"
   verified_at: "2026-10-11"
 
 - source_id: va_cca_pharmaceutical_processors
@@ -263,6 +276,7 @@
   notes: "Northern Virginia is Health Service Area 2. No adult-use retail licenses have been issued. Equivalent to D.C.'s ABCA cannabis lists."
   evidence_urls:
     - "https://cca.virginia.gov/medicalcannabis/processors"
+  official_source: "Virginia Cannabis Control Authority"
   verified_at: "2026-10-11"
 
 - source_id: va_scc_cis_entity_search
@@ -282,6 +296,7 @@
   notes: "Used to resolve LLC and corporate owners. No official URL appeared in search results; the host name comes from third-party descriptions."
   evidence_urls:
     - "https://browse.sh/skills/cis.scc.virginia.gov/business-search-pg5zpn"
+  official_source: "Virginia State Corporation Commission, Clerk's Office"
   verified_at: "2026-10-11"
 
 - source_id: va_scc_entity_bulk_extract
@@ -301,6 +316,7 @@
   notes: "Unreachable (TLS failure on the appspre staging host, 2026-10-11). Confirm the price with the SCC directly."
   evidence_urls:
     - "https://appspre.scc.virginia.gov/clk/purch.aspx"
+  official_source: "Virginia State Corporation Commission, Clerk's Office"
   verified_at: null
 
 - source_id: va_dhcd_usbc_permit_levy_reports
@@ -321,6 +337,7 @@
   evidence_urls:
     - "https://dhcd.virginia.gov/index.php/levy"
   in_matrix: false  # state aggregates only
+  official_source: "Virginia Department of Housing and Community Development"
   verified_at: "2026-10-11"
 
 - source_id: va_sleac_use_value_estimates
@@ -341,6 +358,7 @@
   evidence_urls:
     - "https://luva.aaec.vt.edu/about/"
   in_matrix: false  # per-acre rate tables, not parcel records
+  official_source: "Virginia State Land Evaluation Advisory Council"
   verified_at: "2026-10-11"
 
 - source_id: regional_mwcog_taz_cooperative_forecast
@@ -361,6 +379,7 @@
   evidence_urls:
     - "https://gis.mwcog.org/wa/rest/services/RTDC/TAZ/MapServer?f=pjson"
   in_matrix: false  # TAZ-level, not parcel records
+  official_source: "Metropolitan Washington Council of Governments"
   verified_at: "2026-10-11"
 
 - source_id: regional_mwcog_commercial_construction_indicators
@@ -381,6 +400,7 @@
   evidence_urls:
     - "https://www.mwcog.org/documents/2026/04/06/commercial-construction-indicators-report--commercial-construction-communities-economy-growth--development/?print=y"
   in_matrix: false  # aggregate report
+  official_source: "Metropolitan Washington Council of Governments"
   verified_at: "2026-10-11"
 
 - source_id: regional_bright_mls
@@ -401,4 +421,5 @@
   evidence_urls:
     - "https://virginiarealtors.org/research/data/"
   in_matrix: false  # not a public record
+  official_source: "Bright MLS (private, not a public record)"
   verified_at: "2026-10-11"

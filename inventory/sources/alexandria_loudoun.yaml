@@ -21,6 +21,7 @@
   evidence_urls:
     - "https://www.alexandriava.gov/go/1787"
     - "https://data.amerigeoss.org/it/dataset/alexandria-parcels"
+  official_source: "City of Alexandria Department of Information Technology Services, GIS Division"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_parcels_gis
@@ -40,6 +41,7 @@
   notes: "Much richer than expected. Fields include PID, account number, address, INSTRUMENT, PLAT, LANDCODE, ZONING, NEIGHBORHO, LAND_SF, current-year land, improvement and total assessed values (LAND_CYR, IMP_CYR, TOT_CYR), and owner name and mailing address (OWN_NAME, OWN_ADD, OWNERNAME2). Current year only, no history or sales."
   evidence_urls:
     - "https://geoportal.alexandriava.gov/server/rest/services/Hosted/CAD_Parcels/FeatureServer/0/metadata"
+  official_source: "City of Alexandria Office of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_zoning_gis
@@ -59,6 +61,7 @@
   notes: "Mirror records point back to the AlexGIS Hub."
   evidence_urls:
     - "https://data.amerigeoss.org/dataset/zoning"
+  official_source: "City of Alexandria Department of Planning and Zoning"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_real_estate_assessment_search
@@ -79,6 +82,7 @@
   evidence_urls:
     - "https://www.alexandriava.gov/go/1312"
   collection: "robots_disallowed"
+  official_source: "City of Alexandria Office of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_assessment_bulk_request
@@ -98,6 +102,7 @@
   notes: "Placeholder. Request through VFOIA or realestate@alexandriava.gov."
   evidence_urls:
     - "https://www.alexandriava.gov/go/1312"
+  official_source: "City of Alexandria Office of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_real_estate_tax_lookup
@@ -118,6 +123,7 @@
   evidence_urls:
     - "https://www.alexandriava.gov/go/7448"
   collection: "robots_disallowed"
+  official_source: "City of Alexandria Department of Finance"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_tax_sales
@@ -137,6 +143,7 @@
   notes: "No official page was found; the landing URL is a news article."
   evidence_urls:
     - "https://www.alxnow.com/?p=57069"
+  official_source: "City of Alexandria Department of Finance"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_special_tax_districts
@@ -156,6 +163,7 @@
   notes: "No boundary layer was found. Current rates and member parcels must come from the budget. No business improvement districts."
   evidence_urls:
     - "https://pub.alexandriava.gov/cityor/0/edoc/58157/Ord.%20No.%204722.pdf"
+  official_source: "City of Alexandria Department of Finance"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_apex_permits
@@ -176,6 +184,7 @@
   evidence_urls:
     - "https://www.alexandriava.gov/go/2596"
   collection: "bulk_alternative"
+  official_source: "City of Alexandria Department of Code Administration"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_code_admin_monthly_reports
@@ -196,6 +205,7 @@
   evidence_urls:
     - "https://alexandriava.gov/Code"
   in_matrix: false  # aggregate counts only
+  official_source: "City of Alexandria Department of Code Administration"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_residential_rental_inspection
@@ -215,6 +225,7 @@
   notes: "About 4,048 properties. Results are not published."
   evidence_urls:
     - "https://www.alexandriava.gov/go/6911"
+  official_source: "City of Alexandria Department of Code Administration"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_property_maintenance_complaints
@@ -234,6 +245,7 @@
   notes: "No open 311 dataset. Use VFOIA."
   evidence_urls:
     - "https://alexandriava.gov/Alex311"
+  official_source: "City of Alexandria Department of Code Administration"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_bpol_business_tax_portal
@@ -253,6 +265,7 @@
   notes: "No public licensee list."
   evidence_urls:
     - "https://alexandriava.gov/BusinessTax"
+  official_source: "City of Alexandria Department of Finance"
   verified_at: "2026-10-11"
 
 # ---------------- LOUDOUN COUNTY ----------------
@@ -274,6 +287,7 @@
   evidence_urls:
     - "https://www.loudoun.gov/1776/GeoHub-and-Other-Online-Resources"
     - "https://logishub.loudoun.gov/"
+  official_source: "Loudoun County Office of Mapping and Geographic Information"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_parcels_gis
@@ -293,6 +307,7 @@
   notes: "LandRecords layer 5 is Parcel Boundaries (layer 0 is tile boundaries). The same service has Address Points (2), Subdivisions (7), Master Address List (8) and Parcel XY (9). Some polygons are leaseholds or easements."
   evidence_urls:
     - "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/0/iteminfo"
+  official_source: "Loudoun County Office of Mapping and Geographic Information"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_zoning_gis
@@ -312,6 +327,7 @@
   notes: "Layer 3 is current zoning, 1 is the 1972 ordinance, 0 is Leesburg and 5 is ZMAP rezonings."
   evidence_urls:
     - "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer"
+  official_source: "Loudoun County Department of Planning and Zoning"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_land_use_buildout
@@ -331,6 +347,7 @@
   notes: "Layer 2 is Residential Communities. A planning-oriented dataset."
   evidence_urls:
     - "https://catalog.data.gov/dataset/loudoun-land-use-existing-structures"
+  official_source: "Loudoun County Department of Planning and Zoning"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_buildings_address_points
@@ -338,11 +355,11 @@
   custodian: "OMAGI"
   dataset_name: "Loudoun building footprints and address points"
   quoin_sections: [identity, building]
-  access_type: bulk
+  access_type: "api"
   cost: free
   format: "Shapefile, CSV, GeoJSON, KML"
   landing_url: "https://logis.loudoun.gov/metadata/Address.html"
-  endpoint_url: null
+  endpoint_url: "https://logis.loudoun.gov/gis/rest/services/COL/LandRecords/MapServer/2"
   parcel_key: null
   update_frequency: "Address points daily"
   history_start: unknown
@@ -350,6 +367,7 @@
   notes: "Footprints are geometry only, with no building characteristics."
   evidence_urls:
     - "https://catalog.data.gov/dataset/loudoun-address-points-c1eaa"
+  official_source: "Loudoun County Office of Mapping and Geographic Information"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_parcel_database_cor
@@ -370,6 +388,7 @@
   evidence_urls:
     - "https://reparcelasmt.loudoun.gov/pt/search/commonsearch.aspx?mode=parid"
   collection: "scrape_feasible"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_cor_land_book_reports
@@ -389,6 +408,7 @@
   notes: "The detail PDFs are the closest thing to a bulk assessment roll and need PDF parsing. The FOIA page also covers bulk-data requests."
   evidence_urls:
     - "https://www.loudoun.gov/3864/Virginia-Freedom-of-Information-Act-FOIA"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_route28_tax_district_reports
@@ -408,6 +428,7 @@
   notes: "1,537 taxable parcels in 2025. The detail lists PIN, owner, acreage and values."
   evidence_urls:
     - "https://www.loudoun.gov/DocumentCenter/View/213072/2025-Route-28-Tax-District-Report-PDF"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_metrorail_service_districts
@@ -427,6 +448,7 @@
   notes: "Every parcel inside a district pays the special rate."
   evidence_urls:
     - "https://data.amerigeoss.org/dataset/loudoun-metrorail-service-districts-4f0d1"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_treasurer_tax_payments
@@ -447,6 +469,7 @@
   evidence_urls:
     - "https://www.loudoun.gov/1911/Taxes-in-Loudoun-County"
   collection: "bulk_alternative"
+  official_source: "Loudoun County Treasurer"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_tax_sales
@@ -466,6 +489,7 @@
   notes: "No standing delinquent list."
   evidence_urls:
     - "https://www.loudoun.gov/1918/Tax-Sales"
+  official_source: "Loudoun County Treasurer"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_landmarc_permits
@@ -486,6 +510,7 @@
   evidence_urls:
     - "https://www.loudoun.gov/LandMarc"
   collection: "bulk_alternative"
+  official_source: "Loudoun County Department of Building and Development"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_building_permit_applications_gis
@@ -505,6 +530,7 @@
   notes: "Residential units only."
   evidence_urls:
     - "https://catalog.data.gov/dataset/building-permit-applications-2022"
+  official_source: "Loudoun County Department of Planning and Zoning"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_zoning_code_enforcement
@@ -524,6 +550,7 @@
   notes: "No case-history search. Use VFOIA."
   evidence_urls:
     - "https://www.loudoun.gov/1751/Reporting-Zoning-Violations"
+  official_source: "Loudoun County Department of Building and Development"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_bpol_licensee_list
@@ -543,6 +570,7 @@
   notes: "The full list has names only. An opt-in list with business details is available on request."
   evidence_urls:
     - "https://www.loudoun.gov/FAQ.aspx?TID=57"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-11"
 
 # ---------------- Added 2026-10-11 from live service discovery (ALEXANDRIA) ----------------
@@ -563,6 +591,7 @@
   notes: "Fields: PLANNUMBER, DESCRIPTION, PlanStatus, GISAdd and URL (a link to the record). Land-use approvals only, not building permits."
   evidence_urls:
     - "https://geoportal.alexandriava.gov/server/rest/services?f=json"
+  official_source: "City of Alexandria Department of Planning and Zoning"
   verified_at: "2026-10-11"
 
 # ---------------- Added 2026-10-11: bulk alternatives to lookup-only portals ----------------
@@ -583,6 +612,9 @@
   notes: "Directory: https://interwapp22.loudoun.gov/TreasurerPublicFiles/public/. The file name changes monthly (e.g. OutstandingRealEstate_082026_IncludesDelinquentAmts-GoodThru_10052026.CSV). Fields: account #, PIN, account (owner) name, mailing/situs address, bill ref, tax year, installment, due date, tax due, relief, fees, penalty, interest, total due, total paid, lender. Gives Loudoun owner names, tax and delinquent amounts in bulk. endpoint_url is null because the file name rotates; list the directory first."
   evidence_urls:
     - "https://interwapp22.loudoun.gov/TreasurerPublicFiles/public/"
+  official_source: "Loudoun County Treasurer"
+  list_url: "https://interwapp22.loudoun.gov/TreasurerPublicFiles/public/"
+  list_pattern: "\\.(csv|xlsx)$"
   verified_at: "2026-10-11"
 
 - source_id: loudoun_landmarc_permits_gis
@@ -602,6 +634,7 @@
   notes: "Layer 1 is Permits Issued (568,228 rows) and layer 2 is Permits Submitted (6,155). Fields: PermitNumber, type, status, work class, apply/issue/finalize/expire dates, LASTINSPECTIONDATE, square feet, value, address, description, ParcelPIN. Has the last inspection date but no inspection detail, contractors or fees."
   evidence_urls:
     - "https://logis.loudoun.gov/gis/rest/services/LMARC/LandMARC_Permits/MapServer/1"
+  official_source: "Loudoun County Department of Building and Development"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_apex_energov_api
@@ -621,6 +654,7 @@
   notes: "POST https://apexselfservice.alexandriava.gov/EnerGov_Prod/SelfService/api/energov/search/search with headers tenantId: 1, tenantName: APEX, Tyler-TenantUrl: APEX and an EnerGov criteria body (Keyword, SearchModule, PageNumber, PageSize). A keyword search returned 47,046 permits, 83,988 inspections and 15,253 code cases. Searching by account number returns that parcel's records, so it can be looped over ACCOUNTNO (26-47K requests). A date-only bulk query is not yet working. The UI's Excel export is capped at 1,000 rows. Not sampled by pull_samples.py (POST API)."
   evidence_urls:
     - "https://apexselfservice.alexandriava.gov/EnerGov_Prod/SelfService#/home"
+  official_source: "City of Alexandria Department of Code Administration"
   verified_at: "2026-10-11"
 
 - source_id: alexandria_building_footprints
@@ -640,6 +674,7 @@
   notes: "107,581 footprint rows on geoportal; the city's ArcGIS Online copy (services2.arcgis.com/ChYV69FhfjwkvRmy/.../Building/FeatureServer/0) has 35,896 buildings, 27,595 with YEARBLT. Fields: BTYPE, BUSE, BSIZE, BUNITS, STORIES, YEARBLT. Planning attributes, not CAMA. Needs a spatial join to parcels."
   evidence_urls:
     - "https://geoportal.alexandriava.gov/server/rest/services/Building/FeatureServer/1"
+  official_source: "City of Alexandria Department of Planning and Zoning"
   verified_at: "2026-10-11"
 
 # ---------------- Added 2026-10-12: round-3 bulk sources ----------------
@@ -660,6 +695,7 @@
   notes: "About 136K rows: PARID, CARD, STYLE, YRBLT, STORIES, living area, bedrooms, baths, half baths, fireplaces, attic, grade, condition, exterior wall, builder, model, % complete, basement and finished basement, foundation, heat, fuel. Closes Loudoun building characteristics without scraping."
   evidence_urls:
     - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-12"
 
 - source_id: loudoun_cor_commercial_dwelling_xlsx
@@ -679,6 +715,7 @@
   notes: "4,157 rows: parcel ID, card, occupancy, structure code, year built, effective year, square feet, state class, foundation, roof."
   evidence_urls:
     - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-12"
 
 - source_id: loudoun_cor_assessed_values_xlsx
@@ -698,6 +735,7 @@
   notes: "151,121 parcels plus 1,650 ADUs: class, fair-market land, building and total, land-use value, deferred value, exemption, taxable land, building and total, estimated tax."
   evidence_urls:
     - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-12"
 
 - source_id: loudoun_cor_owner_legal_address_xlsx
@@ -717,6 +755,7 @@
   notes: "153,827 rows: PARID, 'Hide Name' privacy flag, acres, OWN1/OWN2, care-of, owner mailing address, property address, LEGAL1-3, election and billing district, permanent open space, TAXDIST, class, neighborhood, zoning, state use class, occupancy, special tax district (and partial acreage). Honor the Hide Name flag."
   evidence_urls:
     - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-12"
 
 - source_id: loudoun_cor_sales_cumulative
@@ -737,6 +776,21 @@
   evidence_urls:
     - "https://www.loudoun.gov/3864/Commissioner-of-the-Revenue-Public-Recor"
     - "https://lfportal.loudoun.gov/LFPortalInternet/0/fol/1952627/Row1.aspx"
+  official_source: "Loudoun County Commissioner of the Revenue"
+  session_url: "https://lfportal.loudoun.gov/LFPortalInternet/0/fol/1952627/Row1.aspx"
+  download_urls:
+    - {name: "sales_2013.xlsx", url: "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952633/report.xlsx"}
+    - {name: "sales_2014.xlsx", url: "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952628/report.xlsx"}
+    - {name: "sales_2015.xlsx", url: "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952634/report.xlsx"}
+    - {name: "sales_2016.xlsx", url: "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952632/report.xlsx"}
+    - {name: "sales_2017.xlsx", url: "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952631/report.xlsx"}
+    - {name: "sales_2018.xlsx", url: "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952629/report.xlsx"}
+    - {name: "sales_2019.xlsx", url: "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952630/report.xlsx"}
+    - {name: "sales_2020.xlsx", url: "https://www.loudoun.gov/DocumentCenter/View/162688"}
+    - {name: "sales_2021.xlsx", url: "https://www.loudoun.gov/DocumentCenter/View/164604"}
+    - {name: "sales_2022.xlsx", url: "https://www.loudoun.gov/DocumentCenter/View/168667"}
+    - {name: "sales_2023.xlsx", url: "https://www.loudoun.gov/DocumentCenter/View/177682"}
+    - {name: "sales_2024.xlsx", url: "https://www.loudoun.gov/DocumentCenter/View/190095"}
   verified_at: "2026-10-12"
 
 - source_id: loudoun_gisfs_latest_sale
@@ -756,4 +810,5 @@
   notes: "156,899 rows: PIN_NO, LATEST_SALE_PRICE, LATEST_SALE_DATE. No instrument number or parties. Fills 2025 to now until the next cumulative report is posted."
   evidence_urls:
     - "https://logis.loudoun.gov/gis/rest/services/COL/FSview_PRM_inter/MapServer/11"
+  official_source: "Loudoun County Commissioner of the Revenue"
   verified_at: "2026-10-12"

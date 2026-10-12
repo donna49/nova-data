@@ -38,7 +38,7 @@ ACCESS_TYPES = {"bulk", "api", "portal_search", "request_only", "paid"}
 COLLECTION = {"bulk_alternative", "scrape_feasible", "robots_disallowed", "blocked", "request_only"}
 REQUIRED = [
     "source_id", "jurisdiction", "custodian", "dataset_name", "quoin_sections",
-    "access_type", "landing_url",
+    "access_type", "landing_url", "official_source",
 ]
 JURISDICTIONS = {
     "arlington", "falls_church", "fairfax_county", "fairfax_city", "alexandria",

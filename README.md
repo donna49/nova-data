@@ -41,6 +41,8 @@ The goal is to know what has to be collected before building a NoVA equivalent.
 | `inventory/coverage_matrix.md` | Best available access for each jurisdiction and section. Generated; do not edit. |
 | `scripts/pull_samples.py` | Validates the catalog and pulls 100-row samples from bulk/API entries into `samples/<source_id>/` |
 | `scripts/build_coverage.py` | Regenerates the coverage matrix |
+| `scripts/download_all.py` | Downloads every free bulk/API source in full, with `official_source` provenance (see `AGENTS.md`) |
+| `AGENTS.md` | Instructions for coding agents: how to run the full download, the output contract, and the rules |
 | `inventory/lookup_alternatives.md` | Bulk and scripted alternatives for each lookup-only site, with verdicts, volumes and constraints |
 
 ```sh
@@ -59,7 +61,8 @@ These are modeled on Quoin's own source catalog.
 | `source_id` | Unique ID for the entry |
 | `jurisdiction` | One of the six slugs, or `virginia_state` / `regional` |
 | `covers` | The local jurisdictions a state or regional entry applies to. If absent, it applies to all six. |
-| `custodian` | The office that holds the records |
+| `custodian` | The office that holds the records (working notes) |
+| `official_source` | Full official name of that office, e.g. "Fairfax County Department of Tax Administration". Required; carried into downloads as provenance. |
 | `dataset_name` | Name of the dataset or system |
 | `quoin_sections` | Which of the 13 sections it supplies |
 | `access_type` | How the data can be obtained (see below) |

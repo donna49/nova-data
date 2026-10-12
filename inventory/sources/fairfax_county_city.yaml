@@ -24,6 +24,7 @@
   notes: "Fields: PARID, TAXYR, LIVUNIT, LOCATION_DESC, STREET1_DESC, LUC_DESC, UTIL*_DESC, ZONING_DESC. No owner fields. About 370K rows."
   evidence_urls:
     - "https://catalog.data.gov/dataset/tax-administrations-real-estate-parcels-data-cc892/resource/301cf19c-dec2-4995-9c5f-2283fb9081ba"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_assessed_values
@@ -43,6 +44,7 @@
   notes: "Fields: APRLAND, APRBLDG, APRTOT (current) and PRILAND, PRIBLDG, PRITOT (prior year). Current and prior year only, so a longer history means saving a snapshot each year."
   evidence_urls:
     - "https://catalog.data.gov/dataset/tax-administrations-real-estate-assessed-values-08c4b/resource/9a6c4e6d-ecce-4898-8b11-deb51c823e0a"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_sales
@@ -62,6 +64,7 @@
   notes: "Fields: PARID, TAXYR, SALEDT, PRICE, BOOK, PAGE, SALEVAL_DESC. Deed book/page confirmed. About 1.44M rows. Older copies also exist in OpenData_A5/A6/A7/A4; the Hub points to these standalone services."
   evidence_urls:
     - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/OpenData_A5/FeatureServer/layers"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_owner
@@ -81,6 +84,7 @@
   notes: "Withdrawn. The old Data.gov/AmeriGEOSS record points to item 753448c6e45c434d97b61e77ea752079 on OpenData_A3 layer 2. The item no longer exists, Hub downloads return 400, and OpenData_A3 now holds only Easements (checked 2026-10-12). No other public county layer has owner fields. Route: FOIA or a data request to DTA Real Estate (DTARED@fairfaxcounty.gov, 703-222-8234)."
   evidence_urls:
     - "https://data.amerigeoss.org/dataset/tax-administrations-real-estate-owner-data-e2108"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_legal
@@ -100,6 +104,7 @@
   notes: "Site address, deeded land area and a tax district code. The code links each parcel to special tax districts (Tysons, Route 28, Dulles Rail)."
   evidence_urls:
     - "https://catalog.data.gov/dataset/tax-administrations-real-estate-legal-data-ffa92"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_land
@@ -119,6 +124,7 @@
   notes: "Land size in square feet and acres, plus land type."
   evidence_urls:
     - "https://catalog.data.gov/dataset/tax-administrations-real-estate-land-data-7de95"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_dwelling
@@ -138,6 +144,7 @@
   notes: "Year built, bedrooms, bathrooms, style. Equivalent to D.C. CAMA Residential."
   evidence_urls:
     - "https://catalog.data.gov/dataset/tax-administrations-real-estate-dwelling-data-d6034"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_dwelling_addition
@@ -157,6 +164,7 @@
   notes: "Decks, patios, porches and other additions."
   evidence_urls:
     - "https://catalog-old.data.gov/dataset/tax-administrations-real-estate-dwelling-addition-data-b7300"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_commercial
@@ -176,6 +184,7 @@
   notes: "Commercial building characteristics. Equivalent to D.C. CAMA Commercial."
   evidence_urls:
     - "https://catalog.data.gov/dataset/tax-administrations-real-estate-commercial-data-27d50"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_gis_parcels
@@ -195,6 +204,7 @@
   notes: "Geometry plus parcel ID and type only."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gispub1/rest/services/OpenData/OpenData_A9/MapServer/0"
+  official_source: "Fairfax County Department of Information Technology, GIS and Mapping Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_gis_master_address_repository
@@ -215,6 +225,7 @@
   evidence_urls:
     - "https://www.fairfaxcounty.gov/maps/node/294"
   collection: "bulk_alternative"
+  official_source: "Fairfax County Department of Information Technology, GIS and Mapping Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_icare_assessment
@@ -235,6 +246,7 @@
   evidence_urls:
     - "https://icare.fairfaxcounty.gov/"
   collection: "scrape_feasible"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_re_tax_payment
@@ -254,6 +266,7 @@
   notes: "No bulk billing data is published. To estimate bills, multiply the assessment by the published rates. The lookup is at fairfaxcounty.gov/dta_mobileepayre/."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/dta_mobileepayre/"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_tax_rate_fee_tables
@@ -273,6 +286,7 @@
   notes: "District levies: Tysons $0.05, Dulles Rail Phase 1 $0.09 and Phase 2 $0.18, Route 28 $0.14 (2024). The tables must be parsed from PDF."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/taxes/real-estate/tax-rates"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_gis_special_tax_areas
@@ -292,6 +306,7 @@
   notes: "Route 28, Dulles Rail Phases 1 and 2, Tysons and others."
   evidence_urls:
     - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Special_Tax_Areas/FeatureServer/0"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_tax_sale_auctions
@@ -311,6 +326,7 @@
   notes: "The county does not publish a delinquent list (Va. Code 58.1-3924 allows one but does not require it)."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/taxes/node/243"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_lds_recent_building_permits
@@ -331,6 +347,7 @@
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/5"
   collection: "request_only"
+  official_source: "Fairfax County Land Development Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_lds_certificate_of_occupancy
@@ -351,6 +368,7 @@
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/DevelopmentTracker/FeatureServer/6"
   collection: "request_only"
+  official_source: "Fairfax County Land Development Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_lds_building_records_plus
@@ -370,6 +388,7 @@
   notes: "About 141K building permit records from PLUS: RECORDID, APPTYPEALIAS, PARCEL_ID, status, submitted/accepted/issued/approved/closed dates, address and LINK_URL. Anonymous access, unlike DevelopmentTracker. History depth not yet checked."
   evidence_urls:
     - "https://datagov-harvest.app.cloud.gov/harvest_record/f1899e96-7ad5-4cbc-8b59-24ceb165d223"
+  official_source: "Fairfax County Land Development Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_plus_portal
@@ -390,6 +409,7 @@
   evidence_urls:
     - "https://www.fairfaxcounty.gov/plan2build/"
   collection: "scrape_feasible"
+  official_source: "Fairfax County Land Development Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dcc_code_cases
@@ -410,6 +430,7 @@
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gisint1/rest/services/PLUS/EnforcementMap/MapServer/layers"
   collection: "scrape_feasible"
+  official_source: "Fairfax County Department of Code Compliance"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_gis_zoning
@@ -429,6 +450,7 @@
   notes: "Covers the county plus the towns of Herndon and Vienna. The DTA Parcels table also carries a zoning code."
   evidence_urls:
     - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning/FeatureServer"
+  official_source: "Fairfax County Department of Planning and Development"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_gis_zoning_cases
@@ -448,6 +470,7 @@
   notes: "Rezoning and special-exception cases. Post-2000 is OpenData_A2 layer 2 and pre-2000 is layer 1; overlay districts are layer 3."
   evidence_urls:
     - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services/Zoning_Cases_Post_2000/FeatureServer"
+  official_source: "Fairfax County Department of Planning and Development"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_dta_bpol
@@ -467,6 +490,7 @@
   notes: "No public licensee dataset."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/bpol/BPOLDisclaimer.aspx"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_short_term_lodging_permits
@@ -486,6 +510,7 @@
   notes: "There is no countywide rental license; this permit is the closest registry. Nothing is published."
   evidence_urls:
     - "https://planning.org/knowledgebase/resource/9180282"
+  official_source: "Fairfax County Department of Planning and Development"
   verified_at: "2026-10-11"
 
 # ---------------- CITY OF FAIRFAX ----------------
@@ -507,6 +532,7 @@
   evidence_urls:
     - "https://fairfaxva.gov/government/real-estate/online-services/real-estate-assessment-database"
   collection: "scrape_feasible"
+  official_source: "City of Fairfax Office of Real Estate Assessments"
   verified_at: null
 
 - source_id: fairfax_city_gis_open_data_hub
@@ -526,6 +552,7 @@
   notes: "Fields: PIN, CPIN, subdivision, property type, ZONE1/ZONE2, proffer, existing and future land use, overlay, flood/RPA flags, DOCULINK; 9,742 records. It is in the same ArcGIS org as the city's CUE bus and problem-reporter maps, so probably official, but not confirmed. No values or owners."
   evidence_urls:
     - "https://fairfaxva.gov/government/information-technology/geographic-information-system"
+  official_source: "City of Fairfax Department of Information Technology, GIS"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_city_tax_portal
@@ -546,6 +573,7 @@
   evidence_urls:
     - "https://www.fairfaxva.gov/treasurer"
   collection: "blocked"
+  official_source: "City of Fairfax Treasurer"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_city_delinquent_taxpayer_lists
@@ -565,6 +593,7 @@
   notes: "The only published delinquent list among the six jurisdictions. Latest real estate list: https://www.fairfaxva.gov/files/ff8bf075-60aa-4156-a888-3983fc82fee3/040326-Real-Estate-Delinquent-Accounts-By-Name.pdf (as of 2026-04-03; columns Name, Map Number, Total Due; first owner only). fairfaxva.gov returns 403 to scripts (Akamai), so download it manually in a browser. Quarterly."
   evidence_urls:
     - "https://www.fairfaxva.gov/Property-Business/Taxes/Delinquent-Taxpayer-Lists"
+  official_source: "City of Fairfax Treasurer"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_city_permit_portal
@@ -585,6 +614,7 @@
   evidence_urls:
     - "https://fairfaxva.gov/home/showpublisheddocument/19065/637825023217870000"
   collection: "scrape_feasible"
+  official_source: "City of Fairfax Department of Code Administration"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_city_code_enforcement
@@ -604,6 +634,7 @@
   notes: "Accepts complaints only; no public case data. The landing page returned 404 and the site blocks automated requests (2026-10-11)."
   evidence_urls:
     - "https://fairfaxva.gov/government/code-administration/common-violations"
+  official_source: "City of Fairfax Department of Code Administration"
   verified_at: null
 
 - source_id: fairfax_city_business_license
@@ -623,6 +654,7 @@
   notes: "No public directory. Ask Revenue@fairfaxva.gov."
   evidence_urls:
     - "https://www.fairfaxva.gov/government/commissioner-of-the-revenue/business-license-tax"
+  official_source: "City of Fairfax Commissioner of the Revenue"
   verified_at: "2026-10-11"
 
 # ---------------- Added 2026-10-11 from live service discovery (FAIRFAX COUNTY) ----------------
@@ -643,6 +675,7 @@
   notes: "Site and grading plan records from PLUS. Found by listing the county ArcGIS org."
   evidence_urls:
     - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services?f=json"
+  official_source: "Fairfax County Land Development Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_county_plus_zoning_applications
@@ -662,6 +695,7 @@
   notes: "Found by listing the county ArcGIS org."
   evidence_urls:
     - "https://services1.arcgis.com/ioennV6PpG5Xodq0/ArcGIS/rest/services?f=json"
+  official_source: "Fairfax County Department of Planning and Development"
   verified_at: "2026-10-11"
 
 # ---------------- Added 2026-10-11: bulk alternatives to lookup-only portals ----------------
@@ -682,6 +716,7 @@
   notes: "129,863 rows: RECORDID, APPTYPEALIAS, PROJECT_NAME, PARCEL_ID, status and dates, address, LINK_URL, APPROVED_PLAN_LINK. An anonymous component of the public Development Tracker map."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gispub1/rest/services/LDS/PLUSApprovedSiteRecords/FeatureServer/0"
+  official_source: "Fairfax County Land Development Services"
   verified_at: "2026-10-11"
 
 - source_id: fairfax_city_giscama
@@ -701,6 +736,7 @@
   notes: "9,696 rows, last edit 2025-02-04. Superseded by fairfax_city_property_owners (cofgis, Sep 2026), which has the same fields and current values."
   evidence_urls:
     - "https://services2.arcgis.com/DANcyjLcCCpGk8Ri/arcgis/rest/services/GISCAMA/FeatureServer/0"
+  official_source: "City of Fairfax Office of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 # ---------------- Added 2026-10-12: round-3 bulk sources ----------------
@@ -721,6 +757,7 @@
   notes: "9,742 rows: parcel ID, PIN, account, current land, building and total values, up to 3 owner names, owner mailing address, situs address, legal description (ends with deed book-page), year built, property type, zoning, land use, flood and RPA. Has an isprivateownerflag field, so honor owner privacy flags. Found through the city's public 'PropertyMailingList' and 'Public_Property_Info_App_Map' web maps. Supersedes fairfax_city_giscama (Feb 2025)."
   evidence_urls:
     - "https://cofgis.fairfaxva.gov/server/rest/services/Hosted/PropertyOwners/FeatureServer/0"
+  official_source: "City of Fairfax Office of Real Estate Assessments"
   verified_at: "2026-10-12"
 
 - source_id: fairfax_county_parcelplus_sales
@@ -740,4 +777,5 @@
   notes: "About 1.44M sales with a CPAN_URL deed link per sale; no owner names (the WHO field is an audit user). Complements fairfax_county_dta_re_sales."
   evidence_urls:
     - "https://www.fairfaxcounty.gov/gispub1/rest/services/GIS/ParcelPlusSales/MapServer/0"
+  official_source: "Fairfax County Department of Tax Administration"
   verified_at: "2026-10-12"

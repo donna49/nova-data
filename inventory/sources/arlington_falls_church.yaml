@@ -21,6 +21,7 @@
   evidence_urls:
     - "https://catalog.data.gov/dataset/property"
     - "https://us-cities.survey.okfn.org/entry/arlingtonva/property-assessment.html"
+  official_source: "Arlington County Department of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: arlington_re_property_address
@@ -40,6 +41,7 @@
   notes: "One or more addresses per RPC. The exact API path was not found; it is probably under api/RealEstate/."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-address"
+  official_source: "Arlington County Department of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: arlington_re_assessment
@@ -59,6 +61,7 @@
   notes: "Historical land, improvement and total assessed values for all properties. The closest match to D.C.'s CAMA value files."
   evidence_urls:
     - "https://catalog.data.gov/dataset/assessment"
+  official_source: "Arlington County Department of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: arlington_re_sales_history
@@ -78,6 +81,7 @@
   notes: "312,281 rows (via $count). Fields include deedBookNbr, deedPageNbr, landRecordDocumentNbr, granteeName, saleAmt, saleDate, salesTypeDsc. granteeName is NOT redacted, so the latest grantee is the current-owner proxy; a few rows have maskOwnerAddressInd=true, so set a privacy policy for those. No bulk .txt.gz, so page the API with $top=10000 (about 32 requests). Quirk: the newest rows show saleDate 2026-12-31."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-sale-history"
+  official_source: "Arlington County Department of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: arlington_re_dwelling_characteristics
@@ -98,6 +102,8 @@
   evidence_urls:
     - "https://catalog.data.gov/dataset/residential-dwellings-general"
     - "https://catalog.data.gov/dataset/residential-dwellings-interior"
+  official_source: "Arlington County Department of Real Estate Assessments"
+  extra_endpoints: [https://datahub-v2.arlingtonva.us/api/RealEstate/ImprovementInterior, https://datahub-v2.arlingtonva.us/api/RealEstate/ImprovementExterior, https://datahub-v2.arlingtonva.us/api/RealEstate/ImprovementPorch]
   verified_at: "2026-10-11"
 
 - source_id: arlington_re_valuation_permits
@@ -117,6 +123,7 @@
   notes: "Only permits that affect assessed value. The bulk file is download.data.arlingtonva.us/RealEstate/Permit.txt."
   evidence_urls:
     - "https://catalog.data.gov/dataset/valuation-related-building-permits"
+  official_source: "Arlington County Department of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: arlington_re_tax_exemption_history
@@ -136,6 +143,7 @@
   notes: "Properties that have been tax-exempt at least once since 2000."
   evidence_urls:
     - "https://catalog.data.gov/dataset/property-tax-exemption-history"
+  official_source: "Arlington County Department of Real Estate Assessments"
   verified_at: "2026-10-11"
 
 - source_id: arlington_tax_assessment_payments
@@ -155,6 +163,7 @@
   notes: "Per installment: assessed tax, penalty, interest, fees, total and stormwater amounts, plus due date. Penalty and interest amounts identify delinquent installments, so this works as a delinquency proxy, not a formal list."
   evidence_urls:
     - "https://catalog.data.gov/dataset/assessment-payments"
+  official_source: "Arlington County Treasurer's Office"
   verified_at: "2026-10-11"
 
 - source_id: arlington_property_search
@@ -175,6 +184,7 @@
   evidence_urls:
     - "https://propertysearch.arlingtonva.us/Home/Sales?lrsn=52995"
   collection: "blocked"
+  official_source: "Arlington County Department of Real Estate Assessments"
   verified_at: null
 
 - source_id: arlington_treasurer_capp
@@ -195,6 +205,7 @@
   evidence_urls:
     - "https://arlingtonva.us/Government/Departments/Treasurers-Office/Treasurers-Office-Contacts"
   collection: "blocked"
+  official_source: "Arlington County Treasurer's Office"
   verified_at: "2026-10-11"
 
 - source_id: arlington_treasurer_tax_sales
@@ -214,6 +225,7 @@
   notes: "No tax lien certificates. No published bulk delinquent list was found."
   evidence_urls:
     - "https://www.arlingtonva.us/Government/Programs/Taxes/Upcoming-Tax-Sales"
+  official_source: "Arlington County Treasurer's Office"
   verified_at: "2026-10-11"
 
 - source_id: arlington_bid_boundaries
@@ -233,6 +245,7 @@
   notes: "Rosslyn, Ballston and National Landing BIDs. Rates are not in the layer and must come from budget documents. Commercial property also pays a 12.5-cent transportation surcharge."
   evidence_urls:
     - "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_Business_Improvement_Districts/FeatureServer/0/iteminfo"
+  official_source: "Arlington County Board"
   verified_at: "2026-10-11"
 
 - source_id: arlington_budget_tax_rates
@@ -253,6 +266,7 @@
   evidence_urls:
     - "https://www.arlnow.com/?p=405021"
   in_matrix: false  # rate schedule, not parcel records
+  official_source: "Arlington County Department of Management and Finance"
   verified_at: "2026-10-11"
 
 - source_id: arlington_permits_applications
@@ -273,6 +287,8 @@
   evidence_urls:
     - "https://catalog.data.gov/dataset/permits-applications-216b9"
     - "https://catalog.data.gov/dataset/permit-application-actions"
+  official_source: "Arlington County Department of Community Planning, Housing and Development"
+  extra_endpoints: [https://datahub-v2.arlingtonva.us/api/Permit/PermitHistory, https://datahub-v2.arlingtonva.us/api/Permit/PermitEventLog, https://datahub-v2.arlingtonva.us/api/Permit/PermitComment]
   verified_at: "2026-10-11"
 
 - source_id: arlington_permit_arlington_portal
@@ -293,6 +309,7 @@
   evidence_urls:
     - "https://www.arlingtonva.us/Government/Programs/Building/Permits/Permit-Arlington/Help"
   collection: "scrape_feasible"
+  official_source: "Arlington County Department of Community Planning, Housing and Development"
   verified_at: "2026-10-11"
 
 - source_id: arlington_stop_work_unsafe_building
@@ -312,6 +329,7 @@
   notes: "The only open enforcement dataset found."
   evidence_urls:
     - "https://catalog.data.gov/dataset/stop-work-order-and-unsafe-building-notices"
+  official_source: "Arlington County Department of Community Planning, Housing and Development"
   verified_at: "2026-10-11"
 
 - source_id: arlington_code_zoning_enforcement
@@ -331,6 +349,7 @@
   notes: "About 5,000 investigations a year. No public dataset."
   evidence_urls:
     - "https://www.arlingtonva.us/Government/Programs/Building/Enforcement-Appeals/Code"
+  official_source: "Arlington County Department of Community Planning, Housing and Development"
   verified_at: "2026-10-11"
 
 - source_id: arlington_business_licenses
@@ -350,6 +369,7 @@
   notes: "Active licenses only; in-home businesses are excluded. Equivalent to D.C. Basic Business Licenses."
   evidence_urls:
     - "https://catalog.data.gov/dataset/active-business-licenses"
+  official_source: "Arlington County Commissioner of Revenue"
   verified_at: "2026-10-11"
 
 - source_id: arlington_parcels_gis
@@ -369,6 +389,7 @@
   notes: "The endpoint is a 311-app layer. The canonical Hub item is probably gisdata-arlgis.opendata.arcgis.com/datasets/parcels."
   evidence_urls:
     - "https://arlgis.arlingtonva.us/arcgis/rest/services/CRMS_311/CRMS311_Parcels/MapServer/0/iteminfo"
+  official_source: "Arlington County Department of Environmental Services, GIS Mapping Center"
   verified_at: "2026-10-11"
 
 - source_id: arlington_glup_zoning_gis
@@ -388,6 +409,7 @@
   notes: "The endpoint is od_Zoning_Polygons. Same folder: od_GLUP_Sectors (0 GLUP, 1 Sectors), od_Zoning_Historic_District_Polygons, od_Zoning_Site_Plans_Polygons and od_Address_Points."
   evidence_urls:
     - "https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_GLUP_Sectors/MapServer?f=pitemx"
+  official_source: "Arlington County Department of Community Planning, Housing and Development"
   verified_at: "2026-10-11"
 
 # ---------------- CITY OF FALLS CHURCH ----------------
@@ -410,6 +432,7 @@
     - "https://www.fallschurchva.gov/719/Real-Property-Search-Database-New-Sales-"
     - "https://gis.vgsi.com/fallschurchva/"
   collection: "blocked"
+  official_source: "City of Falls Church Office of Real Estate Assessment"
   verified_at: "2026-10-11"
 
 - source_id: falls_church_gis
@@ -429,6 +452,7 @@
   notes: "Published by the City's GIS account. Parcels layer: RPC_master, RPC, PIN, effective and expiry docs, subdivision, acres, 3,889 records. Sibling services: Parcels_zoning, Parcels_elu (existing land use), Parcels_flu (future land use), Easements_public. No assessed values or owners."
   evidence_urls:
     - "https://www.fallschurchva.gov/158/Geographic-Information-Systems-GIS"
+  official_source: "City of Falls Church Department of Public Works"
   verified_at: "2026-10-11"
 
 - source_id: falls_church_treasurer_tax
@@ -449,6 +473,7 @@
   evidence_urls:
     - "https://www.fallschurchva.gov/treasurer"
   collection: "blocked"
+  official_source: "City of Falls Church Treasurer"
   verified_at: "2026-10-11"
 
 - source_id: falls_church_delinquent_tax
@@ -468,6 +493,7 @@
   notes: "Placeholder. No public list or tax-sale page was found."
   evidence_urls:
     - "https://www.fallschurchva.gov/treasurer"
+  official_source: "City of Falls Church Treasurer"
   verified_at: "2026-10-11"
 
 - source_id: falls_church_building_permits
@@ -487,6 +513,7 @@
   notes: "No public permit search was found."
   evidence_urls:
     - "https://www.fallschurchva.gov/1846/Building-Safety-Division"
+  official_source: "City of Falls Church Department of Code Administration"
   verified_at: "2026-10-11"
 
 - source_id: falls_church_business_licenses
@@ -506,6 +533,7 @@
   notes: "No published list. The landing page returned 404 on 2026-10-11 and the current URL is unknown; the city's Licenses & Permits section is at /370/Licenses-Permits."
   evidence_urls:
     - "https://www.fallschurchva.gov/855/Business-Licenses-Permits"
+  official_source: "City of Falls Church Commissioner of the Revenue"
   verified_at: null
 
 - source_id: falls_church_code_enforcement
@@ -525,6 +553,7 @@
   notes: "No public dataset."
   evidence_urls:
     - "https://www.fcnp.com/2012/01/10/fc-council-gives-preliminary-ok-to-fines-for-property-blight/amp"
+  official_source: "City of Falls Church Department of Code Administration"
   verified_at: "2026-10-11"
 
 # ---------------- Added 2026-10-12: round-3 bulk sources ----------------
@@ -545,6 +574,7 @@
   notes: "About 355K rows, 34 columns. PropertyOwnerName is NOT redacted (filled on 299 of 299 rows checked), covering about 36K RPCs. Owner as of the permit date, so a cross-check for sales grantee names. The full catalog is https://data.arlingtonva.us/data.json."
   evidence_urls:
     - "https://data.arlingtonva.us/data.json"
+  official_source: "Arlington County Department of Community Planning, Housing and Development"
   verified_at: "2026-10-12"
 
 - source_id: arlington_payment_summary_bulk_file
@@ -564,6 +594,7 @@
   notes: "One row per RPC, tax year, installment and label (Levy, Payment, Relief, stormwater fee and others), with penalty, interest, fee and total amounts. Summing the rows per installment gives the unpaid balance, so delinquency can be computed for every parcel. The same data as arlington_tax_assessment_payments, as one file."
   evidence_urls:
     - "https://data.arlingtonva.us/data.json"
+  official_source: "Arlington County Treasurer's Office"
   verified_at: "2026-10-12"
 
 - source_id: falls_church_stormwater_fee_fy27
@@ -583,6 +614,7 @@
   notes: "4,839 rows: impervious area, billing units, unit price ($23.36), fee, credits, adjusted fee. A per-parcel fee billed with property taxes, not the real estate tax itself."
   evidence_urls:
     - "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/SWUF_FY27/FeatureServer/0"
+  official_source: "City of Falls Church Department of Public Works"
   verified_at: "2026-10-12"
 
 - source_id: falls_church_building_footprints
@@ -602,4 +634,5 @@
   notes: "6,301 footprints with NUMSTORIES, BLDGHEIGHT, BuildingType. No year built, beds or baths; a proxy only."
   evidence_urls:
     - "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Buildings_public/FeatureServer/0"
+  official_source: "City of Falls Church Department of Public Works"
   verified_at: "2026-10-12"
